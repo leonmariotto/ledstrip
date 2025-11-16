@@ -34,3 +34,13 @@ system load while charging.
 - Dedicated MIPI-10 connector for SWD.
 - LED strip adafruit RGBW analog 2 meters.
 
+### STM32G030K6 32-bit LQFP package
+
+Use the following wiring :
+- SWD: PA13, PA14, NRST
+- UART: PA9 (TX), PA10 (RX)
+- ADC (pots): PA0, PA1, PA2
+- PWM to MOSFET: PA8, PA6, PA7
+- Power pins: VDD, VDDA, VSS, VSSA (decouple properly)
+Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
+

@@ -9,21 +9,21 @@ The layout is :
 # System requirements
 
 - Must have a on/off switch
-- Must have a battery scaled for minimum 8 hour of usage.
-- Must provide 3 potentiometer to control color independently.
-- Led's input must be analog.
-- Leds must be RGB.
-- Must provide a single usb-c socket.
+- Must have a battery properly scaled.
+- Must provide a way to control color independently.
+- Leds must be RGB with controllable intensity.
 - Must provide a way to charge battery
 - Must provide a way to program firmware.
-
+- Must provide a way to program internal flash of MCU.
 
 # Hardware 
 
 - AdaFruit RGBW Analog (Warm white) : https://www.adafruit.com/product/2589
-
-The tricky part is clearly the BMS for recharging battery.
+- The tricky part is clearly the BMS for recharging battery.
+- Put a socket to led strip, to easily remove it from the board.
 
 # Software
 
-Dunno if a software is needed for the current system requirements.
+- Take inputs from 3 analog pin
+- Output to 3 PWM pins
+- Put zephyr for fun.

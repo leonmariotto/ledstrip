@@ -8,25 +8,25 @@
           <mxGeometry x="100" y="495" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--2" value="USB Power Delivery IC&lt;div&gt;ST STUSB4500&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="310" y="490" width="150" height="40" as="geometry" />
+          <mxGeometry x="310" y="450" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--3" value="USB to UART IC&lt;div&gt;Silicon Labs CP2102&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="310" y="550" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--4" value="Battery Charger IC&lt;div&gt;TI BQ25703A&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="310" y="430" width="150" height="40" as="geometry" />
+          <mxGeometry x="310" y="310" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--6" value="Control constant current phase, constant voltage, charge termination." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="130" y="300" width="160" height="50" as="geometry" />
+          <mxGeometry x="70" y="230" width="160" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nbBiIlBlgbkLkkuf3Oi--7" value="Negociate a high voltage power in USB." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="390" width="120" height="50" as="geometry" />
+        <mxCell id="nbBiIlBlgbkLkkuf3Oi--7" value="Negociate a high voltage power on USB. Control a switch that cut-off power path to battery charger." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="370" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--8" value="Connected to USB data pins, USB is automagically detected as a serial port.&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="300" y="630" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--9" value="&lt;div&gt;BMS external module&lt;/div&gt;&lt;div&gt;5-10A 3S 12.6V&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="310" y="270" width="150" height="40" as="geometry" />
+          <mxGeometry x="310" y="235" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--10" value="&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: rgb(255, 255, 255);&quot;&gt;3-cells Li-ion Battery&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&amp;gt; 4000mAh&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="310" y="170" width="150" height="40" as="geometry" />
@@ -35,7 +35,7 @@
           <mxGeometry x="590" y="480" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--12" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Led Strip&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Adafruit RGBW analog 2m&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="980" y="270" width="150" height="40" as="geometry" />
+          <mxGeometry x="980" y="310" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--13" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;3 N-MOSFET&lt;br&gt;&lt;/span&gt;AO3407 / FDC655&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
           <mxGeometry x="980" y="480" width="150" height="40" as="geometry" />
@@ -44,7 +44,7 @@
           <mxGeometry x="510" y="600" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--15" value="&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(255, 255, 255), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;Buck converter&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#ffffff&quot;&gt;12V to 3.3V&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" vertex="1" parent="1">
-          <mxGeometry x="510" y="370" width="150" height="40" as="geometry" />
+          <mxGeometry x="530" y="380" width="150" height="40" as="geometry" />
         </mxCell>
         <mxCell id="nbBiIlBlgbkLkkuf3Oi--16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbBiIlBlgbkLkkuf3Oi--1" target="nbBiIlBlgbkLkkuf3Oi--2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -76,13 +76,13 @@
             <mxPoint x="470" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nbBiIlBlgbkLkkuf3Oi--21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbBiIlBlgbkLkkuf3Oi--9" target="nbBiIlBlgbkLkkuf3Oi--15">
+        <mxCell id="nbBiIlBlgbkLkkuf3Oi--21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbBiIlBlgbkLkkuf3Oi--4" target="nbBiIlBlgbkLkkuf3Oi--15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="550" y="390" as="sourcePoint" />
             <mxPoint x="700" y="350" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nbBiIlBlgbkLkkuf3Oi--22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbBiIlBlgbkLkkuf3Oi--9" target="nbBiIlBlgbkLkkuf3Oi--12">
+        <mxCell id="nbBiIlBlgbkLkkuf3Oi--22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nbBiIlBlgbkLkkuf3Oi--4" target="nbBiIlBlgbkLkkuf3Oi--12">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="330" as="sourcePoint" />
             <mxPoint x="610" y="410" as="targetPoint" />
