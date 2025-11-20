@@ -44,3 +44,9 @@ Use the following wiring :
 - Power pins: VDD, VDDA, VSS, VSSA (decouple properly)
 Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
 
+# TODO
+- ESD diode protection on USB CC lines: ESDALC5-1BT2. Symbol don't exist on KiCad so
+2 options here: reuse a generic TVS diode symbol, make a dedicated symbol
+- Pull-Up resistor on I2Cs line of STUSB4500: set footprints(Resistor_SMD:R_0805_2012Metric)
+and select components
+- Add a 10 ohm resistor on VDD I2C header line for protection.
