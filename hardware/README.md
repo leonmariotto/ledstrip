@@ -22,17 +22,17 @@ BMS.
 - USB-C connector
 - USB to UART bridge (Silicon Labs CP2102(N), or FTDI FT230x or CH340)
 - USB Power Delivery controller (ST STUSB4500)
-- Battery charger IC : accept PD voltage and implement CC/CV. Provide support for
-system load while charging.
+- Battery charger IC (BQ25703A) : accept PD voltage and implement CC/CV.
+Provide support for system load while charging.
 - Buck regulator (12V to 3.3V) : integrated converter IC
 - Logic-level N-MOSFETS x3, low RDS(on).
 - Gate resistor / gate pull-down for each MOSFET.
 - Fuse
-- Transient protection on 12V rail
-- Reverse polarity protection, Schottky
+- Protection against brutal voltage spike/drop: Transient Voltage Drop (TVS diode).
+- Reverse polarity protection: Schottky diode. Protect against inversing power.
 - Thermal Sensor near the cell
 - Dedicated MIPI-10 connector for SWD.
-- LED strip adafruit RGBW analog 2 meters.
+- AdaFruit RGBW Analog (Warm white): 2 meters.
 
 ### STM32G030K6 32-bit LQFP package
 
@@ -45,8 +45,13 @@ Use the following wiring :
 Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
 
 # TODO
-- ESD diode protection on USB CC lines: ESDALC5-1BT2. Symbol don't exist on KiCad so
-2 options here: reuse a generic TVS diode symbol, make a dedicated symbol
-- Pull-Up resistor on I2Cs line of STUSB4500: set footprints(Resistor_SMD:R_0805_2012Metric)
-and select components
 - Add a 10 ohm resistor on VDD I2C header line for protection.
+- Add a TVS diode on VBUS line for ESD protection.
+- Add a high side FET :
+N-MOSFET, ≥ 30 V, low Rds(on).
+Source to USB-C VBUS, drain to 15V_OUT → BQ25703A VIN.
+Gate driven by STUSB4500’s “VBUS_EN/PWR_OK” (possibly via gate resistor).
+- Integrate BQ25703A
+- Create a symbol for BMS (external module)
+- Integrate 3 potentiometer.
+- Integrate and choose 3 N-channel mosfet for led color control. 

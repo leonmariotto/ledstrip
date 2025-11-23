@@ -6,7 +6,7 @@ The layout is :
 - cad: printable case for the controller + battery
 - software: software used to control the led strip.
 
-# System requirements
+## System requirements
 
 - Must have a on/off switch
 - Must have a battery properly scaled.
@@ -15,15 +15,5 @@ The layout is :
 - Must provide a way to charge battery
 - Must provide a way to program firmware.
 - Must provide a way to program internal flash of MCU.
+- Must be enclosed by a case.
 
-# Hardware 
-
-- AdaFruit RGBW Analog (Warm white) : https://www.adafruit.com/product/2589
-- The tricky part is clearly the BMS for recharging battery.
-- Put a socket to led strip, to easily remove it from the board.
-
-# Software
-
-- Take inputs from 3 analog pin
-- Output to 3 PWM pins
-- Put zephyr for fun.
