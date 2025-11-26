@@ -17,3 +17,5 @@ The layout is :
 - Must provide a way to program internal flash of MCU.
 - Must be enclosed by a case.
 
+## Part list
+- https://opencircuit.fr/produit/analog-rgbw-led-strip-rgb-plus-warm-white-60
