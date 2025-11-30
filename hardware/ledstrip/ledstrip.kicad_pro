@@ -412,6 +412,10 @@
     [
       "dcb997ee-94c4-4df2-ba22-0e091735ddd7",
       "Root"
+    ],
+    [
+      "b5cca531-fcff-4497-988a-ecdd56b3ddf9",
+      "Power Management"
     ]
   ],
   "text_variables": {}

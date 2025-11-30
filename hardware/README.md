@@ -47,11 +47,8 @@ Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts wi
 # TODO
 - Add a 10 ohm resistor on VDD I2C header line for protection.
 - Add a TVS diode on VBUS line for ESD protection.
-- Add a high side FET :
-N-MOSFET, ≥ 30 V, low Rds(on).
-Source to USB-C VBUS, drain to 15V_OUT → BQ25703A VIN.
-Gate driven by STUSB4500’s “VBUS_EN/PWR_OK” (possibly via gate resistor).
-- Integrate BQ25703A
-- Create a symbol for BMS (external module)
-- Integrate 3 potentiometer.
-- Integrate and choose 3 N-channel mosfet for led color control. 
+- Integrate 3 potentiometers and link them to MCU
+- Find the I2C pin on MCU and link it to Power Mgmt sheet.
+- Integrate ERC checker into Github Actions.
+- Integrate STUSB4500 according to the reference implementation.
+- Integrate BQ25703A according to specification / reference implementation ?
