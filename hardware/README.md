@@ -54,3 +54,6 @@ Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts wi
 - Integrate STUSB4500 according to the reference implementation.
 - Integrate BQ25703A according to specification / reference implementation?
 - Enable DRC checker and releases jobs in github actions when possible.
+- Use KiBot for CI/CD: https://kibot.readthedocs.io/en/master/usage_with_ci_cd.html#usage-of-github-actions
+It looks like an old, complicate tool. It may do more than the current sparkengineering kicad action
+but this one is a simple bash script running kicad-cli v9.
