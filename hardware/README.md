@@ -47,8 +47,9 @@ Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts wi
 # TODO
 - Add a 10 ohm resistor on VDD I2C header line for protection.
 - Add a TVS diode on VBUS line for ESD protection.
+- Add a buck converter to output the 3.3V.
 - Integrate 3 potentiometers and link them to MCU
 - Find the I2C pin on MCU and link it to Power Mgmt sheet.
-- Integrate ERC checker into Github Actions.
 - Integrate STUSB4500 according to the reference implementation.
-- Integrate BQ25703A according to specification / reference implementation ?
+- Integrate BQ25703A according to specification / reference implementation?
+- Enable DRC checker and releases jobs in github actions when possible.
