@@ -30,7 +30,7 @@ jobs:
         if: ${{ failure() && steps.erc.conclusion == 'failure' }}
         with:
           name: erc.rpt
-          path: ${{ github.workspace }}/erc.rpt
+          path: ${{ github.workspace }}/hardware/ledstrip/erc.rpt
 
 #  kicad_drc:
 #    runs-on: ubuntu-latest
@@ -52,7 +52,7 @@ jobs:
 #        if: ${{ failure() && steps.drc.conclusion == 'failure' }}
 #        with:
 #          name: drc.rpt
-#          path: ${{ github.workspace }}/drc.rpt
+#          path: ${{ github.workspace }}/hardware/ledstrip/drc.rpt
 #
 #  kicad_export:
 #    runs-on: ubuntu-latest
@@ -79,6 +79,6 @@ jobs:
 #        with:
 #          name: Production files
 #          path: |
-#            ${{ github.workspace }}/sch.pdf
-#            ${{ github.workspace }}/bom.csv
-#            ${{ github.workspace }}/gbr.zip
+#            ${{ github.workspace }}/hardware/ledstrip/sch.pdf
+#            ${{ github.workspace }}/hardware/ledstrip/bom.csv
+#            ${{ github.workspace }}/hardware/ledstrip/gbr.zip
