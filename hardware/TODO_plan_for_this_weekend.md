@@ -21,8 +21,11 @@ If I can I should connect some of theses pins, to get some metrics on MCU.
 Still need to do :
 VDD, VREG_1V2, VREG_2V7, VSYS, DISCH
 
-
 Satursday :
 - 10h30: start STUSB4500 integration.
+- 11h15: STUSB4500 integration OK. I have 1h15 in advance in planning.
+- 11h20: start BQ25703A inegration.
+- 14h: BQ25703A integration at 60%. Will need 2H more. Going out for 1h.
+- 15h05: back to work, going to read Grobs capacitor chapter for 1h15.
 
 
