@@ -27,5 +27,11 @@ Satursday :
 - 11h20: start BQ25703A inegration.
 - 14h: BQ25703A integration at 60%. Will need 2H more. Going out for 1h.
 - 15h05: back to work, going to read Grobs capacitor chapter for 1h15.
-
-
+- 16h15: stop, have to go
+- 18h30: back to work, integrate the BQ25703A.
+- 19h30: continue, will need more than one hour to finish.
+- 19h45: stop, going to eat.
+- 20h15: restart, continue BQ25703A integration.
+- 22h00: splited into multiple subsheet, continue BQ25703A integration.
+- 00h00: finished BQ25703A integration, start integrating the buck converter.
+- 00h45: stop here, finished buck converter integration.

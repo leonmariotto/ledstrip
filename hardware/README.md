@@ -43,16 +43,48 @@ Use the following wiring :
 - I2C to BQ25703A: PB6 (SCL), PB7 (SDA)
 - PWM to MOSFET: PA8, PA6, PA7
 - Power pins: VDD, VDDA, VSS, VSSA (decouple properly)
+- BQ25703A_PROCHOT: PB9
+- BQ25703A_CHRG_OK: PB9
 Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
 
 # TODO
-- Integrate STUSB4500 according to the reference implementation.
-Follow um2398 schematics.
-TODO the STL6P3LLH6 footprint is not in kicad, import it from somewhere.
-
-- Integrate BQ25703A according to specification / reference implementation?
 - Add a buck converter to output the 3.3V.
 - Enable DRC checker and releases jobs in github actions when possible.
 - Use KiBot for CI/CD: https://kibot.readthedocs.io/en/master/usage_with_ci_cd.html#usage-of-github-actions
 It looks like an old, complicate tool. It may do more than the current sparkengineering kicad action
 but this one is a simple bash script running kicad-cli v9.
+
+## TODO BQ25703A nice-to-have !
+
+- IADPT (pin 8) – adapter current monitor
+Output proportional to input current: V(IADPT) = 20× or 40× (V(ACP − ACN)), selectable by register.
+Hardware connection per datasheet:
+Resistor from IADPT → GND (e.g. 137 kΩ for 2.2 µH as in datasheet example).
+≤100 pF cap from IADPT → GND for noise filtering.
+Optionally route that node to an MCU ADC to see “adapter current” in mA.
+If you don’t care: leave IADPT floating (no resistor, no cap).
+- IBAT (pin 9) – battery charge/discharge current
+Output proportional to battery current across SRP/SRN: 8× or 16× gain.
+Hardware:
+≤100 pF cap from IBAT → GND (if used).
+Optional resistor to GND + ADC input like IADPT.
+If you don’t need an analog battery-current pin: leave IBAT floating (only the pin, not the sense resistor!).
+- PSYS (pin 10) – system power monitor
+Outputs current proportional to total system power (adapter + battery). Gain is ~1 µA/W with voltage clamped below 3.3 V.
+Hardware:
+Resistor PSYS → GND to convert current to a voltage (target <3.3 V at max power).
+Optional small cap in parallel for filtering.
+Route the node to an MCU ADC if you want real-time “how many watts am I using?” info.
+If you don’t want this feature: leave PSYS floating.
+
+## TODO STUSB4500 nice-to-have !
+
+- POWER_OK2/POWER_OK3 to MCU
+- ATTACH to MCU
+- I2C to MCU ?
+
+## TODO better kicad sheets !
+
+- Name label
+- Color wires
+- Add commentary

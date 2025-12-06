@@ -616,7 +616,23 @@
     ],
     [
       "b5cca531-fcff-4497-988a-ecdd56b3ddf9",
-      "Power Management"
+      "USB PD"
+    ],
+    [
+      "e1352532-a16b-4a34-87fb-bbe36c7f1290",
+      "Battery Charger"
+    ],
+    [
+      "0b9dc6db-254f-4d56-b53f-9075578fa80e",
+      "Pots"
+    ],
+    [
+      "ee2150f8-5f25-45fa-a64e-caf3b7331721",
+      "leds"
+    ],
+    [
+      "bd9eeed2-8672-4045-93ab-4cabbdf274b0",
+      "buck"
     ]
   ],
   "text_variables": {}
