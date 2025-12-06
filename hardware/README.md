@@ -49,6 +49,7 @@ Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts wi
 - Integrate STUSB4500 according to the reference implementation.
 Follow um2398 schematics.
 TODO the STL6P3LLH6 footprint is not in kicad, import it from somewhere.
+
 - Integrate BQ25703A according to specification / reference implementation?
 - Add a buck converter to output the 3.3V.
 - Enable DRC checker and releases jobs in github actions when possible.
