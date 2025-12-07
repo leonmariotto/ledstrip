@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Constants
+readonly project_name="ledstrip"
+
 # Only enable these shell behaviours if we're not being sourced
 # Approach via: https://stackoverflow.com/a/28776166/8787985
 if ! (return 0 2> /dev/null); then
@@ -296,11 +299,18 @@ function parse_params() {
 function main() {
     trap script_trap_err ERR
     trap script_trap_exit EXIT
-    agent_file=""
     script_init "$@"
     parse_params "$@"
-	echo "Script dir = ${script_dir}"
-    echo "Agent file = ${agent_file}"
+
+    project_dir="${script_dir}/.."
+    agent_file="${script_dir}/agents/kicad_helper.md"
+
+    docker run -it --rm \
+        --network host \
+        -v ${project_dir}:/workspace/${project_name} \
+        -v ${agent_file}:/workspace/AGENTS.md \
+        codex:latest \
+        /codex
 }
 
 # Invoke main with args if not sourced
