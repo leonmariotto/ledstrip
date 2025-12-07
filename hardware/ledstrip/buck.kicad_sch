@@ -1749,10 +1749,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1446cd8b-d1b9-4e48-a465-23bb85dbc6a2")
 		(property "Reference" "U3"
-			(at 132.08 71.12 0)
+			(at 125.222 74.422 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1760,7 +1759,7 @@
 			)
 		)
 		(property "Value" "TPS62162DSG"
-			(at 132.08 73.66 0)
+			(at 137.414 74.676 0)
 			(effects
 				(font
 					(size 1.27 1.27)

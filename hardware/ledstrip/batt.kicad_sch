@@ -4522,8 +4522,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "0f4de839-15a6-469a-af72-2d8a66e2cb6b")
-		(property "Reference" "Q9"
+		(uuid "022adddc-a3da-470e-9cd8-a6638d5ab910")
+		(property "Reference" "Q10"
 			(at 178.308 20.32 90)
 			(effects
 				(font
@@ -4548,7 +4548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl6p3llh6.pdf"
 			(at 182.88 26.67 0)
 			(effects
 				(font
@@ -4566,19 +4566,37 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STL6P3LLH6?qs=DqCdCwOw4%2F6Sn4l3cEaG7Q%3D%3D&srsltid=AfmBOor_CdWLVA3V0JAWOb-DG3H4EXYaOWWoltYAvPcJsUIQtpDcEfnR"
+			(at 182.88 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
+			(at 182.88 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "D"
-			(uuid "d862ab33-bf9c-4ceb-8ffc-255f8404eb44")
+			(uuid "ba88a48e-ed0b-4ce7-b07d-d3264d06a077")
 		)
 		(pin "G"
-			(uuid "34ab63cd-10b9-42fa-861e-d7454aa1e97d")
+			(uuid "ffa4f9f4-6a51-4477-ab50-063f19cb0cb7")
 		)
 		(pin "S"
-			(uuid "1f1471fb-2a1a-4b14-afa2-3aeadaefa674")
+			(uuid "403ce770-4bd5-434d-923c-bb0f11f47c4f")
 		)
 		(instances
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/e1352532-a16b-4a34-87fb-bbe36c7f1290"
-					(reference "Q9")
+					(reference "Q10")
 					(unit 1)
 				)
 			)

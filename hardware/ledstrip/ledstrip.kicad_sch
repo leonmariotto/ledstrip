@@ -5675,7 +5675,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 85.09 110.49 0)
 			(effects
 				(font
@@ -6208,6 +6208,24 @@
 			)
 		)
 		(property "Description" "Very low capacitance ESD protection diode, 2 data-line, SOT-23-6"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/USBLC6-2SC6?qs=po45yt2pPpu%2FhNIlwQdTlg%3D%3D&srsltid=AfmBOopJbfArgk0Zhrp5NeFSS0u51o4Z8wX-JVudia6J3kfvFFcGIQE5"
+			(at 66.04 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2SC6/1040559?srsltid=AfmBOoq_zn_3jENcYaZO0f2Fjj9ZC3iVuUou8dFQGpjlYlBu9snaol37"
 			(at 66.04 143.51 0)
 			(effects
 				(font

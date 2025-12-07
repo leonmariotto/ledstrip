@@ -4032,7 +4032,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 198.12 128.27 0)
 			(effects
 				(font
@@ -4739,7 +4739,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 113.03 66.04 0)
 			(effects
 				(font
@@ -5351,7 +5351,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 182.88 128.27 0)
 			(effects
 				(font
@@ -5418,7 +5418,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 152.4 128.27 0)
 			(effects
 				(font
@@ -5510,7 +5510,7 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/BAT54JFILM?qs=iux7VCIsw51N9WI%2FM0S0Rw%3D%3D&srsltid=AfmBOooxKWAXyDgvP1UjimD1-9PbWrr97IdjW_4LbqipuO2zRGh0GC42"
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/BAT54JFILM?qs=iux7VCIsw51N9WI%2FM0S0Rw%3D%3D&srsltid=AfmBOooxKWAXyDgvP1UjimD1-9PbWrr97IdjW_4LbqipuO2zRGh0GC42"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -5519,7 +5519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/BAT54JFILM/1037673?srsltid=AfmBOopUPo3AAcuR1QLaM55k9Uwtr8ftSv0clmvJ2GOXMI3wjTavzLow"
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/BAT54JFILM/1037673?srsltid=AfmBOopUPo3AAcuR1QLaM55k9Uwtr8ftSv0clmvJ2GOXMI3wjTavzLow"
 			(at 93.98 77.47 0)
 			(effects
 				(font
@@ -5882,7 +5882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stl6p3llh6.pdf"
 			(at 223.52 46.99 0)
 			(effects
 				(font
@@ -5893,6 +5893,24 @@
 		)
 		(property "Description" "P-MOSFET transistor"
 			(at 223.52 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STL6P3LLH6?qs=DqCdCwOw4%2F6Sn4l3cEaG7Q%3D%3D&srsltid=AfmBOor_CdWLVA3V0JAWOb-DG3H4EXYaOWWoltYAvPcJsUIQtpDcEfnR"
+			(at 223.52 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
+			(at 223.52 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,6 +6069,24 @@
 			)
 		)
 		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STUSB4500QTR?qs=wUXugUrL1qyQbYMSzG1ujg%3D%3D&srsltid=AfmBOooDKZ9xpoXhvvlOwEhcpxAjVXgjEaXsOgnvZjSfZbs-iABblbdp"
+			(at 176.53 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STUSB4500QTR/9092189"
 			(at 176.53 86.36 0)
 			(effects
 				(font
@@ -6572,7 +6608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
 			(at 167.64 128.27 0)
 			(effects
 				(font
