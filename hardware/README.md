@@ -48,11 +48,11 @@ Use the following wiring :
 Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
 
 # TODO
-- Add a buck converter to output the 3.3V.
 - Enable DRC checker and releases jobs in github actions when possible.
 - Use KiBot for CI/CD: https://kibot.readthedocs.io/en/master/usage_with_ci_cd.html#usage-of-github-actions
 It looks like an old, complicate tool. It may do more than the current sparkengineering kicad action
 but this one is a simple bash script running kicad-cli v9.
+- Make codex review every components integrations.
 
 ## TODO BQ25703A nice-to-have !
 
@@ -82,6 +82,7 @@ If you don’t want this feature: leave PSYS floating.
 - POWER_OK2/POWER_OK3 to MCU
 - ATTACH to MCU
 - I2C to MCU ?
+- STUSB4500_integration_review.md
 
 ## TODO better kicad sheets !
 
