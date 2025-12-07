@@ -35,3 +35,10 @@ Satursday :
 - 22h00: splited into multiple subsheet, continue BQ25703A integration.
 - 00h00: finished BQ25703A integration, start integrating the buck converter.
 - 00h45: stop here, finished buck converter integration.
+
+Sunday:
+- 11h30: continue BQ25703A integration, some things was left.
+- 12h00: start resolv ERC violation.
+- 15h30: start doing an AI setup for let codex parse schematics and other files.
+- 16h30: stop here, finished schematics check. Still need to review every components integrations.
+(see STUSB4500_integration_review.md)
