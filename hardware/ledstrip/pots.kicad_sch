@@ -698,7 +698,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "Pot_G"
 			(at 137.16 95.2499 0)
 			(effects
 				(font
@@ -789,7 +789,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "Pot_B"
 			(at 137.16 83.8199 0)
 			(effects
 				(font
@@ -946,7 +946,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" "Pot_R"
 			(at 137.16 107.9499 0)
 			(effects
 				(font

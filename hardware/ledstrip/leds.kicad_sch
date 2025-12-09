@@ -924,6 +924,36 @@
 		)
 		(uuid "d568b137-9ee8-4fec-a9f6-4bfa196ddc10")
 	)
+	(label "LED_R"
+		(at 116.84 88.9 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d91bbbd-4518-44c4-a496-23cdf10511c8")
+	)
+	(label "LED_B"
+		(at 148.59 88.8363 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba9b86f7-f445-40a4-a490-dc78ce9d8259")
+	)
+	(label "LED_G"
+		(at 133.35 88.8363 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc156952-d8db-4f0f-ac8f-9013f2a7f27e")
+	)
 	(hierarchical_label "PWM_B"
 		(shape input)
 		(at 140.97 95.25 90)
