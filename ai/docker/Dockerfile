@@ -8,6 +8,10 @@ RUN add-apt-repository --yes ppa:kicad/kicad-9.0-releases \
 	&& apt update \
 	&& apt install -y --install-recommends kicad
 
+# Install ripgrep
+RUN wget https://github.com/BurntSushi/ripgrep/releases/download/15.1.0/ripgrep_15.1.0-1_amd64.deb
+RUN apt install ./ripgrep_15.1.0-1_amd64.deb
+
 # Install codex CLI
 RUN wget https://github.com/openai/codex/releases/download/rust-v0.65.0/codex-x86_64-unknown-linux-gnu.tar.gz \
 	&& tar xf codex-x86_64-unknown-linux-gnu.tar.gz \
