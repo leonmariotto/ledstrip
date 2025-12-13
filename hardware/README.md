@@ -47,15 +47,17 @@ Use the following wiring :
 - BQ25703A_CHRG_OK: PB9
 Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
 
-# TODO
-- Enable DRC checker and releases jobs in github actions when possible.
-- Use KiBot for CI/CD: https://kibot.readthedocs.io/en/master/usage_with_ci_cd.html#usage-of-github-actions
-It looks like an old, complicate tool. It may do more than the current sparkengineering kicad action
-but this one is a simple bash script running kicad-cli v9.
+## Building
+
+A CI is here to build Gerber on a stable and reproducible environment.
+PCBway is the recommended manufacturer.
+
+# TODO Schematics 
+
 - Make codex review every components integrations.
+- Ensure that every symbols have a 3D file along with footprint.
 
 ## TODO BQ25703A nice-to-have !
-
 - IADPT (pin 8) – adapter current monitor
 Output proportional to input current: V(IADPT) = 20× or 40× (V(ACP − ACN)), selectable by register.
 Hardware connection per datasheet:
@@ -78,14 +80,17 @@ Route the node to an MCU ADC if you want real-time “how many watts am I using?
 If you don’t want this feature: leave PSYS floating.
 
 ## TODO STUSB4500 nice-to-have !
-
 - POWER_OK2/POWER_OK3 to MCU
 - ATTACH to MCU
 - I2C to MCU ?
-- STUSB4500_integration_review.md
 
 ## TODO better kicad sheets !
-
 - Name label
 - Color wires
 - Add commentary
+
+# TODO PCB editor
+
+- Ensure that global parameters are OK.
+- Follow the Phill's lab tuto !
+- Enable DRC checker and releases jobs in github actions when possible.
