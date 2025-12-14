@@ -1378,26 +1378,24 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Interface_USB:STUSB4500QTR"
+		(symbol "custom_STUSB4500:STUSB4500QTR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U6"
-				(at -12.954 22.098 0)
+			(property "Reference" "U"
+				(at -12.7 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "STUSB4500QTR"
-				(at 9.398 22.098 0)
+				(at 8.89 -21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
@@ -1419,24 +1417,6 @@
 				)
 			)
 			(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STUSB4500QTR?qs=wUXugUrL1qyQbYMSzG1ujg%3D%3D&srsltid=AfmBOooDKZ9xpoXhvvlOwEhcpxAjVXgjEaXsOgnvZjSfZbs-iABblbdp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STUSB4500QTR/9092189"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1697,14 +1677,14 @@
 				(pin power_out line
 					(at -2.54 22.86 270)
 					(length 2.54)
-					(name "VREG_2V7"
+					(name "VREG_1V2"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1715,14 +1695,14 @@
 				(pin power_out line
 					(at 0 22.86 270)
 					(length 2.54)
-					(name "VREG_1V2"
+					(name "VREG_2V7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "23"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1770,14 +1750,14 @@
 				(pin power_in line
 					(at 5.08 22.86 270)
 					(length 2.54)
-					(name "VSYS"
+					(name "VDD"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "22"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1788,14 +1768,14 @@
 				(pin power_in line
 					(at 7.62 22.86 270)
 					(length 2.54)
-					(name "VDD"
+					(name "VSYS"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "22"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4055,16 +4035,6 @@
 			(justify left bottom)
 		)
 		(uuid "abf1f4b7-f712-47c3-91a7-c6d44116ea5a")
-	)
-	(label "STUSB4500_I2C_HEADER_GND"
-		(at 64.77 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c16e561b-224d-4049-8d01-5db43ddc6e66")
 	)
 	(label "STUSB4500_I2C_HEADER_VSYS"
 		(at 64.77 91.44 0)
@@ -7153,162 +7123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Interface_USB:STUSB4500QTR")
-		(at 162.56 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bfe84ce1-285a-4a99-a55e-3b5a2a1af658")
-		(property "Reference" "U6"
-			(at 148.844 64.008 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "STUSB4500QTR"
-			(at 171.958 64.262 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stusb4500.pdf"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STUSB4500QTR?qs=wUXugUrL1qyQbYMSzG1ujg%3D%3D&srsltid=AfmBOooDKZ9xpoXhvvlOwEhcpxAjVXgjEaXsOgnvZjSfZbs-iABblbdp"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STUSB4500QTR/9092189"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "11"
-			(uuid "4b0eeff2-b446-4361-a226-703ada560e18")
-		)
-		(pin "23"
-			(uuid "5ea3f1e0-bd56-4c0b-b158-b60749caa452")
-		)
-		(pin "16"
-			(uuid "b41df1e5-9c5d-4c81-bde4-b3f91b82f021")
-		)
-		(pin "25"
-			(uuid "039409ea-47ad-430a-9feb-a303f094ea5c")
-		)
-		(pin "22"
-			(uuid "e520a91f-6a77-4913-834a-3aa362738d4e")
-		)
-		(pin "17"
-			(uuid "a91a1f3e-dc1c-4d2a-8f91-c0535509424d")
-		)
-		(pin "19"
-			(uuid "b1099692-6a20-434c-a5b7-0edf8e1dd975")
-		)
-		(pin "15"
-			(uuid "ce62967b-f4aa-4688-b2db-19e69e5b2cd2")
-		)
-		(pin "8"
-			(uuid "3d1e534b-faef-4d2b-b6d6-42b591953c9b")
-		)
-		(pin "10"
-			(uuid "e68d2250-a9ed-4660-9c15-1275ef269c30")
-		)
-		(pin "20"
-			(uuid "d62b1fbe-1bb1-42bc-b70a-c572d31afa79")
-		)
-		(pin "9"
-			(uuid "d40e6c9e-93de-48b5-9cec-a734082472cf")
-		)
-		(pin "21"
-			(uuid "c1631145-cdbd-4202-ba2c-fb75166a3a98")
-		)
-		(pin "1"
-			(uuid "46e462c3-e801-4349-8d2d-c70f40c2344f")
-		)
-		(pin "24"
-			(uuid "5b340d23-c588-439f-a35e-078cffd3c1a8")
-		)
-		(pin "4"
-			(uuid "3e56c1a0-55e4-45f2-a59c-fe1a23822356")
-		)
-		(pin "14"
-			(uuid "0a0cc09a-40d7-493f-8b0a-72e4b17aee52")
-		)
-		(pin "12"
-			(uuid "b4f5eaaf-5946-4e57-a8f8-9d1b6d28576a")
-		)
-		(pin "2"
-			(uuid "d29311f1-40e4-488e-9d36-b527264df23b")
-		)
-		(pin "13"
-			(uuid "62da719b-b03c-4129-9045-4d860a54340e")
-		)
-		(pin "6"
-			(uuid "8e94e3f3-45b2-4562-8487-98421328d446")
-		)
-		(pin "3"
-			(uuid "152eceb4-e741-40c1-8637-70d2dba8862f")
-		)
-		(pin "18"
-			(uuid "aa044f63-b348-4e76-b01a-569718cd5e3e")
-		)
-		(pin "5"
-			(uuid "90f29806-2188-4e8f-8c24-6fda1dca24f1")
-		)
-		(pin "7"
-			(uuid "fa27b052-522b-4613-bb32-f485a0eb0775")
-		)
-		(instances
-			(project "ledstrip"
-				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/b5cca531-fcff-4497-988a-ecdd56b3ddf9"
-					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 44.45 22.86 90)
 		(unit 1)
@@ -7389,6 +7203,145 @@
 			(project ""
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/b5cca531-fcff-4497-988a-ecdd56b3ddf9"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "custom_STUSB4500:STUSB4500QTR")
+		(at 162.56 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbda704c-27b6-491f-97f6-ae0e64497862")
+		(property "Reference" "U6"
+			(at 164.7033 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "STUSB4500QTR"
+			(at 164.7033 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stusb4500.pdf"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "15"
+			(uuid "86624fea-a472-463b-828c-1d453413455c")
+		)
+		(pin "21"
+			(uuid "eac8a790-e2e9-4368-952d-79d06d61b024")
+		)
+		(pin "8"
+			(uuid "c981f02d-ae3a-4334-ac0e-90bbc1941538")
+		)
+		(pin "11"
+			(uuid "e66b0ab1-b0f4-4096-a807-881b5ab029d8")
+		)
+		(pin "23"
+			(uuid "540148f5-c38b-4536-9b56-427b1c9ff086")
+		)
+		(pin "13"
+			(uuid "ab2068ef-e0c3-406c-a4e3-c8f3d68e522e")
+		)
+		(pin "3"
+			(uuid "9ae6f0f1-1c08-4a59-984d-e45dde72c123")
+		)
+		(pin "12"
+			(uuid "c87063de-f986-4600-a46b-e27ba633d654")
+		)
+		(pin "19"
+			(uuid "18889ee7-fa3f-45b9-8eba-de4cbee7dbca")
+		)
+		(pin "24"
+			(uuid "d19022a7-0ecf-4e13-9048-d81ae6dc09ee")
+		)
+		(pin "25"
+			(uuid "663a4969-809f-4eb2-bd9d-3062047b1829")
+		)
+		(pin "22"
+			(uuid "37bbcb86-d5e0-46a9-b2b2-d72ad7c8989d")
+		)
+		(pin "10"
+			(uuid "5011ba39-54f1-476f-b813-5e9c17593339")
+		)
+		(pin "17"
+			(uuid "e61aa056-a7f4-41ba-95d9-6736d165e7cb")
+		)
+		(pin "20"
+			(uuid "27847ab7-d875-416f-997b-946ff05a25e1")
+		)
+		(pin "16"
+			(uuid "cd6e7480-9026-4e9c-8e2d-e1734a538b97")
+		)
+		(pin "7"
+			(uuid "4c342bb7-7dbd-4b8e-815e-88dc4d004719")
+		)
+		(pin "9"
+			(uuid "3f6dcd66-bece-4a98-ba50-ae2cf2f4f5d3")
+		)
+		(pin "18"
+			(uuid "f5766c99-5167-4a6c-b034-8e6a33ff0b77")
+		)
+		(pin "5"
+			(uuid "2654340c-9532-4ae1-91e3-a4f5e9cd0f57")
+		)
+		(pin "4"
+			(uuid "b240193d-8166-48c1-964b-f93efe6591b9")
+		)
+		(pin "1"
+			(uuid "c75afd83-d23e-43fb-890a-dd9af504d987")
+		)
+		(pin "2"
+			(uuid "a4e935f6-bf15-4d22-9648-b80a68f96473")
+		)
+		(pin "6"
+			(uuid "7b4afc51-87e2-4495-9cc8-d1045c088f4a")
+		)
+		(pin "14"
+			(uuid "b25e7289-ccbd-4ca3-9c98-15decb711a61")
+		)
+		(instances
+			(project ""
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/b5cca531-fcff-4497-988a-ecdd56b3ddf9"
+					(reference "U6")
 					(unit 1)
 				)
 			)

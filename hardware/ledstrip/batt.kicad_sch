@@ -4289,26 +4289,6 @@
 		)
 		(uuid "10be1721-4fb4-4d88-b406-10018afe5259")
 	)
-	(label "BQ25703A_EN_OTG"
-		(at 154.94 181.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1605202a-bbe6-4dde-ac1e-bb9b6170aaf4")
-	)
-	(label "BQ25703A_EN_OTG"
-		(at 144.78 181.61 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "164f68a5-a384-4654-b94c-f3f7831c48ec")
-	)
 	(label "BQ25703A_HIDRV2"
 		(at 161.29 87.63 90)
 		(effects
@@ -4348,36 +4328,6 @@
 			(justify left bottom)
 		)
 		(uuid "682806b4-3763-4fd5-96ab-8c511d8c4875")
-	)
-	(label "BMS_P-"
-		(at 252.73 26.67 270)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e8c5f98-1eda-4f9f-aa63-7986fc9c0a94")
-	)
-	(label "BQ25703A_THERMAL_PAD"
-		(at 171.45 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7d99209d-0dcd-4d85-a82b-a8797e0f1169")
-	)
-	(label "BQ25703A_VSYS"
-		(at 167.64 73.66 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2d63bbe-1794-4e41-a12e-56cdb5859b5c")
 	)
 	(label "BQ25703A_LODRV2"
 		(at 158.75 87.63 90)

@@ -1485,26 +1485,6 @@
 		)
 		(uuid "fd892427-3c20-4ac5-9825-59b3071e72a1")
 	)
-	(label "TPS621_VIN"
-		(at 102.87 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0fef9d85-3e39-4f37-af92-5fd79d1eb64d")
-	)
-	(label "TPS621_VOS"
-		(at 149.86 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8a4c1d9-4ee9-41e6-9a3d-fa60b4b3305c")
-	)
 	(label "TPS621_SW"
 		(at 149.7963 78.74 0)
 		(effects
@@ -1514,26 +1494,6 @@
 			(justify left bottom)
 		)
 		(uuid "d4515a42-2e6d-4d43-bb50-2b01cb403c79")
-	)
-	(label "TPS621_FB"
-		(at 149.86 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e937a94f-4f96-43e7-a9bb-c9baa868b54f")
-	)
-	(label "TPS621_EN"
-		(at 102.87 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f5f2b7dc-f846-4d77-8eb2-9dd1857a9beb")
 	)
 	(global_label "TPS62162_PG"
 		(shape input)
