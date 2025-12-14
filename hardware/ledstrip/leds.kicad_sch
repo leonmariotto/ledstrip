@@ -1056,15 +1056,15 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS")
-		(at 130.81 109.22 0)
+		(at 146.05 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "222b7a85-785e-4b64-9b4c-539a58147286")
-		(property "Reference" "Q2"
-			(at 129.032 104.648 0)
+		(uuid "15282a17-e5b9-4bc3-98ce-d4354d81b242")
+		(property "Reference" "Q3"
+			(at 144.272 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1073,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS"
-			(at 134.366 104.648 0)
+			(at 149.606 104.648 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1082,8 +1082,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 135.89 106.68 0)
+		(property "Footprint" "TOT-220-3:TO-220-3_Vertical"
+			(at 151.13 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,8 +1091,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3400A_ds.pdf/medias/docus/1133/AO3400A_ds.pdf"
-			(at 130.81 109.22 0)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/70/1/Infineon-IRL3705N-DS-v01_02-EN.pdf"
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1101,7 +1101,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor"
-			(at 130.81 109.22 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1109,8 +1109,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.amazon.fr/Aexit-canaux-AO3400A-Transistor-BM621825K482219I/dp/B07DD8V1JR"
-			(at 130.81 109.22 0)
+		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Infineon-Technologies/IRL3705NPBF?qs=9%252BKlkBgLFf3RbtP30EBJKw%3D%3D"
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1118,8 +1118,8 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772?srsltid=AfmBOorsNVseuGnOsg8gC49lTDXI5zjjIDAef0vv8GR8XI0_NYzzrFG-"
-			(at 130.81 109.22 0)
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/infineon-technologies/IRL3705NPBF/812272?srsltid=AfmBOoooeDWkDS-ehnbFZ027sJbqecXx9GdmwNsCp8G_IMCaE9HrNfFl"
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1128,18 +1128,18 @@
 			)
 		)
 		(pin "S"
-			(uuid "5c109c1a-df8c-4451-be3c-4aedffbe4aff")
+			(uuid "96e2a44f-74c6-409d-a841-2973d073f4eb")
 		)
 		(pin "D"
-			(uuid "e188f446-51fa-4940-822c-a32453675ddb")
+			(uuid "1c286678-faa7-4de8-93ea-1040d14c2215")
 		)
 		(pin "G"
-			(uuid "d5cc371f-3de8-4cd8-9066-2932e10a9e19")
+			(uuid "ff1695f4-75a5-4514-bcf7-c8763d762059")
 		)
 		(instances
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
-					(reference "Q2")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -1173,7 +1173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
+		(property "Footprint" "TOT-220-3:TO-220-3_Vertical"
 			(at 119.38 106.68 0)
 			(effects
 				(font
@@ -1182,7 +1182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3400A_ds.pdf/medias/docus/1133/AO3400A_ds.pdf"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/70/1/Infineon-IRL3705N-DS-v01_02-EN.pdf"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -1200,7 +1200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.amazon.fr/Aexit-canaux-AO3400A-Transistor-BM621825K482219I/dp/B07DD8V1JR"
+		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Infineon-Technologies/IRL3705NPBF?qs=9%252BKlkBgLFf3RbtP30EBJKw%3D%3D"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -1209,7 +1209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772?srsltid=AfmBOorsNVseuGnOsg8gC49lTDXI5zjjIDAef0vv8GR8XI0_NYzzrFG-"
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/infineon-technologies/IRL3705NPBF/812272?srsltid=AfmBOoooeDWkDS-ehnbFZ027sJbqecXx9GdmwNsCp8G_IMCaE9HrNfFl"
 			(at 114.3 109.22 0)
 			(effects
 				(font
@@ -1228,9 +1228,104 @@
 			(uuid "c4d21505-0b6f-4c78-807e-746975f9af24")
 		)
 		(instances
-			(project "ledstrip"
+			(project ""
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/0b9dc6db-254f-4d56-b53f-9075578fa80e"
+					(reference "Q1")
+					(unit 1)
+				)
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_NMOS")
+		(at 130.81 109.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7569715b-1180-4b18-9ef9-73a3441bade6")
+		(property "Reference" "Q2"
+			(at 129.032 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Q_NMOS"
+			(at 134.366 104.648 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TOT-220-3:TO-220-3_Vertical"
+			(at 135.89 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/70/1/Infineon-IRL3705N-DS-v01_02-EN.pdf"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-MOSFET transistor"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Infineon-Technologies/IRL3705NPBF?qs=9%252BKlkBgLFf3RbtP30EBJKw%3D%3D"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/infineon-technologies/IRL3705NPBF/812272?srsltid=AfmBOoooeDWkDS-ehnbFZ027sJbqecXx9GdmwNsCp8G_IMCaE9HrNfFl"
+			(at 130.81 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "S"
+			(uuid "6e342a16-ab81-4269-b35a-46cfb76b9f4b")
+		)
+		(pin "D"
+			(uuid "1577b707-f7a7-4847-9bb2-f8549b3d8e64")
+		)
+		(pin "G"
+			(uuid "5cf2eb67-5fe9-478f-9eaf-a32518411a62")
+		)
+		(instances
+			(project "ledstrip"
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -1370,97 +1465,6 @@
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Q_NMOS")
-		(at 146.05 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3822ed6-6b51-47e1-8cba-e754c74b755a")
-		(property "Reference" "Q3"
-			(at 144.272 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Q_NMOS"
-			(at 149.606 104.648 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23_Handsoldering"
-			(at 151.13 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/1133/AO3400A_ds.pdf/medias/docus/1133/AO3400A_ds.pdf"
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor"
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 1" "https://www.amazon.fr/Aexit-canaux-AO3400A-Transistor-BM621825K482219I/dp/B07DD8V1JR"
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/alpha-omega-semiconductor-inc/AO3400A/1855772?srsltid=AfmBOorsNVseuGnOsg8gC49lTDXI5zjjIDAef0vv8GR8XI0_NYzzrFG-"
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "S"
-			(uuid "0e7f263b-3234-4d4c-8347-7a52a005d49f")
-		)
-		(pin "D"
-			(uuid "75b31540-7122-472f-9880-5bcd67429595")
-		)
-		(pin "G"
-			(uuid "53459b93-96be-45be-87e0-0d87901a0133")
-		)
-		(instances
-			(project "ledstrip"
-				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
-					(reference "Q3")
 					(unit 1)
 				)
 			)

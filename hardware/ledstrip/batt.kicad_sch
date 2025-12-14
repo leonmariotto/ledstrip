@@ -2811,6 +2811,16 @@
 	)
 	(wire
 		(pts
+			(xy 200.66 146.05) (xy 200.66 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "335a8911-3efc-4b19-87eb-c5337c306155")
+	)
+	(wire
+		(pts
 			(xy 166.37 118.11) (xy 182.88 118.11)
 		)
 		(stroke
@@ -2918,16 +2928,6 @@
 			(type default)
 		)
 		(uuid "41c54825-b375-4112-90e5-ff3a71690264")
-	)
-	(wire
-		(pts
-			(xy 166.37 146.05) (xy 195.58 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "428b18ee-6c11-4c55-910e-8bbf75c56317")
 	)
 	(wire
 		(pts
@@ -3188,6 +3188,16 @@
 			(type default)
 		)
 		(uuid "6b207a05-78b7-4795-9766-08d624a73608")
+	)
+	(wire
+		(pts
+			(xy 200.66 146.05) (xy 166.37 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b9c8ae6-a414-421f-afcb-1c772f92cc35")
 	)
 	(wire
 		(pts
@@ -3518,16 +3528,6 @@
 			(type default)
 		)
 		(uuid "a0cde07c-96fd-4d2b-87b0-2af60d91cecf")
-	)
-	(wire
-		(pts
-			(xy 195.58 146.05) (xy 195.58 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a204000e-dfb7-4766-8d23-f02cace7e4e5")
 	)
 	(wire
 		(pts
@@ -4211,6 +4211,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 128.27) (xy 209.55 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffa100f6-ed41-4e60-bddd-7cd938bd2a60")
+	)
+	(wire
+		(pts
 			(xy 172.72 29.21) (xy 172.72 24.13)
 		)
 		(stroke
@@ -4239,6 +4249,16 @@
 		)
 		(uuid "0a06fbfd-b056-4f59-bb4c-80471a1b969b")
 	)
+	(label "BQ25703A_PGND"
+		(at 176.53 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ae9dd0b-7249-4f86-956c-5da6b08cb931")
+	)
 	(label "BQ25703A_COMP2"
 		(at 78.74 152.4 0)
 		(effects
@@ -4248,6 +4268,16 @@
 			(justify left bottom)
 		)
 		(uuid "0d261578-fcbd-41c2-92fb-0226641f90f9")
+	)
+	(label "BQ25703A_CELL_BATPRESZ"
+		(at 182.88 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d919113-0851-4eaa-b462-b0bf7820b4d4")
 	)
 	(label "BQ25703A_SW2"
 		(at 149.86 88.9 90)
@@ -4495,7 +4525,7 @@
 	)
 	(global_label "BQ25703A_REGN"
 		(shape input)
-		(at 209.55 128.27 0)
+		(at 213.36 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4505,7 +4535,7 @@
 		)
 		(uuid "66f3474c-c870-46a1-a7a5-347d49d52ed5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 228.2589 128.27 0)
+			(at 232.0689 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4858,7 +4888,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+		(property "Footprint" "NexFET:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 158.75 21.59 0)
 			(effects
 				(font
@@ -7090,7 +7120,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 195.58 151.13 0)
+		(at 200.66 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7099,7 +7129,7 @@
 		(fields_autoplaced yes)
 		(uuid "a1aba01e-749d-4ae8-be61-8e7752f64ab0")
 		(property "Reference" "#PWR035"
-			(at 195.58 157.48 0)
+			(at 200.66 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7108,7 +7138,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 195.58 156.21 0)
+			(at 200.66 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7116,7 +7146,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 195.58 151.13 0)
+			(at 200.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7125,7 +7155,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 151.13 0)
+			(at 200.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7164,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 195.58 151.13 0)
+			(at 200.66 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+		(property "Footprint" "NexFET:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 119.38 21.59 0)
 			(effects
 				(font
@@ -8190,7 +8220,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+		(property "Footprint" "NexFET:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 148.59 55.88 0)
 			(effects
 				(font
@@ -8516,7 +8546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_SON:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
+		(property "Footprint" "NexFET:VSON-8_3.3x3.3mm_P0.65mm_NexFET"
 			(at 134.62 55.88 0)
 			(effects
 				(font

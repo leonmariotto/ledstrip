@@ -92,5 +92,7 @@ If you don’t want this feature: leave PSYS floating.
 # TODO PCB editor
 
 - Ensure that global parameters are OK.
+- Create missing 3D view for footprint that lack it.
+- Add 4 mounting holes, to be used with mechanical printed case with screw.
 - Follow the Phill's lab tuto !
 - Enable DRC checker and releases jobs in github actions when possible.
