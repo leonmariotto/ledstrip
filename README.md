@@ -5,6 +5,7 @@ The layout is :
 - hardware: kicad project to make the led strip controller board.
 - cad: printable case for the controller + battery
 - software: software used to control the led strip.
+- ai: a setup to codex inside a docker with support for multiple AGENTS.md
 
 ## System requirements
 

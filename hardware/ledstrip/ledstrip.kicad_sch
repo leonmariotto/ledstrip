@@ -3728,14 +3728,6 @@
 		(uuid "91b292fb-0878-4fb6-8fa2-1929a0790c76")
 	)
 	(no_connect
-		(at 204.47 118.11)
-		(uuid "95193f3d-472f-470f-991c-d478bff7f6cc")
-	)
-	(no_connect
-		(at 204.47 113.03)
-		(uuid "9d3bc0b1-89c2-4f5c-822e-092d6dd4cab1")
-	)
-	(no_connect
 		(at 168.91 128.27)
 		(uuid "bac7d3bb-6ac2-45a7-bdbe-97d6b0860d1a")
 	)
@@ -3933,6 +3925,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 38.1) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "271d9ef0-5e98-435a-81f4-d6f90becce1c")
+	)
+	(wire
+		(pts
 			(xy 110.49 100.33) (xy 115.57 100.33)
 		)
 		(stroke
@@ -4093,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 118.11) (xy 256.54 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "587c001d-183d-4430-a676-d6ed72119565")
+	)
+	(wire
+		(pts
 			(xy 257.81 59.69) (xy 257.81 55.88)
 		)
 		(stroke
@@ -4233,6 +4245,16 @@
 	)
 	(wire
 		(pts
+			(xy 204.47 118.11) (xy 256.54 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f190114-00ce-4431-aff8-95c05d8346dd")
+	)
+	(wire
+		(pts
 			(xy 72.39 143.51) (xy 97.79 143.51)
 		)
 		(stroke
@@ -4253,7 +4275,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 125.73) (xy 262.89 88.9)
+			(xy 264.16 125.73) (xy 264.16 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4263,7 +4285,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 123.19) (xy 260.35 123.19)
+			(xy 204.47 123.19) (xy 261.62 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4613,7 +4635,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 120.65) (xy 257.81 88.9)
+			(xy 259.08 120.65) (xy 259.08 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4623,7 +4645,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 120.65) (xy 257.81 120.65)
+			(xy 204.47 120.65) (xy 259.08 120.65)
 		)
 		(stroke
 			(width 0)
@@ -4643,7 +4665,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 123.19) (xy 260.35 88.9)
+			(xy 261.62 123.19) (xy 261.62 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4743,7 +4765,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 125.73) (xy 262.89 125.73)
+			(xy 204.47 125.73) (xy 264.16 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4800,6 +4822,16 @@
 			(type default)
 		)
 		(uuid "f09508ec-c7d4-4f8e-b974-34a489f410c2")
+	)
+	(wire
+		(pts
+			(xy 204.47 113.03) (xy 228.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3cb1e69-44a5-4b01-848c-a5884ee3de23")
 	)
 	(label "CP2102N_VBUS"
 		(at 83.82 140.97 0)
@@ -7698,7 +7730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field8Distributor Link 1Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32G030K6T6/10326688"
+		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32G030K6T6/10326688"
 			(at 186.69 125.73 0)
 			(effects
 				(font
@@ -7943,6 +7975,16 @@
 				(justify left)
 			)
 		)
+		(pin "POT_W" input
+			(at 228.6 38.1 270)
+			(uuid "c73aebfa-5ca8-42ed-9a9f-34a0709a85d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
@@ -8034,7 +8076,7 @@
 		)
 	)
 	(sheet
-		(at 77.47 57.15)
+		(at 78.74 59.69)
 		(size 22.86 10.16)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8050,7 +8092,7 @@
 		)
 		(uuid "bd9eeed2-8672-4045-93ab-4cabbdf274b0")
 		(property "Sheetname" "buck"
-			(at 77.47 56.4384 0)
+			(at 78.74 58.9784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8059,7 +8101,7 @@
 			)
 		)
 		(property "Sheetfile" "buck.kicad_sch"
-			(at 77.47 67.8946 0)
+			(at 78.74 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,7 +8244,7 @@
 			)
 		)
 		(pin "PWM_B" input
-			(at 262.89 88.9 270)
+			(at 264.16 88.9 270)
 			(uuid "74382b59-3601-495d-947f-a590b10daad2")
 			(effects
 				(font
@@ -8212,7 +8254,7 @@
 			)
 		)
 		(pin "PWM_G" input
-			(at 260.35 88.9 270)
+			(at 261.62 88.9 270)
 			(uuid "7d5b865a-ca24-46df-b2fc-37be9354213d")
 			(effects
 				(font
@@ -8222,8 +8264,18 @@
 			)
 		)
 		(pin "PWM_R" input
-			(at 257.81 88.9 270)
+			(at 259.08 88.9 270)
 			(uuid "26d0bff0-d990-4f29-9d4f-d1c5ae729aa5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_W" input
+			(at 256.54 88.9 270)
+			(uuid "5a07056d-b89b-4f6c-8a06-1261bfa3a9ab")
 			(effects
 				(font
 					(size 1.27 1.27)

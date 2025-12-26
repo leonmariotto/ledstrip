@@ -228,6 +228,5 @@
   (lib (name "leon")(type "KiCad")(uri "/home/leon/.local/share/kicad/9.0/symbols/leon.kicad_sym")(options "")(descr ""))
   (lib (name "ledstrip")(type "KiCad")(uri "${KIPRJMOD}/ledstrip.kicad_sym")(options "")(descr ""))
   (lib (name "STL6P3LLH6")(type "KiCad")(uri "${KIPRJMOD}/STL6P3LLH6/2025-12-05_22-34-41.kicad_sym")(options "")(descr "Imported from UltraLibrarian"))
-  (lib (name "STUSB4500")(type "KiCad")(uri "${KIPRJMOD}/STUSB4500.kicad_sym")(options "")(descr ""))
   (lib (name "custom_STUSB4500")(type "KiCad")(uri "${KIPRJMOD}/custom_STUSB4500.kicad_sym")(options "")(descr ""))
 )

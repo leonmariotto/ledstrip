@@ -1,7 +1,8 @@
 FROM ubuntu:noble
 
 # Install common tools
-RUN apt-get update && apt-get install -y wget software-properties-common
+RUN apt-get update \
+	&& apt-get install -y wget software-properties-common curl poppler-utils
 
 # Install KiCad
 RUN add-apt-repository --yes ppa:kicad/kicad-9.0-releases \

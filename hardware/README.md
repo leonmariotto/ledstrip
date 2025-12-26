@@ -56,6 +56,11 @@ PCBway is the recommended manufacturer.
 
 - Make codex review every components integrations.
 - Ensure that every symbols have a 3D file along with footprint.
+- Add 20 ohm serie resistor after TVS at each USB input.
+- Ensure that BQ will not try to load too much current from USB 5V when in programmation mode (dev mode). Maybe simpler to have a 2nd USB port for COM (that could deliver 3.3V).
+    -> Not simpler, BQ25703A have a ILIM_HIZ pinto set input current limit.
+- Verify footprint used against reference implem: some may have to be bigger to support more power dissipation.
+- Re-calculate ILIM_HIZ to target for max 0.5A ?? -> Yes, max to 0.5, then ILIM_HIZ can be deactivated via I2C command if a USB-PD is detected. This require that MCU is aware of PD negocation, maybe STUSB4500 have to be routed to MCU to obtain this values.
 
 ## TODO BQ25703A nice-to-have !
 - IADPT (pin 8) – adapter current monitor
