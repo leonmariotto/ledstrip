@@ -54,15 +54,11 @@ PCBway is the recommended manufacturer.
 
 # TODO Schematics 
 
-- Make codex review every components integrations.
 - Ensure that every symbols have a 3D file along with footprint.
 - Add 20 ohm serie resistor after TVS at each USB input.
-- Ensure that BQ will not try to load too much current from USB 5V when in programmation mode (dev mode). Maybe simpler to have a 2nd USB port for COM (that could deliver 3.3V).
-    -> Not simpler, BQ25703A have a ILIM_HIZ pinto set input current limit.
-- Verify footprint used against reference implem: some may have to be bigger to support more power dissipation.
-- Re-calculate ILIM_HIZ to target for max 0.5A ?? -> Yes, max to 0.5, then ILIM_HIZ can be deactivated via I2C command if a USB-PD is detected. This require that MCU is aware of PD negocation, maybe STUSB4500 have to be routed to MCU to obtain this values.
+- Make codex review every components integrations: do a mapping of my component vs evaluation board components, then ask it to compare characteristics.
 
-## TODO BQ25703A nice-to-have !
+## TODO BQ25703A-to-MCU nice-to-have !
 - IADPT (pin 8) – adapter current monitor
 Output proportional to input current: V(IADPT) = 20× or 40× (V(ACP − ACN)), selectable by register.
 Hardware connection per datasheet:
@@ -84,7 +80,11 @@ Optional small cap in parallel for filtering.
 Route the node to an MCU ADC if you want real-time “how many watts am I using?” info.
 If you don’t want this feature: leave PSYS floating.
 
-## TODO STUSB4500 nice-to-have !
+## TODO STUSB4500-to-MCU nice-to-have !
+
+It's better to remove the I2C header and tie STUSB4500 to MCU.
+Need to ensure that the first time use will let VBUS to 5V, which will be OK for power MCU and start the programming of STUSB4500 for later use
+with USB PD.
 - POWER_OK2/POWER_OK3 to MCU
 - ATTACH to MCU
 - I2C to MCU ?
@@ -98,6 +98,4 @@ If you don’t want this feature: leave PSYS floating.
 
 - Ensure that global parameters are OK.
 - Create missing 3D view for footprint that lack it.
-- Add 4 mounting holes, to be used with mechanical printed case with screw.
-- Follow the Phill's lab tuto !
 - Enable DRC checker and releases jobs in github actions when possible.
