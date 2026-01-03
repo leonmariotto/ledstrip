@@ -1,0 +1,3 @@
+[submodule "tools/kimcp"]
+	path = tools/kimcp
+	url = git@github.com:leonmariotto/kimcp.git
