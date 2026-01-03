@@ -8,6 +8,13 @@ This setup support customizable AGENTS.md.
 
 First thing to do is to build the docker image. Go to `ai/docker` and run `./build.sh`.
 
+## KiCad MCP server
+
+You'll find a submodule under `tools/kimcp` that contain a MCP server implementation
+for KiCad.
+Container is already setup to try connect to this server.
+Start the MCP server before running agents.
+
 ## Run
 
 For usage run `ai/run.sh -h`.
