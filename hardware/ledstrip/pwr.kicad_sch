@@ -2323,6 +2323,12 @@
 		(uuid "32e668e0-1530-4c6c-93f8-524d4fbae790")
 	)
 	(junction
+		(at 142.24 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ca795f0-fe1d-4015-85c3-7ce2c8ffdcd2")
+	)
+	(junction
 		(at 162.56 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2371,12 +2377,6 @@
 		(uuid "6ad80290-2b2a-4fb9-a859-ff8538fc1b38")
 	)
 	(junction
-		(at 137.16 96.52)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6cf7e346-5734-4384-9a1c-812eacad59bf")
-	)
-	(junction
 		(at 222.25 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2405,12 +2405,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a6e875b2-36ee-40d4-bb4d-67f4be023d20")
-	)
-	(junction
-		(at 137.16 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a85a9b1f-7a7b-4cbc-807b-4dacd1ef024f")
 	)
 	(junction
 		(at 222.25 63.5)
@@ -2453,6 +2447,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3f58036-887e-48ba-845a-72e04c56b9e9")
+	)
+	(junction
+		(at 142.24 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d8383047-fdcf-4ad1-a640-625da02bfc1d")
 	)
 	(junction
 		(at 205.74 100.33)
@@ -2560,7 +2560,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 91.44) (xy 137.16 93.98)
+			(xy 142.24 91.44) (xy 142.24 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2590,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 91.44) (xy 137.16 91.44)
+			(xy 135.89 91.44) (xy 142.24 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2660,7 +2660,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 99.06) (xy 137.16 99.06)
+			(xy 135.89 99.06) (xy 142.24 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2687,6 +2687,16 @@
 			(type default)
 		)
 		(uuid "18f4e6a1-4b89-4b20-8188-ccc2a7cd899c")
+	)
+	(wire
+		(pts
+			(xy 142.24 96.52) (xy 147.32 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a14baa7-d527-45d7-a753-4f69e4a3cfff")
 	)
 	(wire
 		(pts
@@ -3100,16 +3110,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 96.52) (xy 147.32 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66784e17-d07b-4d13-a7fd-ea2c0ab25cb3")
-	)
-	(wire
-		(pts
 			(xy 177.8 99.06) (xy 189.23 99.06)
 		)
 		(stroke
@@ -3310,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 93.98) (xy 137.16 93.98)
+			(xy 60.96 93.98) (xy 142.24 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 137.16 96.52)
+			(xy 60.96 96.52) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3490,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 93.98) (xy 147.32 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a35abdb9-56b3-46ab-9b64-ba2d07efb053")
+	)
+	(wire
+		(pts
 			(xy 146.05 29.21) (xy 146.05 26.67)
 		)
 		(stroke
@@ -3527,16 +3537,6 @@
 			(type default)
 		)
 		(uuid "ae570275-02b3-4c2e-8736-79af2e9bcf67")
-	)
-	(wire
-		(pts
-			(xy 137.16 93.98) (xy 147.32 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b047266b-99f5-4555-aba0-a66a7ced4337")
 	)
 	(wire
 		(pts
@@ -3810,7 +3810,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 99.06) (xy 137.16 96.52)
+			(xy 142.24 99.06) (xy 142.24 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3988,16 +3988,6 @@
 		)
 		(uuid "8b572126-ee17-4d68-8c97-cb960fb9d32a")
 	)
-	(label "STUSB4500_I2C_HEADER_SDA"
-		(at 64.77 96.52 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9df390f5-0b5a-461a-8d78-19ba19fbd21e")
-	)
 	(label "STUSB4500_ATTACH"
 		(at 189.23 149.86 90)
 		(effects
@@ -4017,16 +4007,6 @@
 			(justify left bottom)
 		)
 		(uuid "d065cf56-91de-4160-9c1f-6bf43be4cb3e")
-	)
-	(label "STUSB4500_I2C_HEADER_SCL"
-		(at 64.77 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d8b081fc-bf99-41d0-a0fd-770937d6d5b0")
 	)
 	(hierarchical_label "USB_CC1"
 		(shape input)
