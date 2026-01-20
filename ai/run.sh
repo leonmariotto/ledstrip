@@ -15,75 +15,6 @@ fi
 # Enable errtrace or the error trap handler will not work as expected
 set -o errtrace         # Ensure the error trap handler is inherited
 
-# DESC: Handler for unexpected errors
-# ARGS: $1 (optional): Exit code (defaults to 1)
-# OUTS: None
-# RETS: None
-function script_trap_err() {
-    local exit_code=1
-
-    # Disable the error trap handler to prevent potential recursion
-    trap - ERR
-
-    # Consider any further errors non-fatal to ensure we run to completion
-    set +o errexit
-    set +o pipefail
-
-    # Validate any provided exit code
-    if [[ ${1-} =~ ^[0-9]+$ ]]; then
-        exit_code="$1"
-    fi
-
-    # Output debug data if in Cron mode
-    if [[ -n ${cron-} ]]; then
-        # Restore original file output descriptors
-        if [[ -n ${script_output-} ]]; then
-            exec 1>&3 2>&4
-        fi
-
-        # Print basic debugging information
-        printf '%b\n' "$ta_none"
-        printf '***** Abnormal termination of script *****\n'
-        printf 'Script Path:            %s\n' "$script_path"
-        printf 'Script Parameters:      %s\n' "$script_params"
-        printf 'Script Exit Code:       %s\n' "$exit_code"
-
-        # Print the script log if we have it. It's possible we may not if we
-        # failed before we even called cron_init(). This can happen if bad
-        # parameters were passed to the script so we bailed out very early.
-        if [[ -n ${script_output-} ]]; then
-            # shellcheck disable=SC2312
-            printf 'Script Output:\n\n%s' "$(cat "$script_output")"
-        else
-            printf 'Script Output:          None (failed before log init)\n'
-        fi
-    fi
-
-    # Exit with failure status
-    exit "$exit_code"
-}
-
-# DESC: Handler for exiting the script
-# ARGS: None
-# OUTS: None
-# RETS: None
-function script_trap_exit() {
-    cd "$orig_cwd"
-
-    # Remove Cron mode script log
-    if [[ -n ${cron-} && -f ${script_output-} ]]; then
-        rm "$script_output"
-    fi
-
-    # Remove script execution lock
-    if [[ -d ${script_lock-} ]]; then
-        rmdir "$script_lock"
-    fi
-
-    # Restore terminal colours
-    printf '%b' "$ta_none"
-}
-
 # DESC: Exit script with the given message
 # ARGS: $1 (required): Message to print on exit
 #       $2 (optional): Exit code (defaults to 0)
@@ -261,8 +192,11 @@ Usage:
      -h|--help                  Displays this help.
      -a|--agent                 Path to AGENTS.md file.
      -x                         Displays verbose output
+     -mcp                       Enable KiCad MCP server.
 EOF
 }
+
+EN_MCP="0"
 
 # DESC: Parameter parser
 # ARGS: $@ (optional): Arguments provided to the script
@@ -285,6 +219,9 @@ function parse_params() {
             -x)
                 set -x
                 ;;
+            -mcp)
+                EN_MCP="1"
+                ;;
             *)
                 script_usage
                 ;;
@@ -292,18 +229,35 @@ function parse_params() {
     done
 }
 
+kill_screen_sessions() {
+  # Kills screen *processes* for the current user.
+  # -x ensures exact match on process name (safer than substring matching).
+  pkill -u "$USER" -x screen 2>/dev/null || true
+}
+
+cleanup() {
+  kill_screen_sessions
+}
+
+
+
 # DESC: Main control flow
 # ARGS: $@ (optional): Arguments provided to the script
 # OUTS: None
 # RETS: None
 function main() {
-    trap script_trap_err ERR
-    trap script_trap_exit EXIT
     script_init "$@"
     parse_params "$@"
 
+    trap cleanup INT TERM EXIT
     project_dir="${script_dir}/.."
     agent_file="${script_dir}/agents/kicad_helper.md"
+
+    if [ "${EN_MCP}" -eq "1" ]; then
+        screen -dmS kimcp uv --project tools/kimcp/ run tools/kimcp/run.py
+    fi
+
+    # TODO setup trap to kill screen
 
     docker run -it --rm \
         --network host \
@@ -311,6 +265,8 @@ function main() {
         -v ${agent_file}:/workspace/AGENTS.md \
         codex:latest \
         /codex
+
+    cleanup
 }
 
 # Invoke main with args if not sourced

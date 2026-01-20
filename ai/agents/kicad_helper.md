@@ -18,3 +18,6 @@ drawio schema.
 - When auditing completeness, ensure every symbol has a footprint and `Distributor Link 1` (headers/testpoints may intentionally omit distributor links).
 - Project-specific library table may be required; copy global libs into the project table before running ERC so symbol libraries resolve.
 
+## KiCad MCP server
+
+- Small MCP server used to access to KiCad PCB editor.
