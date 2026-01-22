@@ -52,50 +52,19 @@ Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts wi
 A CI is here to build Gerber on a stable and reproducible environment.
 PCBway is the recommended manufacturer.
 
-# TODO Schematics 
+## 4 layers
 
-- Ensure that every symbols have a 3D file along with footprint.
-- Add 20 ohm serie resistor after TVS at each USB input.
-- Make codex review every components integrations: do a mapping of my component vs evaluation board components, then ask it to compare characteristics.
+- Top (F.Cu): components + most routing (especially short local routes)
+- Inner 1: solid GND plane (no splits)
+- Inner 2: power pours (3.3 V, 12 V) + only necessary routing (prefer short, controlled routes)
+- Bottom (B.Cu): routing + GND pour (stitched to Inner 1 often); use power pours only where it clearly helps (short distribution or local planes)
 
-## TODO BQ25703A-to-MCU nice-to-have !
-- IADPT (pin 8) – adapter current monitor
-Output proportional to input current: V(IADPT) = 20× or 40× (V(ACP − ACN)), selectable by register.
-Hardware connection per datasheet:
-Resistor from IADPT → GND (e.g. 137 kΩ for 2.2 µH as in datasheet example).
-≤100 pF cap from IADPT → GND for noise filtering.
-Optionally route that node to an MCU ADC to see “adapter current” in mA.
-If you don’t care: leave IADPT floating (no resistor, no cap).
-- IBAT (pin 9) – battery charge/discharge current
-Output proportional to battery current across SRP/SRN: 8× or 16× gain.
-Hardware:
-≤100 pF cap from IBAT → GND (if used).
-Optional resistor to GND + ADC input like IADPT.
-If you don’t need an analog battery-current pin: leave IBAT floating (only the pin, not the sense resistor!).
-- PSYS (pin 10) – system power monitor
-Outputs current proportional to total system power (adapter + battery). Gain is ~1 µA/W with voltage clamped below 3.3 V.
-Hardware:
-Resistor PSYS → GND to convert current to a voltage (target <3.3 V at max power).
-Optional small cap in parallel for filtering.
-Route the node to an MCU ADC if you want real-time “how many watts am I using?” info.
-If you don’t want this feature: leave PSYS floating.
+# TODO
 
-## TODO STUSB4500-to-MCU nice-to-have !
-
-It's better to remove the I2C header and tie STUSB4500 to MCU.
-Need to ensure that the first time use will let VBUS to 5V, which will be OK for power MCU and start the programming of STUSB4500 for later use
-with USB PD.
-- POWER_OK2/POWER_OK3 to MCU
-- ATTACH to MCU
-- I2C to MCU ?
-
-## TODO better kicad sheets !
-- Name label
-- Color wires
-- Add commentary
-
-# TODO PCB editor
-
-- Ensure that global parameters are OK.
 - Create missing 3D view for footprint that lack it.
+- Add 20 ohm serie resistor after TVS at each USB input.
+- Ensure that global parameters are OK.
+- Add more space between components (except coupling caps and TVS diodes)
+- Change pin assignment to reduce tracks crossing.
 - Enable DRC checker and releases jobs in github actions when possible.
+

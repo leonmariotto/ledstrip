@@ -490,7 +490,7 @@
       {
         "bus_width": 12,
         "name": "3.3V",
-        "pcb_color": "rgb(255, 0, 1)",
+        "pcb_color": "rgba(0, 0, 0, 0.004)",
         "priority": 0,
         "schematic_color": "rgb(255, 0, 1)",
         "wire_width": 6
@@ -517,7 +517,7 @@
         "bus_width": 12,
         "line_style": 0,
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.004)",
         "priority": 1,
         "schematic_color": "rgb(0, 0, 0)",
         "wire_width": 6
