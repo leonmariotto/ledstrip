@@ -61,6 +61,7 @@ PCBway is the recommended manufacturer.
 
 # TODO
 
+- ADD A ON/OFF SWITCH !!!
 - Create missing 3D view for footprint that lack it.
 - Add 20 ohm serie resistor after TVS at each USB input.
 - Ensure that global parameters are OK.
