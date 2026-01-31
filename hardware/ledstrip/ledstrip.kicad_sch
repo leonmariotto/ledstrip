@@ -8088,7 +8088,7 @@
 		(dnp no)
 		(uuid "f8e30885-ab24-49ca-9a9a-911ab1eb71ec")
 		(property "Reference" "U1"
-			(at 171.45 97.79 0)
+			(at 171.45 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8097,7 @@
 			)
 		)
 		(property "Value" "STM32G030K6Tx"
-			(at 188.8333 97.79 0)
+			(at 188.976 98.552 0)
 			(effects
 				(font
 					(size 1.27 1.27)
