@@ -2240,7 +2240,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text_box "Theses FETs should always be openned by STUSB4500. It provide protections against hot-plug stress."
+	(text_box "Theses FETs should be openned by STUSB4500. It provide protections against hot-plug stress."
 		(exclude_from_sim no)
 		(at 205.74 12.7 0)
 		(size 60.96 5.08)
@@ -2260,10 +2260,10 @@
 		)
 		(uuid "0409d3cf-7ab9-49b9-bcc4-de105202e345")
 	)
-	(text_box "STUSB4500 programmation :\nAlways let the VBUS go (POWER_ONLY_ABOVE_5V=0b)"
+	(text_box "STUSB4500 programmation :\nAlways let the VBUS go (POWER_ONLY_ABOVE_5V=0b)\nSo, if high power available (15V) take it, if not just let go."
 		(exclude_from_sim no)
 		(at 205.74 129.54 0)
-		(size 60.96 5.08)
+		(size 60.96 7.62)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
