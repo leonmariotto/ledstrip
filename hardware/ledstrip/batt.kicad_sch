@@ -2289,131 +2289,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers
@@ -2987,16 +2862,16 @@
 		(uuid "a67d2ed2-8f1f-400d-a541-574b787af8f7")
 	)
 	(junction
+		(at 252.73 16.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a7d5dfaf-d075-4d73-af02-3fab467a4af8")
+	)
+	(junction
 		(at 111.76 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a940321d-cd12-4c2c-808d-d580cf14fd45")
-	)
-	(junction
-		(at 252.73 16.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ae173857-74bb-4108-8a48-2b9475a12957")
 	)
 	(junction
 		(at 124.46 35.56)
@@ -3293,16 +3168,6 @@
 			(type default)
 		)
 		(uuid "1ab31084-0c28-4a1f-a4ef-f5d00fdad886")
-	)
-	(wire
-		(pts
-			(xy 252.73 16.51) (xy 270.51 16.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b286c9f-d20d-44fb-8e50-a9cd7cdec348")
 	)
 	(wire
 		(pts
@@ -3853,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "5a162869-9486-4244-adc8-0df702fb2b1d")
+	)
+	(wire
+		(pts
+			(xy 252.73 16.51) (xy 260.35 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b05581c-5f20-4871-9b6f-6558763129bc")
 	)
 	(wire
 		(pts
@@ -5669,6 +5544,17 @@
 			(justify right)
 		)
 		(uuid "53c8bafd-6c57-4b0e-b591-3014e78750be")
+	)
+	(hierarchical_label "BQ25703A_12V_OUT"
+		(shape input)
+		(at 260.35 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7dc3d6ea-4b12-4793-be8f-63b8ae08c576")
 	)
 	(hierarchical_label "V_SNK"
 		(shape input)
@@ -9042,71 +8928,6 @@
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/e1352532-a16b-4a34-87fb-bbe36c7f1290"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 270.51 16.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ce6ed1d-5674-4462-81be-acc656c086da")
-		(property "Reference" "#PWR037"
-			(at 270.51 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 274.574 14.478 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 270.51 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 270.51 16.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd15ccbc-0e9f-421d-88b0-c1f38f6743af")
-		)
-		(instances
-			(project "ledstrip"
-				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/e1352532-a16b-4a34-87fb-bbe36c7f1290"
-					(reference "#PWR037")
 					(unit 1)
 				)
 			)

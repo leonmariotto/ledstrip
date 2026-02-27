@@ -793,6 +793,10 @@
     [
       "bd9eeed2-8672-4045-93ab-4cabbdf274b0",
       "buck"
+    ],
+    [
+      "e4408296-0eb9-4e4c-bdb6-4e431e69923c",
+      "power_switch"
     ]
   ],
   "text_variables": {}
