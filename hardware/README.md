@@ -11,28 +11,29 @@
 - Must support run while charging battery.
 - Must provide protections against heating and short circuit.
 
+## Ledstrip part !
+
+Choosen RGBW ledstrip of 2 meters.
+https://opencircuit.fr/produit/analog-rgbw-led-strip-rgb-plus-warm-white-60
+
 ## Hardware Architecture Design
 
 So far the following components is identified :
-- 3S Li-ion battery pack.
+- 3S Li-ion battery pack. 12V output.
 - 3S BMS: off the shelf 3S (3-cells) BMS module. Shall support currents >
 to expected (for 2 meter strip the expected current is 3.2A at 12V. So design it to 5-10A.
 Start with an external BMS module, then progressively move into an integrated
 BMS.
 - USB-C connector
 - USB to UART bridge (Silicon Labs CP2102(N), or FTDI FT230x or CH340)
-- USB Power Delivery controller (ST STUSB4500)
+- USB Power Delivery controller (ST STUSB4500) used to negociate high power input from USB.
 - Battery charger IC (BQ25703A) : accept PD voltage and implement CC/CV.
 Provide support for system load while charging.
 - Buck regulator (12V to 3.3V) : integrated converter IC
 - Logic-level N-MOSFETS x3, low RDS(on).
-- Gate resistor / gate pull-down for each MOSFET.
-- Fuse
-- Protection against brutal voltage spike/drop: Transient Voltage Drop (TVS diode).
-- Reverse polarity protection: Schottky diode. Protect against inversing power.
-- Thermal Sensor near the cell
+- Gate resistor / gate pull-down for each MOSFET, Fuse, ESD protections (TVS diodes, Schottky),
 - Dedicated MIPI-10 connector for SWD.
-- AdaFruit RGBW Analog (Warm white): 2 meters.
+- STM32G030K6 MCU.
 
 ### STM32G030K6 32-bit LQFP package
 
@@ -45,7 +46,7 @@ Use the following wiring :
 - Power pins: VDD, VDDA, VSS, VSSA (decouple properly)
 - BQ25703A_PROCHOT: PB9
 - BQ25703A_CHRG_OK: PB9
-Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due conflicts with UART.
+Note that PWM need to use TIM1 for PA0 and TIM3 for PA6 and PA7 due to conflicts with UART.
 
 ## Building
 
@@ -61,7 +62,6 @@ PCBway is the recommended manufacturer.
 
 # TODO
 
-- ADD A ON/OFF SWITCH !!!
 - Create missing 3D view for footprint that lack it.
 - Add 20 ohm serie resistor after TVS at each USB input.
 - Ensure that global parameters are OK.
