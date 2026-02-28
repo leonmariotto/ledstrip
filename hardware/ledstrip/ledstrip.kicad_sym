@@ -729,7 +729,7 @@
 			)
 		)
 		(symbol "TPS25940_0_0"
-			(pin unspecified line
+			(pin power_in line
 				(at -2.54 -3.81 0)
 				(length 2.54)
 				(name "IN"
@@ -747,7 +747,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "EN_UVLO"
@@ -765,7 +765,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -2.54 -11.43 0)
 				(length 2.54)
 				(name "OVP"
@@ -783,7 +783,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_out line
 				(at -2.54 -15.24 0)
 				(length 2.54)
 				(name "DEVSLP"
@@ -801,7 +801,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at -2.54 -19.05 0)
 				(length 2.54)
 				(name "dVdT"
@@ -819,7 +819,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -2.54 -22.86 0)
 				(length 2.54)
 				(name "GND"
@@ -837,7 +837,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at -2.54 -25.4 0)
 				(length 2.54)
 				(name "PWRPAD"
@@ -855,7 +855,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin power_in line
 				(at 40.64 -3.81 180)
 				(length 2.54)
 				(name "OUT"
@@ -873,7 +873,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 40.64 -7.62 180)
 				(length 2.54)
 				(name "FLT"
@@ -891,7 +891,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 40.64 -11.43 180)
 				(length 2.54)
 				(name "PGOOD"
@@ -909,7 +909,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 40.64 -15.24 180)
 				(length 2.54)
 				(name "PGTH"
@@ -927,7 +927,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 40.64 -19.05 180)
 				(length 2.54)
 				(name "IMON"
@@ -945,7 +945,7 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin bidirectional line
 				(at 40.64 -22.86 180)
 				(length 2.54)
 				(name "ILIM"

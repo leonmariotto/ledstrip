@@ -3584,12 +3584,6 @@
 		(uuid "02364114-65e0-487a-891b-be5c7ef62be5")
 	)
 	(junction
-		(at 157.48 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c029d1c-a679-4dca-bab6-bc56d8b420ec")
-	)
-	(junction
 		(at 111.76 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3975,7 +3969,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 118.11) (xy 157.48 119.38)
+			(xy 157.48 118.11) (xy 157.48 123.19)
 		)
 		(stroke
 			(width 0)
@@ -4835,16 +4829,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 119.38) (xy 157.48 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1da67df-59f1-472f-ab7b-a984172c0385")
-	)
-	(wire
-		(pts
 			(xy 261.62 123.19) (xy 261.62 88.9)
 		)
 		(stroke
@@ -5188,7 +5172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "ledstrip:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal_PROJECT_COPY"
 			(at 35.56 143.51 0)
 			(effects
 				(font
@@ -6076,71 +6060,6 @@
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 157.48 119.38 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "425149c4-5282-4120-beaf-81b5b6705d19")
-		(property "Reference" "#FLG05"
-			(at 159.385 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 162.56 121.666 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 157.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 157.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5217c24-7c2c-4a17-807f-a7df1b808ea4")
-		)
-		(instances
-			(project "ledstrip"
-				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
-					(reference "#FLG05")
 					(unit 1)
 				)
 			)
