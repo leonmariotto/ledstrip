@@ -57,7 +57,7 @@ jobs:
 
   kicad_export:
     runs-on: ubuntu-latest
-    name: My KiCad job
+    name: Export KiCAD production files.
     steps:
       - name: Checkout
         uses: actions/checkout@v4
