@@ -53,30 +53,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy 1.4986 -1.1811) (xy -0.6096 -1.1811) (xy -0.6096 1.1811) (xy 1.4986 1.1811)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Cu")
-		(uuid "09c2442b-ab98-4b44-9273-cf760c7f9a25")
-	)
-	(fp_poly
-		(pts
-			(xy 1.4986 -1.1811) (xy -0.6096 -1.1811) (xy -0.6096 1.1811) (xy 1.4986 1.1811)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Mask")
-		(uuid "73b03712-4fd0-4c13-8faa-8e8365e74b40")
-	)
 	(fp_line
 		(start -1.6764 -1.8796)
 		(end -1.6764 -1.472839)
@@ -136,18 +112,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "caf69443-597e-4177-a1d0-d5f035870c1d")
-	)
-	(fp_poly
-		(pts
-			(xy 1.4986 -1.1811) (xy -0.6096 -1.1811) (xy -0.6096 1.1811) (xy 1.4986 1.1811)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.Paste")
-		(uuid "15c6ab94-cbab-46a4-9509-161feec87756")
 	)
 	(fp_line
 		(start -2.3114 -1.3508)
@@ -342,6 +306,12 @@
 				(thickness 0.15)
 			)
 		)
+	)
+	(pad "D" smd rect
+		(at 0.4445 0)
+		(size 2.1082 2.3622)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(zone_connect 2)
 	)
 	(pad "D" smd rect
 		(at 1.6002 -0.974999)
