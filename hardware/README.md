@@ -63,9 +63,8 @@ PCBway is the recommended manufacturer.
 # TODO
 
 - Create missing 3D view for footprint that lack it.
-- Add 20 ohm serie resistor after TVS at each USB input.
-- Ensure that global parameters are OK.
-- Add more space between components (except coupling caps and TVS diodes)
-- Change pin assignment to reduce tracks crossing.
-- Enable DRC checker and releases jobs in github actions when possible.
+- MPN (Manufacturer Part Number) shall be included in the CI's BOM
+- Generate Pick & Place (CPL/XY)
+- Generate Plot Assembly Drwaing (Top/Bottom)
+
 
