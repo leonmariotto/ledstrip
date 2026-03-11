@@ -18,7 +18,7 @@ jobs:
 
       - name: Run KiCad ERC
         id: erc
-        uses: sparkengineering/kicad-action@v4
+        uses: leonmariotto/kicad-action@v4
         if: '!cancelled()'
         with:
           kicad_sch: ${{ env.kicad_sch }}
@@ -41,7 +41,7 @@ jobs:
 
       - name: Run KiCad DRC
         id: drc
-        uses: sparkengineering/kicad-action@v4
+        uses: leonmariotto/kicad-action@v4
         if: '!cancelled()'
         with:
           kicad_pcb: ${{ env.kicad_pcb }}
@@ -64,7 +64,7 @@ jobs:
 
       - name: Export production files
         id: production
-        uses: sparkengineering/kicad-action@v4
+        uses: leonmariotto/kicad-action@v4
         if: '!cancelled()'
         with:
           kicad_sch: ${{ env.kicad_sch }}
