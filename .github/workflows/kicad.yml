@@ -72,6 +72,7 @@ jobs:
           sch_bom: true # Generate BOM
           kicad_pcb: ${{ env.kicad_pcb }}
           pcb_gerbers: true # Generate Gerbers
+          pcb_cpl: true # Generate Gerbers
 
       # Upload production files only if generation succeeded
       - name: Upload production files
@@ -80,6 +81,7 @@ jobs:
         with:
           name: Production files
           path: |
+            ${{ github.workspace }}/hardware/ledstrip/cpl.csv
             ${{ github.workspace }}/hardware/ledstrip/sch.pdf
             ${{ github.workspace }}/hardware/ledstrip/bom.csv
             ${{ github.workspace }}/hardware/ledstrip/gbr.zip
