@@ -5199,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
+		(property "Disributor Link 1" "https://www.mouser.fr/ProductDetail/GCT/USB4105-GF-A-060?qs=QNEnbhJQKvY2mocwNJzgfA%3D%3D"
 			(at 31.75 143.51 0)
 			(effects
 				(font
@@ -5208,7 +5208,16 @@
 				(hide yes)
 			)
 		)
-		(property "Ditributor Link 1" ""
+		(property "MPN" "USB4105-GF-A-060"
+			(at 31.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "GCT"
 			(at 31.75 143.51 0)
 			(effects
 				(font
