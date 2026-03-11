@@ -5199,6 +5199,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 31.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 31.75 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "B4"
 			(uuid "20248cf0-c882-46fd-be1a-6f280e7f6633")
 		)
@@ -5341,6 +5359,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 191.77 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -5653,6 +5689,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 127 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6a7c2042-c40b-4bc3-8ad0-eeff66ab84cd")
 		)
@@ -5789,6 +5843,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
@@ -5880,6 +5952,24 @@
 			)
 		)
 		(property "Manufacturer Part Number" "CP2102N-A02-GQFN20"
+			(at 110.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 110.49 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 110.49 151.13 0)
 			(effects
 				(font
@@ -6050,6 +6140,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 204.47 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08fcafe3-928a-4a6d-9e0b-35f2cb2594aa")
 		)
@@ -6120,6 +6228,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 60.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
@@ -6176,6 +6302,24 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 90.17 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 90.17 110.49 0)
 			(effects
 				(font
@@ -6261,6 +6405,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 96.52 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 96.52 119.38 0)
 			(effects
 				(font
@@ -6537,6 +6699,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 60.96 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
@@ -6666,6 +6846,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 257.81 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "95308439-5025-4810-8840-b2544ff2137b")
 		)
@@ -6778,6 +6976,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 107.95 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40b66544-4f48-41c3-b876-a5cd2890280c")
 		)
@@ -6860,6 +7076,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/USBLC6-2SC6/1040559?srsltid=AfmBOoq_zn_3jENcYaZO0f2Fjj9ZC3iVuUou8dFQGpjlYlBu9snaol37"
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 67.31 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 67.31 143.51 0)
 			(effects
 				(font
@@ -7052,6 +7286,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 115.57 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "efc438a9-8051-4254-89b8-25626112a2bd")
 		)
@@ -7206,6 +7458,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 83.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 83.82 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8eb5af73-dcc0-4c7f-a099-6619c03fc0c2")
 		)
@@ -7285,6 +7555,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 111.76 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 111.76 24.13 0)
 			(effects
 				(font
@@ -7391,6 +7679,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 157.48 114.3 0)
 			(effects
 				(font
@@ -7733,6 +8039,24 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7"
@@ -7807,6 +8131,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 165.1 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 165.1 73.66 0)
 			(effects
 				(font
@@ -8110,6 +8452,24 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STM32G030K6T6/10326688"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
 			(at 186.69 125.73 0)
 			(effects
 				(font
