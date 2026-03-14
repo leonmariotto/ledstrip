@@ -4265,7 +4265,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESDALC5-1BT2"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/ESDALC5-1BT2/2346229"
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 106.68 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -4352,8 +4397,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Barry Industries"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RP0805CT-1000GN-96TR"
+			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/vishay-barry/RP0805CT-1000GN-96TR/26523803?srsltid=AfmBOoqhgg5nsh1qZ4Bcc6Szo6coM6dO0JZOWD2hlW0hCvFoJigQwsaj"
 			(at 243.84 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 243.84 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 243.84 63.5 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 243.84 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4439,7 +4529,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6ARW472V"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARW472V/3073813"
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 205.74 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 205.74 106.68 0)
 			(effects
 				(font
@@ -4525,7 +4660,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 81.28 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012106022"
+			(at 81.28 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://fr.farnell.com/wurth-elektronik/885012106022/condensateur-1-f-25v-20-x5r-0603/dp/2495150?srsltid=AfmBOorOzUjYiZbyI4fKqNeagH8bIVGJY4XPCTq-VERwuQbU8J4GqLiv"
+			(at 81.28 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 81.28 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 81.28 60.96 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 81.28 60.96 90)
 			(effects
 				(font
@@ -4631,8 +4811,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay General Semiconductor"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SMAJ15AHM3_A-H"
+			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://fr.farnell.com/vishay/smaj15ahm3-a-h/tvs-unidirectional-15v-400w-sma/dp/3529160?srsltid=AfmBOopp4qn-N5z1iQ-nIi3HSgAfBLKM5ylz_m7aDGzGVwpojy8BOrH5"
 			(at 33.02 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 33.02 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 33.02 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 33.02 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,6 +4927,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 189.23 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 189.23 151.13 0)
 			(effects
 				(font
@@ -4849,7 +5101,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 236.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STL6P3LLH6"
+			(at 236.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
+			(at 236.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 236.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 236.22 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 236.22 25.4 90)
 			(effects
 				(font
@@ -4920,6 +5217,33 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 55.88 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -5076,7 +5400,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 142.24 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012106022"
+			(at 142.24 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://fr.farnell.com/wurth-elektronik/885012106022/condensateur-1-f-25v-20-x5r-0603/dp/2495150?srsltid=AfmBOorOzUjYiZbyI4fKqNeagH8bIVGJY4XPCTq-VERwuQbU8J4GqLiv"
+			(at 142.24 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 142.24 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 142.24 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 142.24 33.02 90)
 			(effects
 				(font
@@ -5161,7 +5530,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 142.24 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012106022"
+			(at 142.24 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://fr.farnell.com/wurth-elektronik/885012106022/condensateur-1-f-25v-20-x5r-0603/dp/2495150?srsltid=AfmBOorOzUjYiZbyI4fKqNeagH8bIVGJY4XPCTq-VERwuQbU8J4GqLiv"
+			(at 142.24 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 142.24 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 142.24 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 142.24 26.67 90)
 			(effects
 				(font
@@ -5248,7 +5662,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRB07100KL"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/RT0805BRB07100KL/5931185"
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 222.25 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 222.25 43.18 0)
 			(effects
 				(font
@@ -5384,6 +5843,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 97.79 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -5727,7 +6213,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 142.24 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "885012106022"
+			(at 142.24 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://fr.farnell.com/wurth-elektronik/885012106022/condensateur-1-f-25v-20-x5r-0603/dp/2495150?srsltid=AfmBOorOzUjYiZbyI4fKqNeagH8bIVGJY4XPCTq-VERwuQbU8J4GqLiv"
+			(at 142.24 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 142.24 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 142.24 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 142.24 39.37 90)
 			(effects
 				(font
@@ -5813,7 +6344,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESDALC5-1BT2"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/ESDALC5-1BT2/2346229"
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 106.68 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -5900,7 +6476,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6ARW472V"
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARW472V/3073813"
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 196.85 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 196.85 106.68 0)
 			(effects
 				(font
@@ -5979,6 +6600,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 173.99 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8e472a5e-8342-4a84-979b-84ba0d4333ea")
 		)
@@ -6038,6 +6686,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 143.51 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 143.51 151.13 0)
 			(effects
 				(font
@@ -6120,7 +6795,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BAT54JFILM"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/BAT54JFILM/1037673?srsltid=AfmBOopUPo3AAcuR1QLaM55k9Uwtr8ftSv0clmvJ2GOXMI3wjTavzLow"
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 69.85 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 69.85 60.96 0)
 			(effects
 				(font
@@ -6197,6 +6917,51 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/ROHM-Semiconductor/SFR03EZPJ471?qs=byeeYqUIh0P7C5ZeFdpenw%3D%3D"
+			(at 69.85 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM Semiconductor"
+			(at 69.85 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SFR03EZPJ471"
+			(at 69.85 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 69.85 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 69.85 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 69.85 85.09 90)
 			(effects
 				(font
@@ -6303,6 +7068,33 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
+			(at 252.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 252.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 252.73 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 252.73 55.88 0)
 			(effects
 				(font
@@ -6453,6 +7245,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Draloric"
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCA06031K00FKEAHP"
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 82.55 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59ce29a1-f266-4134-bf51-81cfe3a3f3da")
 		)
@@ -6529,7 +7366,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STL6P3LLH6"
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 213.36 25.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 213.36 25.4 90)
 			(effects
 				(font
@@ -6619,7 +7501,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRB07100KL"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/RT0805BRB07100KL/5931185"
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 106.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -6716,7 +7643,25 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf"
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/ESDA20P50-1U1M?qs=5aG0NVq1C4xh7oI9x8u0Tw%3D%3D"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ESDA20P50-1U1M"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -6727,6 +7672,33 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/ESDA25P35-1U1M/6230124?srsltid=AfmBOooO-BcRIX87Dd5_wC5lgioHSxLjCaEm1ItubqA-eX9yT6iHOlVZ"
 			(at 260.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 260.35 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 260.35 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 260.35 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6812,7 +7784,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6ARW472V"
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARW472V/3073813"
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 214.63 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 214.63 106.68 0)
 			(effects
 				(font
@@ -6898,8 +7915,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSLP0805R0100DEA"
+			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/WSLP0805R0100DEA/9755235"
 			(at 44.45 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 44.45 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 44.45 22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 44.45 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6969,6 +8031,33 @@
 			)
 		)
 		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -7189,8 +8278,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510R0JNEAHP"
+			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080510R0JNEAHP/2222372"
 			(at 135.89 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 135.89 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 135.89 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 135.89 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7274,7 +8408,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Beyschlag"
+			(at 213.36 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCU08050C2202FP500"
+			(at 213.36 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay/MCU08050C2202FP500/2800019"
+			(at 213.36 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 213.36 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 213.36 71.12 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 213.36 71.12 90)
 			(effects
 				(font
@@ -7361,7 +8540,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6ARW472V"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARW472V/3073813"
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 223.52 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 223.52 106.68 0)
 			(effects
 				(font
@@ -7432,6 +8656,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 158.75 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 158.75 151.13 0)
 			(effects
 				(font
@@ -7635,6 +8886,51 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay-Draloric/RCA06031K00FKEAHP?qs=rrS6PyfT74fYDk860H4b1Q%3D%3D"
+			(at 224.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Draloric"
+			(at 224.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCA06031K00FKEAHP"
+			(at 224.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 224.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 224.79 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 224.79 88.9 90)
 			(effects
 				(font

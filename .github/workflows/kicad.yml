@@ -70,7 +70,7 @@ jobs:
           kicad_sch: ${{ env.kicad_sch }}
           sch_pdf: true # Generate PDF
           sch_bom: true # Generate BOM
-          sch_bom_preset: "DistributorLink"
+          sch_bom_preset: "PCBWay"
           kicad_pcb: ${{ env.kicad_pcb }}
           pcb_gerbers: true # Generate Gerbers
           pcb_cpl: true # Generate Gerbers

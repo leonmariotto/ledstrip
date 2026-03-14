@@ -1666,6 +1666,24 @@
 					(hide yes)
 				)
 			)
+			(property "Manufacturer" "Texas Instruments"
+				(at 97.282 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" "BQ25703ARSNR"
+				(at 97.282 7.366 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/texas-instruments/BQ25703ARSNT/7400157"
 				(at 64.77 4.572 0)
 				(effects
@@ -5651,8 +5669,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSLP0805R0100DEA"
+			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/WSLP0805R0100DEA/9755235"
 			(at 198.12 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 198.12 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 198.12 38.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 198.12 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5736,7 +5799,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 182.88 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STL6P3LLH6"
+			(at 182.88 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
+			(at 182.88 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 182.88 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 182.88 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 182.88 40.64 90)
 			(effects
 				(font
@@ -5825,7 +5933,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 161.29 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD17551Q3A"
+			(at 161.29 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/CSD17551Q3A/3674876"
+			(at 161.29 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 161.29 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 161.29 19.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 161.29 19.05 90)
 			(effects
 				(font
@@ -5916,8 +6069,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Beyschlag"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCU0805MD1002BP500"
+			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
 			(at 151.13 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 151.13 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 151.13 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 151.13 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6266,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Vitramon"
+			(at 114.3 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "03028-BR103YKU-J"
+			(at 114.3 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.ersaelectronics.com/p/vishay-vitramon-03028-br103yku-j-31316726?srsltid=AfmBOoq5KZxYYSZvH1Sw10GwEr0W3uJLkUKPIRvxVNINYPy5iWxNOHeo"
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 114.3 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 114.3 34.29 0)
 			(effects
 				(font
@@ -6155,7 +6398,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Vitramon"
+			(at 52.07 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VJ0603Y182JXAAC"
+			(at 52.07 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/vishay-vitramon/VJ0603Y182JXAAC/8305603?srsltid=AfmBOor-d38U_SH4O-fYwzkSe3i_pjtry1q7KE6Li03qwTRKLA5KK8fO"
+			(at 52.07 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 52.07 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 52.07 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 52.07 146.05 90)
 			(effects
 				(font
@@ -6242,8 +6530,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRB07100KL"
+			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/RT0805BRB07100KL/5931185"
 			(at 245.11 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 245.11 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 245.11 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 245.11 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,8 +6662,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-6ARB823V"
+			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARB823V/3073778"
 			(at 245.11 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 245.11 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 245.11 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 245.11 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6795,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Beyschlag"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCU0805MC1009FP500"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/te-connectivity-passive-product/CRGP0805F10R/8577055?srsltid=AfmBOorGAOxmTmXT4kcqXsxBHh1xHVlpzUJA6dDYh5FR76XbDKT2DJJV"
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 175.26 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 175.26 74.93 0)
 			(effects
 				(font
@@ -6502,7 +6925,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 243.84 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL03A225MO5C65C"
+			(at 243.84 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/kyocera-avx/02016D225MAT2A/10815044?srsltid=AfmBOorDzL4OInNznJ6p1zjjRdghpz_Kqu3DtdnNprwiuvD_RNE-7stf"
+			(at 243.84 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 243.84 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 243.84 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 243.84 121.92 90)
 			(effects
 				(font
@@ -6617,6 +7085,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 193.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 193.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 193.04 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5f4ad0c-c0ef-4b77-b7a9-4c179ee789a7")
 		)
@@ -6715,6 +7210,33 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
+			(at 223.52 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 223.52 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 223.52 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 223.52 20.32 0)
 			(effects
 				(font
@@ -6867,7 +7389,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Beyschlag"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCU0805MD1002BP500"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 104.14 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 104.14 163.83 0)
 			(effects
 				(font
@@ -6982,6 +7549,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 213.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 213.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 213.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe59944c-b262-4339-a4e3-491fc6c0a78e")
 		)
@@ -7060,8 +7654,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "TAIYO YUDEN"
+			(at 60.96 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AMK063AC6105MP-F"
+			(at 60.96 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/taiyo-yuden/AMK063AC6105MP-F/4725985?srsltid=AfmBOord3_Rd-G7r7QOGoc55afsNd1HwrRoVjgzWyyoU7PxXKeU-_6Sq"
 			(at 60.96 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 60.96 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 60.96 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7213,7 +7852,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08054R99DKEAHP"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.de/en/products/detail/vishay-dale/CRCW08054R99DKEAHP/12800308?srsltid=AfmBOorcES_nOTU6antEcYGwEtItR4EWcYkayFcwRcIA95lHGM1beXu8"
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 105.41 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -7433,7 +8117,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 135.89 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15AR51V473KT"
+			(at 135.89 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.de/en/products/detail/kyocera-avx/KGM15AR51V473KT/11255400?srsltid=AfmBOoqqrgfxcR8gc1-iYsOviqvzMGLXmRnalRnGHJyxRqGHTJlKvjjJ"
+			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 135.89 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -7613,6 +8342,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 233.68 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "77571054-5a31-4774-a08d-7a29c7084457")
 		)
@@ -7756,7 +8512,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL431AQDBZR"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/texas-instruments/TL431AQDBZR/863696?srsltid=AfmBOopPClFxlw2ZkxLn3D7k9vlZHDWps0pq50cuaghXJMWZRHvFSTOU"
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 48.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -8042,8 +8843,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KEMET"
+			(at 113.03 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0603C474J3RACTU"
+			(at 113.03 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.be/en/products/detail/kemet/C0603C474J3RACTU/21804121?srsltid=AfmBOopt5TrbkRS-SFWz-Apn_2y6UEX1r1L6kaHwiOnpQZnqPuXHOC9E"
 			(at 113.03 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 113.03 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 113.03 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8123,6 +8969,51 @@
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/KYOCERA-AVX/06031C333KAT2A?qs=%252BdQmOuGyFcH%2FnlotFuFYTg%3D%3D"
 			(at 100.33 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 100.33 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "06031C333KAT2A"
+			(at 100.33 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 100.33 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 100.33 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8265,6 +9156,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8d52218f-1f24-433a-9f0a-fc0690eb9963")
 		)
@@ -8360,6 +9278,33 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
 			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 179.07 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 179.07 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 179.07 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8473,6 +9418,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 203.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4853c455-52b0-438b-80b1-6d0acb418a21")
 		)
@@ -8552,7 +9524,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Beyschlag"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCU0805MC1009FP500"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/te-connectivity-passive-product/CRGP0805F10R/8577055?srsltid=AfmBOorGAOxmTmXT4kcqXsxBHh1xHVlpzUJA6dDYh5FR76XbDKT2DJJV"
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 182.88 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -8637,8 +9654,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Dale"
+			(at 97.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "WSLP0805R0100DEA"
+			(at 97.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/WSLP0805R0100DEA/9755235"
 			(at 97.79 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 97.79 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 97.79 24.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 97.79 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8780,6 +9842,51 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay-Draloric/RCA06031K00FKEAHP?qs=rrS6PyfT74fYDk860H4b1Q%3D%3D"
+			(at 43.18 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay Draloric"
+			(at 43.18 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RCA06031K00FKEAHP"
+			(at 43.18 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 43.18 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 43.18 55.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 43.18 55.88 90)
 			(effects
 				(font
@@ -9061,7 +10168,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Panasonic"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "20TQC47MYF"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/panasonic-electronic-components/20TQC47MYF/4146621?srsltid=AfmBOoqmzYmoUuni5Fs9zBCqE0immlw7n45Fhs03Om-pXz-5fwGRK_qG"
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 252.73 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 252.73 20.32 0)
 			(effects
 				(font
@@ -9168,6 +10320,33 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 66.04 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -9312,6 +10491,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 53.34 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a83a8531-65c8-4a6e-a4e8-8a8b75a37356")
 		)
@@ -9415,6 +10621,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7767022b-d508-4574-b4da-e159ea078251")
 		)
@@ -9494,8 +10727,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Thin Film"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PHP00805E40R2BST1"
+			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PHP00805E40R2BST1/4793411"
 			(at 67.31 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 67.31 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 67.31 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9711,7 +10989,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Vitramon"
+			(at 52.07 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "VJ0603A681GXAAC"
+			(at 52.07 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/en/products/detail/vishay-vitramon/VJ0603A681GXAAC/8304610?srsltid=AfmBOoo4DV4PG0QZZlCRnWdxXTJAcy6hrvPsVial0ICnZph4QVHm9Rlm"
+			(at 52.07 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 52.07 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 52.07 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 52.07 152.4 90)
 			(effects
 				(font
@@ -9798,7 +11121,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 58.42 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "06031U150JAT2A"
+			(at 58.42 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://octopart.com/fr/part/kyocera-avx/06031U150JAT2A"
+			(at 58.42 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 58.42 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 58.42 160.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 58.42 160.02 90)
 			(effects
 				(font
@@ -9885,8 +11253,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 240.792 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "BQ25703ARSNR"
+			(at 240.792 167.894 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/texas-instruments/BQ25703ARSNT/7400157"
 			(at 208.28 170.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 143.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 143.51 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 143.51 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10131,7 +11544,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 58.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGQ15ACG2A330GT"
+			(at 58.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/kyocera-avx/KGM15ACG1E330JT/1599201?srsltid=AfmBOoojUh37Jx1aEMp7eOEuN-cyLMzzl2ykVchPzjh1F_IfIfqvoozx"
+			(at 58.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 58.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 58.42 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 58.42 137.16 90)
 			(effects
 				(font
@@ -10202,6 +11660,33 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 27.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 27.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 27.94 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 27.94 128.27 0)
 			(effects
 				(font
@@ -10284,7 +11769,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 121.92 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD17551Q3A"
+			(at 121.92 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/CSD17551Q3A/3674876"
+			(at 121.92 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 121.92 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 121.92 26.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 121.92 26.67 90)
 			(effects
 				(font
@@ -10376,8 +11906,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 153.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD17551Q3A"
+			(at 153.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/CSD17551Q3A/3674876"
 			(at 153.67 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 153.67 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10467,6 +12042,51 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 83.82 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "06031C333KAT2A"
+			(at 83.82 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 83.82 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e27aa41-634a-4d20-92fa-45232b7f3b96")
 		)
@@ -10529,6 +12149,33 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 252.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 252.73 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 252.73 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 252.73 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10679,8 +12326,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW080510R0JNEAHP"
+			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW080510R0JNEAHP/2222372"
 			(at 67.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 67.31 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 67.31 114.3 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10767,8 +12459,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CSD17551Q3A"
+			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/CSD17551Q3A/3674876"
 			(at 129.54 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 129.54 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10924,7 +12661,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW08054R99DKEAHP"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.de/en/products/detail/vishay-dale/CRCW08054R99DKEAHP/12800308?srsltid=AfmBOorcES_nOTU6antEcYGwEtItR4EWcYkayFcwRcIA95lHGM1beXu8"
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 91.44 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 91.44 34.29 0)
 			(effects
 				(font
@@ -11104,6 +12886,33 @@
 				(hide yes)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 182.88 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 182.88 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 182.88 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dcbcc564-a789-4f8d-8b68-b4b3e646e9c0")
 		)
@@ -11247,8 +13056,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RT0805BRB07100KL"
+			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/RT0805BRB07100KL/5931185"
 			(at 67.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 67.31 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 67.31 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11334,8 +13188,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0805107KFKEA"
+			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/CRCW0805107KFKEA/1175868"
 			(at 67.31 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 67.31 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 67.31 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +13318,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Wurth Elektronik"
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "74437356022"
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.we-online.com/components/products/datasheet/74437356022.pdf?srsltid=AfmBOopGOHA4ly3dXZiI3GnCnt3rZB-bMLh-kcJ0jetHl5vcF-ptVoKZ"
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 142.24 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 142.24 35.56 90)
 			(effects
 				(font
@@ -11507,7 +13451,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "YAGEO"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AC0805FR-071RL"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/AC0805FR-071RL/5896660"
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 109.22 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -11595,8 +13584,53 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Vishay Beyschlag"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MCU0805MD1002BP500"
+			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
 			(at 67.31 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 67.31 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 67.31 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 67.31 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11682,7 +13716,52 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "KYOCERA AVX"
+			(at 147.32 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KGM15AR51V473KT"
+			(at 147.32 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "Distributor Link 2" "https://www.digikey.de/en/products/detail/kyocera-avx/KGM15AR51V473KT/11255400?srsltid=AfmBOoqqrgfxcR8gc1-iYsOviqvzMGLXmRnalRnGHJyxRqGHTJlKvjjJ"
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 147.32 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" ""
 			(at 147.32 44.45 0)
 			(effects
 				(font
