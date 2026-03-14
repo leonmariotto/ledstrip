@@ -5,6 +5,113 @@
 	(uuid "2184dbe4-78a4-4e79-8bc4-e6e128f9135e")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016)
@@ -853,10 +960,22 @@
 		)
 	)
 	(junction
+		(at 163.83 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "10759e7e-b9d0-4c37-acb7-2323a0a30508")
+	)
+	(junction
 		(at 106.68 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "13947454-3c12-4060-a400-714a09149810")
+	)
+	(junction
+		(at 133.35 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19b32c56-dd33-40df-91fc-8ca8b1978e6a")
 	)
 	(junction
 		(at 133.35 115.57)
@@ -869,6 +988,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "553968b4-dded-4bf0-9477-9444ead26679")
+	)
+	(junction
+		(at 116.84 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6df061a4-709e-4e15-afcc-668b9a2bf5bc")
+	)
+	(junction
+		(at 148.59 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd0d12f6-294a-42b9-b9ad-d6526f8de4b8")
 	)
 	(junction
 		(at 163.83 115.57)
@@ -898,13 +1029,53 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 69.85) (xy 133.35 104.14)
+			(xy 133.35 69.85) (xy 133.35 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0bab4e07-5bcb-4a54-967f-444706cb2162")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 133.35 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c571e1a-11e7-4abc-8344-f2d4b3ede384")
+	)
+	(wire
+		(pts
+			(xy 161.29 78.74) (xy 163.83 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19e1cb2b-97b7-4ed4-bbf0-4b7d1b5bd5c6")
+	)
+	(wire
+		(pts
+			(xy 133.35 78.74) (xy 133.35 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "217f1b4e-0727-4d9a-b91d-66a60ee1330e")
+	)
+	(wire
+		(pts
+			(xy 148.59 78.74) (xy 148.59 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37564b42-9f03-4782-a037-f3f806a92c38")
 	)
 	(wire
 		(pts
@@ -918,7 +1089,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 64.77) (xy 116.84 104.14)
+			(xy 116.84 64.77) (xy 116.84 78.74)
 		)
 		(stroke
 			(width 0)
@@ -998,6 +1169,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 78.74) (xy 163.83 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8fd812-f4cf-4dd2-a7df-e6d91a3f1bf7")
+	)
+	(wire
+		(pts
 			(xy 163.83 115.57) (xy 163.83 119.38)
 		)
 		(stroke
@@ -1015,6 +1196,16 @@
 			(type default)
 		)
 		(uuid "83ee31a6-f003-441a-8527-7ab9a4014b65")
+	)
+	(wire
+		(pts
+			(xy 113.03 78.74) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ab158fa-cf7c-490e-a060-865eeabd3803")
 	)
 	(wire
 		(pts
@@ -1058,6 +1249,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 78.74) (xy 148.59 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9aca104-a913-4b12-aa02-10f736667219")
+	)
+	(wire
+		(pts
 			(xy 114.3 68.58) (xy 114.3 64.77)
 		)
 		(stroke
@@ -1088,7 +1289,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 67.31) (xy 148.59 104.14)
+			(xy 148.59 67.31) (xy 148.59 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1309,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 64.77) (xy 163.83 104.14)
+			(xy 116.84 78.74) (xy 116.84 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f390f3f6-28e6-4948-91b1-c0d992ca6142")
+	)
+	(wire
+		(pts
+			(xy 163.83 64.77) (xy 163.83 78.74)
 		)
 		(stroke
 			(width 0)
@@ -1209,6 +1420,73 @@
 			(justify left)
 		)
 		(uuid "21854b4b-864d-4226-952c-5aa3fba86389")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 146.05 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "030d8cfb-d7de-458e-9fdb-ebfa5226eccc")
+		(property "Reference" "TP22"
+			(at 143.51 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 143.51 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 140.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 140.97 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce94d266-3163-422a-954b-3aff255e47f8")
+		)
+		(instances
+			(project "ledstrip"
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+12V")
@@ -1368,9 +1646,6 @@
 				(hide yes)
 			)
 		)
-		
-		
-		
 		(pin "S"
 			(uuid "d22af159-d52e-4b1f-a121-af4405f17d7d")
 		)
@@ -1546,9 +1821,6 @@
 				(hide yes)
 			)
 		)
-		
-		
-		
 		(pin "S"
 			(uuid "96e2a44f-74c6-409d-a841-2973d073f4eb")
 		)
@@ -1562,6 +1834,73 @@
 			(project "ledstrip"
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 113.03 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ebd99ca-c3db-40df-94a8-73605cf7e834")
+		(property "Reference" "TP20"
+			(at 110.49 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 110.49 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 107.95 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 113.03 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09ef060f-4c54-4268-b40b-955f0f6bb708")
+		)
+		(instances
+			(project "ledstrip"
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -1658,9 +1997,6 @@
 				(hide yes)
 			)
 		)
-		
-		
-		
 		(pin "S"
 			(uuid "f9d53fbe-6d2e-4bcc-b004-4e5168318cdb")
 		)
@@ -1678,6 +2014,140 @@
 				)
 				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
 					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 130.81 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4592b441-5b45-4e28-8848-e231b611f038")
+		(property "Reference" "TP21"
+			(at 128.27 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 128.27 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 130.81 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a68e4b72-a7e8-4bf2-9fc8-8a4622738c5d")
+		)
+		(instances
+			(project "ledstrip"
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
+					(reference "TP21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 161.29 78.74 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5c09165f-c80c-43ec-a50e-b77f8f021de8")
+		(property "Reference" "TP23"
+			(at 158.75 74.1679 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 158.75 76.7079 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 156.21 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 161.29 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaff4fc5-25e5-49e2-b2a4-729f1471f34b")
+		)
+		(instances
+			(project "ledstrip"
+				(path "/dcb997ee-94c4-4df2-ba22-0e091735ddd7/ee2150f8-5f25-45fa-a64e-caf3b7331721"
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -1774,9 +2244,6 @@
 				(hide yes)
 			)
 		)
-		
-		
-		
 		(pin "S"
 			(uuid "6e342a16-ab81-4269-b35a-46cfb76b9f4b")
 		)
@@ -1886,7 +2353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_S5B-XH-A_1x05_P2.50mm_Horizontal"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -1895,7 +2362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.fr/datasheet/3/1070/1/eXH.pdf"
 			(at 119.38 59.69 0)
 			(effects
 				(font
@@ -1913,9 +2380,33 @@
 				(hide yes)
 			)
 		)
-		
-		
-		
+		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/JST-Commercial/S5B-XH-A-1LFSN?qs=QpmGXVUTftFKgayjbFK0%252BA%3D%3D"
+			(at 119.38 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 119.38 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "S5B-XH-A-1(LF)(SN)"
+			(at 119.38 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "cf5835f2-6cb3-45a8-9ed4-33f25ab4be80")
 		)
