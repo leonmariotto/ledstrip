@@ -253,7 +253,6 @@
 	(net 121 "unconnected-(U8-FLT-Pad20)")
 	(net 122 "unconnected-(U8-PGOOD-Pad2)")
 	(net 123 "unconnected-(U8-IMON-Pad19)")
-	(net 124 "Net-(R4-Pad2)")
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(layer "F.Cu")
 		(uuid "020bda15-71e8-412f-a1f4-bf21c954fbe6")
@@ -302,6 +301,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39c693d3-3a78-449c-b7bd-01b438526ee3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b0c4514-d793-4ef0-92b1-9eedd930dd43")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5adbd125-4503-4fb2-93d4-6735ad75b833")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -450,6 +488,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5af9cb91-0ae6-4093-9cbf-13ebb4258652")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ace7fa2c-e956-4072-b9d0-b194e7b48918")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "881691e5-9a43-4314-af18-ebdc8f36da53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "37b3f9d0-a6be-4246-8009-d00fcf7562b1")
 			(effects
 				(font
 					(size 1 1)
@@ -650,6 +727,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7a76a5b0-a6f4-473c-bf67-207cbd9d8b14")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f7da376c-c5a5-488f-a94c-6b6ce7770001")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "872e5b6d-bd0d-4289-9327-0535d6c5c25e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/2e0c009e-cd8a-41b1-930c-b798dbbfd299")
 		(sheetname "/USB PD/")
@@ -793,11 +909,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93ce56d6-042d-4f07-8231-93783344c857")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13a2c4b5-46a2-46ee-a0a7-344443232f82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2061d78d-0637-46fa-94b6-7bfeb6d3b97d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/1807e424-6c41-400f-b727-4910714cf4bb")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -1004,6 +1159,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0a1aaf79-fbe1-469e-acf7-19341f7e5da3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e91580c-7ce9-483d-94f9-fd6bf889983e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74b0a168-0b76-4ffc-94b8-f39bacef2a42")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/294f8652-f1da-4a01-90ab-bc30c45bdc3e")
 		(sheetname "/Battery Charger/")
@@ -1197,6 +1391,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf466dd4-f799-4770-957e-19e29f8f0041")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "09e7b4dd-1cdc-4ec4-b454-cd9fabe74163")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dddfc345-7c54-48a9-bb37-1622d045e829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/01b9a7bc-e208-4e01-8439-f204c941782f")
 		(sheetname "/Battery Charger/")
@@ -1383,6 +1616,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8157b6e6-8d2a-49c3-8cce-6897accd40f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b7137e4-9b44-4cef-b3ef-dd543845bd5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d9d05763-b5bf-4eae-9d65-d176d396a2df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad68a8e0-1030-45fb-b21d-4709a7e56452")
 			(effects
 				(font
 					(size 1 1)
@@ -1584,6 +1856,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bff97b9-614d-4258-b433-aca65adeb298")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a37076e5-1055-4873-a0b9-953f0c09e638")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fef8f5c-6853-4d4d-a4cf-2043ad3da0df")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/81b5fbf3-4f18-4f2b-ad59-b63df8236952")
 		(sheetname "/Battery Charger/")
@@ -1777,10 +2088,49 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "624aa2fc-b536-4fe0-8f45-dcb5ad888897")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b0563b0-37df-48f2-bafb-a612b1ea43d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2aa80bde-c2fe-4418-bb3f-22686f775efd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/15282a17-e5b9-4bc3-98ce-d4354d81b242")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -2.57 -3.26)
 			(end 7.65 -3.26)
@@ -2064,6 +2414,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28b93124-ffcd-4dcd-b53a-e28d7ff66046")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff016257-7d09-4400-b2b6-45a49721825a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "866a134a-3b89-4d69-8b86-89233257fbe9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/321d4f3a-4c84-4549-b472-5f6dea37b070")
 		(sheetname "/Battery Charger/")
@@ -2250,6 +2639,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3b4205c-55eb-4318-a74a-0bed28701a1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70cedc4a-1691-49cc-b91f-83a07af2a65d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da236f17-c6a5-47b0-b81c-bb3bc33e4e7e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8a1ec172-41be-4f93-b009-a2b6b1b6de73")
 			(effects
 				(font
 					(size 1 1)
@@ -2445,6 +2873,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6a44995-b526-4ad3-b255-09406e425e77")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e756133d-79f2-43c1-a4dd-686ce801b5f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb5d72e9-8a04-4910-8e9e-2f56b5578b25")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2983bcb-73db-4cb4-94d6-9f5757a026bf")
 			(effects
 				(font
 					(size 1 1)
@@ -2879,6 +3346,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49697115-54e7-4916-817d-7605e3119aa7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c8bca7b-6857-44a0-8d08-05ac764f7013")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0a7304c-86c2-4d89-816e-a673de434a80")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/bc065648-c7a6-44b2-90be-0b443d94a993")
 		(sheetname "/USB PD/")
@@ -3084,7 +3590,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3129,6 +3635,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6258b345-dc83-460d-a315-e75bd52c3aca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "683d343b-265c-43e9-ae7f-4361be62818f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ac23c4f-9fd6-4a54-a8a1-7d01fb77ce2e")
 			(effects
 				(font
 					(size 1 1)
@@ -3329,6 +3861,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f72a16df-8914-440b-bbc1-760c68a40108")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fa7ac52-9942-4463-923b-db8898992a13")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad09d344-8202-498a-942b-12b5474e12b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/2071d29f-1dff-41ea-9e08-332d3adfe374")
 		(sheetname "/Battery Charger/")
@@ -3483,7 +4054,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3528,6 +4099,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b689fe4d-f737-4952-898a-f9300a788a5c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fdb65943-a7db-46d6-9948-04ea646890ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53add3a7-d6a3-485e-9d11-334348c32af0")
 			(effects
 				(font
 					(size 1 1)
@@ -3728,6 +4325,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c260703b-3d5d-4898-b0cb-ca85affd5dc1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bb973dbc-913d-40a8-bb99-318405252c9d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2e8dea4a-e6c0-4b98-a6e8-fe4c5d05c813")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/c3082539-d16f-41aa-aea0-d353c28b13ce")
 		(sheetname "/Battery Charger/")
@@ -3871,11 +4507,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de95f481-98e8-444e-888c-f8caf83586ac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dff68a98-1c32-4250-a919-0c4297f6f894")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf7d5091-d535-49d4-9a8f-b3a04d12fbb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/1ebd99ca-c3db-40df-94a8-73605cf7e834")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -4103,6 +4778,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c458749-084d-4e4b-afe6-9204b2598a92")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb5ff39e-521e-4bb3-ae48-478f665ec1d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a2dc66ed-31d4-473a-9ee8-1e5fc2b97123")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "585dcb17-e4f3-49a1-9b33-d63b8d0cebf9")
 			(effects
 				(font
 					(size 1 1)
@@ -4420,6 +5134,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c2cf6fa-3406-4c73-9a2e-83b7712de058")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "56a99e6c-f829-4631-8343-b2f4e05d55dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cef61244-110a-4882-9b7d-8de29378ac98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/3dce3960-cc87-47e1-a53a-41402e6a6d59")
 		(sheetname "/power_switch/")
@@ -4600,6 +5353,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22ac97c2-d12e-4743-882b-8dc896fdf742")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51fb35da-4300-42d0-ac30-beb53a0d3afc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49c6d7d3-101d-4726-a4a3-7e1b81dc222b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/b23df7a3-2c65-4f8e-9aff-85ac649b020f")
 		(sheetname "/USB PD/")
@@ -4741,7 +5533,7 @@
 				)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STUSB4500QTR?qs=wUXugUrL1qyQbYMSzG1ujg%3D%3D&srsltid=AfmBOooDKZ9xpoXhvvlOwEhcpxAjVXgjEaXsOgnvZjSfZbs-iABblbdp"
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STUSB4500QTR?qs=wUXugUrL1qyQbYMSzG1ujg%3D%3D&srsltid=AfmBOoqdJjWWB32R9DlfzH-bq0KiDhRy28r8GjITeKYE_sP4LKbWOqok"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4754,12 +5546,77 @@
 				)
 			)
 		)
-		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STUSB4500QTR/9092189"
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/STUSB4500QTR/9092189?srsltid=AfmBOopQKGGuVsmmPkwv5fl12wAqcQkAnjHQZQxBTBIzbqYHhmdax9Te"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2d628bab-5c16-4611-8a9f-427e8bb62765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "090aa83a-be61-417e-977b-c6e38280ba3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "STUSB4500QTR"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d5858495-285c-4ebb-87ef-ad72a51f249b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "786345ef-66ba-41be-9b3e-ca4e9198effe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13219182-87f9-4fba-bf35-19bcc1b474ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6600b67-1785-4179-a8ec-c7cbcb750ebf")
 			(effects
 				(font
 					(size 1 1)
@@ -5484,6 +6341,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23390816-997b-4418-b238-28e27e06cc08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "73a9e266-177a-4bef-a2fe-ef86724c5bdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43723b8b-0de9-4b71-96b3-479271ed274a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/b3ddb928-11ef-445b-a546-59c1f7c5424d")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
@@ -5880,11 +6776,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dad5a154-64d6-48dc-b944-498ccccc6e8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b65c5e3-9163-4521-ac97-0ed5462588a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b976dd6d-31d8-4770-9c8e-bd2b65d10269")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/e6b3386f-e694-4de9-a2e6-b64b9cd0baf2")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -6041,11 +6976,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "891dd32d-2682-4f24-9699-7f973717284c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cde59c7-150c-4c41-8613-ddb8669e408d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c8bfb9c-ff76-450a-aa94-b0d07f9d2dc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/d8c3d288-a2e9-4941-84bc-6e4e41a0a8c9")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -6247,6 +7221,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b5bef7cf-7817-4664-ae95-c6fa2c32e0c1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3130eb7-fe9a-4c91-9258-23d1583a0996")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ff2fb765-f7d0-4c29-827f-d631b963de7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3776c9b-9f54-4580-a780-bffdc690b131")
 			(effects
 				(font
 					(size 1 1)
@@ -6655,6 +7668,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "512e63c0-6543-4afe-913a-7c61a8e04db7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1a5226e6-9546-4ba2-8ce1-2d687f795a30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28a9d0ca-f2a4-47e5-8f4f-b4d4ac852293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/f83a1720-3541-4936-96ab-5aff1f4d0d69")
 		(sheetname "/Battery Charger/")
@@ -6848,6 +7900,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9fa9aea1-e242-413c-8a11-5d7fd11ac630")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5477cf7-0b48-4299-8597-35168540fdae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48381af3-4cc0-44fa-afb3-82c3f0f716eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/25f95c33-a2bf-4356-8aab-dc8b3f2f4370")
 		(sheetname "/Battery Charger/")
@@ -6985,6 +8076,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "51eaed11-4c33-4161-af9a-0cbc03673a3b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "962796b5-536d-49b1-b061-47c52980e475")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb57ca85-7a75-4c5e-88ed-e40348ef4f7f")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -7133,6 +8263,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f93b415b-4345-41bb-91f2-6f9b7385afd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "679e4fc1-528c-49aa-8d07-615a4f51d975")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "beb7b75d-eeb2-4428-af25-ec8b20c7b6b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14605e0b-9974-455d-aa74-acd9028c97cd")
 			(effects
 				(font
 					(size 1 1)
@@ -8004,11 +9173,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c180c7be-eaa7-4b05-8ad7-e6bdaad3dd02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0389da10-a86b-407f-89b0-01c7cedf5ac0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b515fd02-4c29-4bb9-80d2-2828eed97733")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/496d97b3-c2d2-4499-a67f-54a638c1ba1e")
 		(sheetname "/")
 		(sheetfile "ledstrip.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -8176,7 +9384,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8221,6 +9429,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "603ec671-af0b-4458-8f5c-2db614907060")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1b3614f-8566-47eb-8302-c7fdc3807ef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5137f1d3-5956-4dfc-bdea-613ed4fb0ee5")
 			(effects
 				(font
 					(size 1 1)
@@ -8421,11 +9655,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe16cfc5-e82b-40ec-9349-564e157b562e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "809f6da4-cd26-4ae1-aa80-8363130371a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "01819d2f-7698-4ba5-af59-15bf81d3338f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/47e54d2d-b12a-43ba-8747-ca1b2ab23b35")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 0.89 -7.46)
 			(end 4.635 -7.46)
@@ -8670,6 +9943,84 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Texas-Instruments/TPS25940ARVCT?qs=1MXlzafEN39WRT24Wg%2FJYg%3D%3D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "233a0839-ff8f-4c16-b143-a1680eac8d04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80382502-be47-47e3-bd0a-aabdb72f7bd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "TPS25940ARVCT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb42b7ff-782a-4898-82cc-19ee6e3fb1cc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6844455b-d0fe-422c-aff1-a80d378f3516")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0645d7c-5dc9-4e82-9e3e-d0f130b43c82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9e2e17f8-002e-4f1f-ad37-1a165505c72e")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9382,11 +10733,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3742bc02-383d-4ddb-b129-f43097e0dd8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e6794356-92ee-4a22-b7c6-bad93defeef5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fea3e839-07d8-42ef-be9e-8f37db4b0e2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/ac860b0b-9be6-4e28-a30d-e720826e9f56")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -9593,6 +10983,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1c846acb-137d-44c9-af46-8001de4c3bf1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fcff8fc1-b323-4a63-bf15-b690e144a3f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3259dc3d-2895-4131-8ca1-54fd280e20d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/baabdd3d-51e2-4c93-b5a1-b11570b95692")
 		(sheetname "/")
@@ -9766,6 +11195,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1ac19a39-25e2-4f96-a13e-011c98f647da")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4d2cf071-0641-40b6-913f-1b3050b327e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "268dafe2-7fac-45e5-a1ac-5dcdbd2f8fe5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74de07f8-8f5e-4896-87a3-44cdc234a200")
 			(effects
 				(font
 					(size 1 1)
@@ -9954,6 +11422,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66a9d99c-b778-499b-827a-c409645fabbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88eff7dd-df94-4f2f-acae-13e994d7cf10")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da580cab-00d4-437d-b1f1-22d3a432c809")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/f38b5a7a-19b5-435b-997c-506c5a03e6ef")
 		(sheetname "/power_switch/")
@@ -10108,7 +11615,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10153,6 +11660,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "512c47b7-683e-4e7a-8e31-bdb6b460b5d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4b3be22-ad6c-453f-b32a-46b1b53f1cea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61389c29-8266-41c5-b551-205fea76e4f5")
 			(effects
 				(font
 					(size 1 1)
@@ -10353,6 +11886,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3390b2b7-94ba-44bb-ba6c-14fc344936c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fec45613-5586-4975-9694-cf73f1776476")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7c461375-a988-4840-9c5c-c5fb8d1b5484")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/f6cb956b-4d13-49ec-9421-caab5d1fa472")
 		(sheetname "/Battery Charger/")
@@ -10546,6 +12118,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "567a8ee9-19e3-441e-9c21-b629ad730b50")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88c29b61-e58d-48bc-b07b-9051934e9852")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a7d7e446-dfb3-44f6-bfdc-f3c31873b7a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/c451e009-0b01-4c48-9dc8-9fff65ea2bb8")
 		(sheetname "/USB PD/")
@@ -10732,6 +12343,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "98e75729-8e14-43a2-aee3-9f594261b7a5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bf8e4c72-61c3-4ca3-897c-f93c281d68ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7bd8719-2c78-4ca4-bba8-3dc6ca4c59dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ead8214-1363-40df-b39f-c823c522668e")
 			(effects
 				(font
 					(size 1 1)
@@ -11086,11 +12736,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cd51629-a21e-42ca-9aba-5622ba71409c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7e8f6c3-f659-4f01-a0c6-cb940437dc65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac3caa04-50bc-4c70-8acb-3bfb327d99f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/88bfb279-8d76-43a5-9928-f1ffaf37bf9a")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -11247,11 +12936,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74aa67e5-ae95-4a03-b546-7dc12f135e30")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "faa1db32-bad6-4600-877e-ed56fd0b00b3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5eef8557-5d21-4f00-b872-d91464fefd81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/bd9eeed2-8672-4045-93ab-4cabbdf274b0/f041e062-42b0-4247-af1d-582442fc94ca")
 		(sheetname "/buck/")
 		(sheetfile "buck.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -11458,6 +13186,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e6cb89e-ff90-4a84-86b5-cbedb73c871a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "096c9383-d821-459d-a52a-e1016566300e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc36dd9c-1d7f-46d6-a588-b0b40737a45d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/c48f6d70-ad96-453f-b8ab-d95e801071e6")
 		(sheetname "/Battery Charger/")
@@ -11601,11 +13368,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c0151c79-2f29-42a8-a11b-2181b3f5b4a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07e9b116-37f9-4360-90ae-4b60cb92013b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c5bd897-aed0-4e74-8b2b-0df5fa672709")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/3ddf771e-f5d0-4f3f-bdd5-c48ffe08cb3f")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 0.7)
 			(end -0.7 0.7)
@@ -11773,7 +13579,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11818,6 +13624,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3f914535-2124-4c29-81a5-10d6cdf522c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e36fa5cb-d60e-4c19-9f8c-aa99b0ce05c4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "826c85ab-e0c0-4934-9c9c-31e64c2c5223")
 			(effects
 				(font
 					(size 1 1)
@@ -12018,10 +13850,49 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b2f83d6-9c65-4165-8cb1-98459a95c636")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "304b9887-4f52-439f-89b2-2ae1777ee830")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f4b1feb8-2ba9-4624-92e0-f46c0c19ed7f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/7569715b-1180-4b18-9ef9-73a3441bade6")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -2.57 -3.26)
 			(end 7.65 -3.26)
@@ -12305,11 +14176,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "326d9b17-b7a9-4b9e-8753-ef98cb8ee44d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b563b41-39ed-4c69-8479-982013c8ecd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e877e198-aecb-4ba8-a7a5-f6ff60329310")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/c875bceb-55bf-436e-b904-da8e9e68d5c7")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 0.89 -7.46)
 			(end 4.635 -7.46)
@@ -12558,6 +14468,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6f36756-dcf9-4fd6-9c81-e537f5cb277a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "820d0cb0-15f5-4ac7-bc15-b405c26c712a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "429a0219-9d82-432d-a22c-e22da5ea6e8f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/d5bccf79-7f2a-47b6-9667-7db500c1aefc")
 		(sheetname "/")
@@ -12670,7 +14619,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12715,6 +14664,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "8b543b4b-ce89-4605-97b6-f34c79ca733d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ecaf0b99-a59c-498e-bbca-41ea8f16114a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ffe8d603-4610-4bd0-935a-cb115fb13492")
 			(effects
 				(font
 					(size 1 1)
@@ -12865,11 +14840,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93378dfb-05b8-4359-8545-9b2453aa12ff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9d14a826-86d7-4f9e-b455-3251d41a5ffb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66a4396c-4190-4b5e-b457-f976429ac0d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/74f06d7c-c1e5-463b-8009-6f18696f2e2e")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -13076,6 +15090,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1aa4b39-e015-497c-b7e0-b14c01ca6c90")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e3eca83-f1c1-4908-912d-3181531eb63f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66483aed-ccdc-4388-97bc-7a37232228f6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/7e31cec3-961b-4aac-9bba-15ba275d1820")
 		(sheetname "/")
@@ -13269,6 +15322,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae6e2890-d2a5-42bc-ba6b-90fc54d25c1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fb1246f3-0ebb-4f94-aaf6-818f231a468a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e7ed833c-a7cf-464e-9443-0a3f05a557f0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/afb7fc44-596f-4b03-83ee-7df780b74a25")
 		(sheetname "/")
@@ -13446,6 +15538,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "38c05fde-7b32-4f56-b9b1-6f19c0571cfb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e5950232-37af-4768-bd16-30f5bb94ca64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4dd06c2e-09ad-4821-a99b-3110ec01b3c6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ce918e86-d487-49c0-85e0-b499e2ed8551")
 			(effects
 				(font
 					(size 1 1)
@@ -13873,6 +16004,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3efcaea5-cb7e-49a0-ab19-2acd002cc9ce")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b63c9737-300f-4557-b67e-dfa5d68893c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0b3d074-eacf-4341-82f1-727903f5f916")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/bd9eeed2-8672-4045-93ab-4cabbdf274b0/c7e504f8-eb56-478c-a3f4-3c677e12a601")
 		(sheetname "/buck/")
@@ -14062,6 +16232,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "438304e6-a2cc-4c8b-bea3-0ff7e08e05c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efc6e04e-572d-4d6b-bdeb-4720dc594cd7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c81739cb-8f83-4796-86a7-d1974d0385e5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ba4a39bf-4be9-4fce-aabe-e65ed90dc661")
 			(effects
 				(font
 					(size 1 1)
@@ -14476,7 +16685,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "STM32G030K6T6"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14521,6 +16730,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ad2d816f-a6aa-4b43-84d5-a9d45a9aabed")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9428d7b0-6b1c-469a-a924-200a3569d742")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8d3eae6c-bd7a-4056-9170-d233689ae329")
 			(effects
 				(font
 					(size 1 1)
@@ -15285,6 +17520,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94574d3b-cab1-4ae9-a91f-1555feee3a94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af48a7e5-2938-42fb-ad2e-12f997977c0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ab325d86-1b3a-4203-9103-89c8c3f4b7d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/4d5f7a39-9aa9-44e7-af56-bc7818f99ebf")
 		(sheetname "/Battery Charger/")
@@ -15427,7 +17701,7 @@
 				)
 			)
 		)
-		(property "Ditributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay/CRCW0805475KFHEAP?qs=sGAEpiMZZMtlubZbdhIBIHs6lnEEKI8AuptDsuU1zU0%3D"
+		(property "Ditributor Link 1" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15472,6 +17746,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5b5c2df4-1429-4632-8870-64347c8f0f22")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f52783ae-575b-46da-821e-7ba6631d297f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78a4e728-0d92-4288-a669-ab5c011a713a")
 			(effects
 				(font
 					(size 1 1)
@@ -15551,7 +17851,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net 124 "Net-(R4-Pad2)")
+			(net 116 "Net-(SW1-B)")
 			(pintype "passive")
 			(uuid "2ecb06d6-66c5-48f8-b6d4-0e102dfc5005")
 		)
@@ -15633,7 +17933,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15678,6 +17978,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bb61099-7d95-4404-9cbd-6b08c927e3b0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5c9ba90-f18e-426f-8845-a23e6535d8e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5d24f3fb-d5a3-4a72-bb8c-4e33a7640a6a")
 			(effects
 				(font
 					(size 1 1)
@@ -15878,6 +18204,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "99157f4c-ab00-48c8-b318-b37047e0731c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2e6a0d9-1033-439f-a336-11592b79c4b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "11dd9540-b216-4cb3-b571-e70ea2999139")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/f9997365-70d8-4214-ab2f-389fa16febba")
 		(sheetname "/Battery Charger/")
@@ -16021,11 +18386,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c523002-268d-4bce-8058-06a46a892134")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1b93e5f-d0b7-468f-9b4f-f126f40960fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e301bd17-47ee-4c8e-a341-cabf16e4db24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/5c09165f-c80c-43ec-a50e-b77f8f021de8")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -16182,11 +18586,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33fdfa50-9c43-45ad-9ed4-807548377491")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "361988e7-62ca-4fb1-b10e-4e5552b3a748")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3c891287-863c-4edd-80f8-f993db6b6f99")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/8a6ba4f2-ea31-436c-915d-0db8a4666084")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -16343,11 +18786,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "192c49dc-7332-4f19-9d35-9614ec8f2833")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b159147-c730-4a35-b094-d0bdf11482ba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3966430b-6684-42e8-9308-957070cecb49")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/1eeef96d-a885-4afd-be80-d2538aabca3f")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -16504,11 +18986,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "76e66ce5-27c1-4b24-9c5b-27d9c77110a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0504ca91-0e65-4ba7-b133-63300de14a78")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53f165b4-558b-4b9f-bfbd-53d996e0aea0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/e89b11e0-90c7-4315-af25-b5b22816249e")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -16663,11 +19184,63 @@
 				)
 			)
 		)
+		(property "Distributor Link 1" "https://www.amazon.fr/-/en/Replacement-Battery-Lansing-INR18650-3S-Speaker/dp/B092W4FK3K?dib=eyJ2IjoiMSJ9.4PBGI1Q5coJoF5Wz5QmfktwUjoLxbsDeJVbRkYsUVfosZjpfj8Rx4OzMnoGtUwiyFIFBs5UOxeYU4lRFbgH33roWmlGkPoeXzYvMblbZEgzJ9n-oVUj-gsPHuzrdELBOigTMx7sczVBMmwx9dP5PWb4c_t_3eSytQFVCVcDTZrvwMcUFK2y6TdJNQU6zrjeWByuhpRnuXuwWIMSWdTXQIqcjxK-vLdTeK6InaDQqMCxeQIEnfFnwOO9I2DD-PfEIaYszstYRr76Wom0X5zB9SxwDJJopwYIkp9XlafZ1Edo.iLT02tmwuz1moqDpkQanjm0GHqT79PlbLw9HF6uW4KA&dib_tag=se&keywords=batterie+3s+11.1v+bms&qid=1773512814&sr=8-30"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b9085cb7-8349-48c3-911e-4199006df2fc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca0afaa2-442f-4063-8054-71f5c99ea33a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3261fb97-c729-4fa4-a47e-1a70a5e19818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "542c87d4-9d07-4dc7-8b04-741dce3a29d8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/cbdcf940-5a0c-4aa8-8366-602261d0438e")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.38 1.27)
 			(end 1.38 3.92)
@@ -16900,7 +19473,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16945,6 +19518,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c47bb1cf-cda0-4619-999b-811681af2fc0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d56fdf4c-8dc8-4c6b-b022-2b8e87153880")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16cb3039-f10a-409d-a9b6-909d35992b9d")
 			(effects
 				(font
 					(size 1 1)
@@ -17145,11 +19744,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4bd99e89-a2bd-4ab9-98f3-9c2d4daeaec1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5db6a2a-3e3c-45cb-a4dd-8eff28756ae8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7e2462e7-61ca-4ebb-ad13-0300d46725c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/ed831fa0-e472-4301-9765-ab78bbf5bb70")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 0.89 -7.46)
 			(end 4.635 -7.46)
@@ -17450,6 +20088,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "812f8456-aad4-4b6e-87f5-24b8df3f2e56")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06850250-cb21-4e1a-a56e-6b7832093071")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d72b746-6a36-4636-8443-1225f9ea8fd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/d9d475f1-7cb4-4885-b464-f70944d0a1e3")
 		(sheetname "/Battery Charger/")
@@ -17625,6 +20302,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "405ca1a9-2ad7-4692-b4d0-fee89f3cb412")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f96fc5c0-4b8c-42e8-adf8-abf78c6f29c7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "799623e2-1259-4bb3-bab9-df64560007b4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1a8265d-3fa3-4c7f-b6e5-c1b05c19b51a")
 			(effects
 				(font
 					(size 1 1)
@@ -17971,11 +20687,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "05d6cad1-6ad2-457a-82cd-cac2b3147e5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70f17ce2-73e1-4596-983e-0bf18bac5ca6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3f9a6d0-c3e1-49af-a272-43b7ca61edc3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/86853912-261d-4117-b81d-cc9e24fed46c")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -18182,6 +20937,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4cb89af5-12d3-4d59-a86a-c8828801250f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c646a587-81e3-4fa7-99f0-a8976ee58843")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3abf8eec-0c84-4bad-a478-d663534c9780")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/bdb8b5a3-f198-4b99-90dc-b6b68997928a")
 		(sheetname "/USB PD/")
@@ -18368,6 +21162,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "654bc28c-0961-43d0-a900-67438e971233")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1993f8b4-408f-4389-b5c4-f376b65ccdba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7fa9765-ab35-464b-bb07-a415acba434f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af4dfc02-4c9d-4e9b-aa22-75c8af9efccd")
 			(effects
 				(font
 					(size 1 1)
@@ -18617,6 +21450,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3cb73aca-57f0-4af8-a9e7-1d59220882b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaa82efb-df70-4b14-9e94-1cf40544ef02")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "61717756-411f-470c-acd3-d4827a38253d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/2fe17d21-70c9-47da-9ad4-18ba4029161f")
 		(sheetname "/Battery Charger/")
@@ -18760,11 +21632,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bafec568-714f-4621-b54f-f72144774f41")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9407dc1a-eaa2-479b-8b35-14bda1bb9dd5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d2f53775-e064-48a5-b5af-af7d1c1f6fa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/4592b441-5b45-4e28-8848-e231b611f038")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -18867,14 +21778,14 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "Capacitor_SMD:C_0805_2012Metric"
+	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "918fcdbe-cc3a-443d-ab08-016c58674805")
 		(at 162.386 106.739 -90)
-		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
+		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C24"
-			(at 0.1696 2.5184 0)
+			(at 0 -1.43 270)
 			(layer "F.SilkS")
 			(uuid "2268fc41-7fa0-4998-8777-cb6839654e27")
 			(effects
@@ -18885,7 +21796,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 0 1.68 90)
+			(at 0 1.43 270)
 			(layer "F.Fab")
 			(uuid "20056bb8-9823-49c9-82c5-7909e3f488a3")
 			(effects
@@ -18896,7 +21807,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/Samsung_02-11-2025_SpecSheet_CL10Z226MS96PN_20250211.pdf"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8c25d2a-4ca0-40e2-b2b8-00bdb3b89a8a")
@@ -18908,7 +21819,7 @@
 			)
 		)
 		(property "Description" "Unpolarized 10 uF 25V X5R +-10% 0805 Multilayer Ceramic Capacitors MLCC"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "53dcb2b3-fddd-4f0a-9847-536166756181")
@@ -18924,7 +21835,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9cab9598-0c15-4c24-9422-5b29125bbad0")
+			(uuid "29be4d87-3ddd-49a0-b05b-1ff4081ac6d7")
 			(effects
 				(font
 					(size 1 1)
@@ -18932,12 +21843,12 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL10Z226MS96PNC"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc589007-eec5-4d90-a597-35870baf9b30")
+			(uuid "12772e94-8bd1-4245-8503-ad12ee0b071f")
 			(effects
 				(font
 					(size 1 1)
@@ -18950,7 +21861,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "603a2537-b048-4eba-9ce2-72ce63121290")
+			(uuid "b3c63c6e-3bb2-4e7e-bef9-03113c6a70a4")
 			(effects
 				(font
 					(size 1 1)
@@ -18963,7 +21874,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "715eb813-f6b1-46fb-8a37-ed8073e65231")
+			(uuid "87d52138-660a-4fc4-98d7-9cef3520f3de")
 			(effects
 				(font
 					(size 1 1)
@@ -18971,12 +21882,38 @@
 				)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNN"
+		(property "Disributor Link 1" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e4399411-be88-40ce-8413-6d7f6c186a93")
+			(uuid "595cf317-ae65-44de-99c3-1eb78302e873")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0efbccdd-01e4-4ff9-ab1c-56f0694e895e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df8eebad-896c-438d-9f7e-11f76d824189")
 			(effects
 				(font
 					(size 1 1)
@@ -18990,61 +21927,61 @@
 		(sheetfile "buck.kicad_sch")
 		(attr smd)
 		(fp_line
-			(start -0.261252 0.735)
-			(end 0.261252 0.735)
+			(start -0.14058 0.51)
+			(end 0.14058 0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "dc171334-3bcf-4189-9c16-9cf971cf9847")
+			(uuid "013db414-c1fe-4a8e-98ce-314e4cc91695")
 		)
 		(fp_line
-			(start -0.261252 -0.735)
-			(end 0.261252 -0.735)
+			(start -0.14058 -0.51)
+			(end 0.14058 -0.51)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fd4d3613-348f-4596-86cb-653d161ed9f5")
+			(uuid "332a945a-c7f7-45bd-acb9-08b4940458af")
 		)
 		(fp_rect
-			(start -1.7 -0.98)
-			(end 1.7 0.98)
+			(start -1.48 -0.73)
+			(end 1.48 0.73)
 			(stroke
 				(width 0.05)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bca76615-b463-48b5-8193-790fa2b3de07")
+			(uuid "f9bc7c50-4f6a-499d-bab3-a9e32f9ee472")
 		)
 		(fp_rect
-			(start -1 -0.625)
-			(end 1 0.625)
+			(start -0.8 -0.4)
+			(end 0.8 0.4)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.Fab")
-			(uuid "1ba2b4e0-f340-42dc-8805-7004e37da442")
+			(uuid "c480c349-dc8b-4789-9559-029635b307fb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
+			(at 0 0 270)
 			(layer "F.Fab")
 			(uuid "8cf3a0b7-081e-43be-aeaa-57ee6be83d08")
 			(effects
 				(font
-					(size 0.5 0.5)
-					(thickness 0.08)
+					(size 0.4 0.4)
+					(thickness 0.06)
 				)
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.95 0 270)
-			(size 1 1.45)
+			(at -0.775 0 270)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 1 "+3.3V")
@@ -19052,8 +21989,8 @@
 			(uuid "4e6a3eb6-b6d9-4881-9745-de9f4ea601ec")
 		)
 		(pad "2" smd roundrect
-			(at 0.95 0 270)
-			(size 1 1.45)
+			(at 0.775 0 270)
+			(size 0.9 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net 2 "GND")
@@ -19061,7 +21998,7 @@
 			(uuid "8a86b066-8172-40a5-9f57-8cc837546e76")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.step"
+		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0603_1608Metric.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -19164,7 +22101,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -19183,6 +22120,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3b295bf-73bb-41d3-823d-e7a0b677d70e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec122194-8305-4127-83dd-a465ebaa9069")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70000b39-8520-464a-bd8e-d06c3d4a348f")
 			(effects
 				(font
 					(size 1 1)
@@ -19378,6 +22341,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "3c38ccda-d971-4146-95aa-8aa6ed8f5d36")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "022e0aba-bfc3-43bd-9425-5ee81ab7e19b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "699a1091-97cb-4321-95dc-5874107b6735")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "994252b4-425e-4b3c-bffe-9f136084dd85")
 			(effects
 				(font
 					(size 1 1)
@@ -19786,6 +22788,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eedf47ad-967f-49b6-8def-3a4f3a77f829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e21abd4a-d852-413d-bda5-a8b69fdd54db")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8505a448-f83e-4e62-8d85-5ead75e640a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/098bc2b0-5689-4b98-8531-9dbfad981ca3")
 		(sheetname "/USB PD/")
@@ -19929,11 +22970,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c8b40a7c-c4ac-4db5-abdf-b88561d0d203")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f0050900-7d7a-4ef7-a8ea-44bcda0d55fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "66102755-b31e-418d-90fd-052f64aa2793")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/8f1fb4c5-218e-4651-a9b7-6e2b19fcd34e")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start 0.7 -0.7)
 			(end 0.7 0.7)
@@ -20120,6 +23200,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d980fe48-1fa5-42e2-ac2c-53874ed9cae5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b2f3d2e-91db-4a5c-b10a-d01367ec496b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22283e3f-23cd-45c6-8591-6e4103687fec")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "402be862-bbe6-4ce9-9b92-cd5a84910c22")
 			(effects
 				(font
 					(size 1 1)
@@ -20320,10 +23439,49 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d0cea5bb-8bc7-4e39-bc58-2dafd1e48df2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1212da3-4872-4b70-b28d-181babe44ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eeba8c23-9798-4faa-ac6a-86d88d716d64")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/0ec6fdee-1ea0-4444-b409-79e3011df164")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -2.57 -3.26)
 			(end 7.65 -3.26)
@@ -20607,6 +23765,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7b104270-dcb1-42b2-b7e4-8d200a54a566")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1d53d55d-2969-4ad4-b7ca-4b8f6bf35d6a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5445ee09-03aa-42b1-bc02-37c5795f643a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/5e36122c-8c57-4f71-b91e-57e8d097f453")
 		(sheetname "/Battery Charger/")
@@ -20787,6 +23984,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c2377149-8b62-4f10-9b45-956a5837662f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c2292ea-b18f-41bb-b858-c1be5eb3a98b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8dff41f4-3c45-42d8-9cbf-975790904090")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/351e859b-ec38-471e-8ea7-e9e74dd98558")
 		(sheetname "/power_switch/")
@@ -20941,9 +24177,75 @@
 				)
 			)
 		)
+		(property "Manufacturer" "NKK Switches"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "84e7225a-f591-4c40-80af-73e39226b087")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "SW3001A"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "575ca6fc-23ab-4dfd-bb72-e33301446f33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "93dae9c0-c590-4e6b-8627-c396b07fca8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "59c90f33-4bd6-48d5-8646-fcda1730c301")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "337c630b-db17-4cb9-bd49-20f94b516048")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/00ade8be-5301-41b7-aa58-ae8921b58785")
 		(sheetname "/power_switch/")
 		(sheetfile "power_switch.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 1.38 1.27)
 			(end 1.38 3.92)
@@ -21215,11 +24517,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c0eac70-0279-4041-b863-b5ba8f3f24c0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e898677e-2365-48e1-8a6f-54561e2c1cfc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "83d1f7f8-115d-40d2-b960-c047cedf60cf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Potentiometer*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/61a9091f-687e-4aa4-8262-45f59313c8a1")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 0.89 -7.46)
 			(end 4.635 -7.46)
@@ -21468,6 +24809,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a20972cc-c305-4af2-8678-971849f48d11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eba07370-6e78-41ff-b7f4-4daa9f75ce97")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ff5eaf6-b671-4ba0-85cc-476484014c4e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/4518ab56-2fbd-4064-bc6b-f26602a284c5")
 		(sheetname "/")
@@ -21606,11 +24986,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60e887a3-a251-4bd8-b55e-568966513876")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "051457d9-dd06-4bd5-8d6c-adbbc415a660")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68e20ed3-1c0b-4edb-a34d-56826561a6e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/b907aa6c-64c8-48c6-b436-fe80b084bb66")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start 12.56 9.31)
 			(end 12.56 -2.41)
@@ -22072,7 +25491,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22117,6 +25536,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0973ba4b-4184-4478-bc3c-9a41d136fa5b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bef1940b-1339-45d4-b62d-0f825e5ea3bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ca1bf121-65b9-43c2-847d-4d194c969e6d")
 			(effects
 				(font
 					(size 1 1)
@@ -22317,6 +25762,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3e7e6896-a784-4bf3-974e-6d186f42ee2a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9178c5ed-49cb-43d1-8530-d81280159f7b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a6cb13f2-1a0c-4309-a71d-676a3c96dc52")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e0f842e4-0bb8-40e1-b21d-43ea96d13130")
 		(sheetname "/")
@@ -22471,7 +25955,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -22516,6 +26000,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ceec77ea-fea3-4824-bd61-9678f9098206")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d821f6d-9a18-4365-89c8-381a5a34509e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75ffc9db-bf1e-4dd9-9b68-f9cb288035f8")
 			(effects
 				(font
 					(size 1 1)
@@ -22668,7 +26178,7 @@
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/1ee00b89-9321-4c71-bf4e-bc1c073bd25b")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -22912,11 +26422,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "26c8315b-13c0-418f-a988-5d9833ad3e32")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac249c4e-c7df-4da5-8e0f-ba059fe24622")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9bca2d31-5728-4ddc-b300-87627605565c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/bc3c6183-0703-4d21-a164-addb0ea21dd5")
 		(sheetname "/power_switch/")
 		(sheetfile "power_switch.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -23073,11 +26622,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2dd0aa3b-60b8-4e66-83be-019314a39080")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0dc5e1a-2341-48ff-badb-92f020081952")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d681521c-4394-40c7-b7df-48485f82d80f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/9253f52a-ec80-4358-9720-d93bed2c5d18")
 		(sheetname "/USB PD/")
 		(sheetfile "pwr.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -23232,7 +26820,7 @@
 				)
 			)
 		)
-		(property "Ditributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay/CRCW0805475KFHEAP?qs=sGAEpiMZZMtlubZbdhIBIHs6lnEEKI8AuptDsuU1zU0%3D"
+		(property "Ditributor Link 1" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23277,6 +26865,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f5ad5cb1-4a79-4f8b-88f5-cb5f7a5a1218")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b6bbb07d-2e06-4849-827f-5020ede2f068")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bfe0fc35-9b17-44a3-b172-19e8fc0f3bb8")
 			(effects
 				(font
 					(size 1 1)
@@ -23477,6 +27091,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c29acbf-b94c-40fe-ae97-51a39b7ae311")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "819bc449-ab2a-4855-80ea-adcc898bf173")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31a40047-0e2a-4ed9-af51-b636c201999b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/0cda90d5-c2cb-4a8c-a669-3a5d34e3c927")
 		(sheetname "/USB PD/")
@@ -23659,7 +27312,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CP2102N-A02-GQFN20"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -23678,6 +27331,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1f7b7c96-668e-458a-96f6-321a5338e46d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "89bdaeb4-24a3-4c98-89a5-5286a9eba3c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8370a684-fb25-45ad-8a1c-aabe2cdd8f52")
 			(effects
 				(font
 					(size 1 1)
@@ -24213,6 +27892,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8c8465a-21c5-437b-a1da-e2cfb5e92264")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68a187ad-b2c5-41b1-8526-cccd60288b00")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60b20e4c-53d4-43ed-aaa2-cb39c299c4a7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/d5a5828e-2367-4a85-b42f-16d72bd91abf")
 		(sheetname "/USB PD/")
@@ -24367,7 +28085,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -24412,6 +28130,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6eb0f815-c7dc-4a41-adb5-82b12e9c1322")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec28a44c-b9a4-4cc5-a5b3-545586b53568")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae139dcb-5973-4a57-ad16-ba0970046887")
 			(effects
 				(font
 					(size 1 1)
@@ -24562,11 +28306,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9433d847-b6a9-4f53-996c-21f4990d3a47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4967202d-fed1-4916-b017-417dd7f2c0b6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f2b8596-32e0-41f4-8c05-2c3f0e925dbd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/26cbec3b-ed1b-4177-8e68-3ee91e53866c")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -24773,6 +28556,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2609f1f1-8f28-4664-8889-4f6279ab7aff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b58b104-4dd3-4528-946c-594e0cce3548")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "55090a08-f0e3-43ca-8a24-b0b736e11efd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/bd9eeed2-8672-4045-93ab-4cabbdf274b0/f98bd0ca-a3ee-4f06-8018-45ce3325c0b0")
 		(sheetname "/buck/")
@@ -24916,11 +28738,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0756e405-9915-415e-a65e-2af413ff417a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bc8868ec-9098-422d-a924-a6c7922a2e67")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f289e0c-cea8-49d5-aa69-78b15c7a792a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/a716f36e-0957-44b5-b559-6ad6f9737ada")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -25127,6 +28988,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aad8d23-4059-40dd-98b4-eeac2803a4a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcfe2ede-04a8-4e5d-8998-15bf3e28e9fb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6bd17be3-9689-4d84-b42e-564516d897de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/a940e7f0-4ab0-49ac-ac22-54f663834c02")
 		(sheetname "/Battery Charger/")
@@ -25320,6 +29220,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e8ff6de7-8a90-42ca-b4b9-65ef07bf7ddb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c1f86cf8-dfc1-4976-9455-f165c7a82ed7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ced00af-21ad-4a93-80d0-cf72f4180111")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/b782bfed-c793-4f63-9fdd-316fbc121dad")
 		(sheetname "/USB PD/")
@@ -25494,6 +29433,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9c650ecf-bec0-4b7e-bfee-ed0cabcd3e4a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba6c2c5-8863-4f6d-bcce-783eab7650d9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3a323e69-c8b1-43a5-8a60-831ca3317c0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "130d0a76-c807-458e-9ed2-3c38dc071c4f")
 			(effects
 				(font
 					(size 1 1)
@@ -25694,6 +29672,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d59ed757-11b4-4562-b63a-24a16b4d4710")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8e72cd79-8056-4c29-ad21-c4d1dd84433b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "585f10df-b377-4352-bac6-a6f425a6da31")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/f56a873c-a46b-4d13-af10-cd2f8f765b4f")
 		(sheetname "/Battery Charger/")
@@ -25882,6 +29899,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "52d5ed53-78b2-4ba5-9b5c-05a7eb60e35b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75c9b696-e7c2-4769-8bd6-4726b2792852")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be4c0f9b-7341-4505-adcb-1677e72832d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eebc7aa-de8c-46b3-9646-3d0119509c7f")
 			(effects
 				(font
 					(size 1 1)
@@ -26145,6 +30201,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "132794f0-cdb5-4bec-abba-0d091efeff2b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0d0ce4c3-cca8-4798-a182-01c5da525bc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cdc5dd03-827a-47e0-9442-d1a81455c1f4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "deee7eb0-ff51-41f0-ba8b-8e16dc946492")
 			(effects
 				(font
 					(size 1 1)
@@ -26553,10 +30648,49 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c3efecf-b50a-4403-a78e-83143300c63f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "da0dab19-015f-472b-a211-88da13e17018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "abaec1c5-9826-4683-9c52-f17527667dff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/239c0b76-b3e1-429f-bf13-5f060b797b84")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr through_hole)
+		(attr through_hole dnp)
 		(fp_line
 			(start -2.57 -3.26)
 			(end 7.65 -3.26)
@@ -26841,6 +30975,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eb25e4c3-4393-40eb-9f99-02b29f19deda")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "466af557-a7a2-4d80-8cd1-4adf2232ebe1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e1f35234-5b64-4539-af60-8fc10f936ee1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/3a2430e8-09c2-4d0d-8393-7a83f03e98f8")
 		(sheetname "/Battery Charger/")
@@ -27027,6 +31200,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "57bb2405-fa08-4c81-8047-eb963c871cbf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "07024a6e-d48a-4ad7-9ca0-e0b07c299dfd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "888edea0-b820-48b2-b923-ebc0ee2898ea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ae31cfa6-a853-48da-a29c-fa908a8e76b8")
 			(effects
 				(font
 					(size 1 1)
@@ -27227,6 +31439,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0aa3daf9-028b-4e3d-8371-1c7ca72279a4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1b0bce7f-b489-499c-8d20-e3d2bbe6c77e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8973689-3f3f-43b8-894d-00b5bfd18da3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/68c461db-6195-4444-89da-0910661e5a89")
 		(sheetname "/USB PD/")
@@ -27415,6 +31666,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4ea24ae4-3ea4-42c6-b4fd-1be3bd4dda82")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "78b81537-088d-4c05-b8a4-6a6a193adfd8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "43ac6134-aca0-4385-a6cc-08878d7653eb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "17c32dc4-690b-4e7e-aa4b-9f0454d044c4")
 			(effects
 				(font
 					(size 1 1)
@@ -27713,11 +32003,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ac16564f-2e3e-48cf-86a9-7f264dab1220")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "41c47ab0-33ee-4ce7-a494-1db13b785743")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a37e6c52-72dd-4100-9c5a-53735095db24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/1544f83e-5a1f-4251-9281-57a4ce521263")
 		(sheetname "/power_switch/")
 		(sheetfile "power_switch.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -27918,6 +32247,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "367ee8af-2ff5-48b3-ba87-4f0230eee823")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "721e8fcd-2480-4d8c-8fd7-e14b17eb7a15")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81b7490f-30c3-4bb8-9598-84a9b0080974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "014fa28d-2ff4-4460-b689-029d1085765b")
 			(effects
 				(font
 					(size 1 1)
@@ -28321,11 +32689,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "296776b1-dd1b-4eb7-b138-f64887ad6651")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aac55fd2-ff97-4e69-a433-a69a091f8bdc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bd8d3f61-9d4d-46ad-8b7e-727a2472bef3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/c49133a7-a587-4127-80a1-13f8bd03d2bd")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -28532,6 +32939,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4b39cb46-11d3-40c5-9704-8b0f55487d5a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "10c61729-dd20-40d9-bd09-59675ad79ce1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49257e34-43c3-47cd-85bf-1964f4dfcaaa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/bb53e7db-fae0-45d3-afdd-ca264f318444")
 		(sheetname "/Battery Charger/")
@@ -28705,6 +33151,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9ee6f93b-9df7-409d-b71d-37583d97a66c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64a13973-358b-4bb7-987e-f868a412c62b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd433945-1a6d-4df1-b4be-d2626f6622dd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c07231c-86bc-4fe5-8812-3b8f4eff20a1")
 			(effects
 				(font
 					(size 1 1)
@@ -28905,6 +33390,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "462d2a91-fa83-476f-9cc3-0592974fa923")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5f27603-af42-4ef5-a59a-090d6ed57bd0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2efa7927-f187-4592-a744-9f5fc38b4461")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/80bdab4c-937c-448d-a037-331d86d72ff4")
 		(sheetname "/USB PD/")
@@ -29091,6 +33615,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1914904c-04be-43c8-a930-d4e54a16c1a6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9109d521-0575-4fdd-bcf3-1b7e1f016968")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1e4da3be-346e-431c-a762-61f037b9a78e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "64e91b45-1ae6-42b1-899c-0b6a4eb7af7f")
 			(effects
 				(font
 					(size 1 1)
@@ -29291,6 +33854,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "49e7fb49-058b-4b9c-98a3-ee0b3b4f8ce4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "686d3043-fb7d-4853-b8fd-6b75f8cd5608")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8f01a3e2-a607-4d7e-87d8-cb04fa6b8240")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/1685925f-b9e7-4382-8771-cc3acd957551")
 		(sheetname "/Battery Charger/")
@@ -29445,7 +34047,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -29490,6 +34092,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9591b6b0-2d0b-41e7-80fc-8ffa981358e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "748b1bc8-e4e4-4223-97c7-266cb8184bb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c09968d6-0ed5-433b-b7c8-dbd0b75326b1")
 			(effects
 				(font
 					(size 1 1)
@@ -29677,6 +34305,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "00943803-3230-4c31-98be-7b62b4e4186d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d802c21-70b1-4043-b13e-8dc9d4820d7a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f6cb607-ae7e-439b-b1c6-ee86cb5dd3d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/5f56867f-ced6-43f7-a10d-04fa400f5ef8")
 		(sheetname "/power_switch/")
@@ -29820,11 +34487,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "343534f0-f015-4902-b167-2fff5afcb902")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6f27ad76-fafc-4998-93a2-34cdd81ddbd6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f88fb60-d542-410c-80d5-f1cf30aafb0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/0b9dc6db-254f-4d56-b53f-9075578fa80e/79031a7d-2b43-4c1d-b9e0-9c7d7d482199")
 		(sheetname "/Pots/")
 		(sheetfile "pots.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -29981,11 +34687,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbb855c6-540e-4048-8a9c-22d3423fcb06")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "94824f34-fc9c-49ab-b5bf-c781e6f96a81")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "36143406-8abf-4a8a-ad4e-3976f8eee24d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e4408296-0eb9-4e4c-bdb6-4e431e69923c/c407a790-5d64-4950-958e-ff65b3549937")
 		(sheetname "/power_switch/")
 		(sheetfile "power_switch.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -30187,6 +34932,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "104eb5b0-875b-43e9-8464-625b56462d46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "23a84f2c-0550-4d20-9818-6c2f71f9efb6")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9acfbfb7-3dfb-407d-b474-1f0ffc7917d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "360e16e5-6a74-4632-88cc-05c98fdba29e")
 			(effects
 				(font
 					(size 1 1)
@@ -30519,6 +35303,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec47bb67-2fb0-4660-8a1f-4f4830d9ec47")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06ff4ded-d17e-4406-b17e-91163ded19ae")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1623cde7-1364-48a7-9732-aa527c5dbacb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/7aca3fae-00ed-4cfa-ba55-4ca9dcab2209")
 		(sheetname "/USB PD/")
@@ -30821,7 +35644,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30866,6 +35689,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bacc11f9-2c58-4923-a1b1-deb5d080c5a8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8c7a7061-9da0-49a1-95fb-1356bf9482de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be55ebe9-fdcd-46fb-a769-76e1b69f5072")
 			(effects
 				(font
 					(size 1 1)
@@ -31046,6 +35895,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1e7856d8-487d-408d-aaf5-6bd67694db29")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c31a0c0-515b-4a5a-8f66-dd44696ae1a3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14682bab-8f05-4a3e-89a0-27c6eff951b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c90115f-8cc7-4997-a136-c1bda1d3550f")
 			(effects
 				(font
 					(size 1 1)
@@ -31246,6 +36134,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7ed8ec2-a021-469f-9dfb-4bb5783f8750")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f9de6675-d080-4735-bea6-669a700e7d0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e3f947c4-16f6-4904-b5ca-382f9b22cb46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/91fa038d-120d-428a-810b-2698fc765556")
 		(sheetname "/Battery Charger/")
@@ -31432,6 +36359,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6e87e4d4-b51e-4921-87b5-2a2ec178e4de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eaa512f6-b52b-4d10-b5f4-fc47b6260d54")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f022abc0-46e5-4296-b87a-d75aebb85d44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74a2b304-135f-4863-9cba-804e7c49367d")
 			(effects
 				(font
 					(size 1 1)
@@ -31632,6 +36598,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a597fabd-3daf-4881-88ee-0747b49c5f4b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ae0991a-cd8c-447b-9af5-64926a0f1808")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b9a529e-ed57-4029-94d2-5b54c0f1229c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/ce7fc357-e98a-4964-811d-54781a7f955a")
 		(sheetname "/Battery Charger/")
@@ -31818,6 +36823,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3a7d2e2-6714-480b-babd-8f1257b36ca4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79924fa3-7ab6-4b40-a0af-4d1fbce2da2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b05e67e-6641-416e-a92e-d6635308038d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b877fc1a-3a4c-49e6-a4fe-3e68e1cce42f")
 			(effects
 				(font
 					(size 1 1)
@@ -32018,6 +37062,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0862386-5c95-4760-8fcf-a3c802ab2e07")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6665a644-45d4-421d-8177-3b88b8c79ecc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "079ba88c-fdd2-4a81-b4cd-2541ba85a65a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/37f9d7e5-33ff-4c4a-bdeb-6265c695d9e7")
 		(sheetname "/USB PD/")
@@ -32172,7 +37255,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32217,6 +37300,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "00290995-6981-4da8-9404-48d80b289669")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6c1c36ed-2851-46b2-9be2-e328dd4876d7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "14ed24ae-6386-46dd-afa3-c43ca12b9664")
 			(effects
 				(font
 					(size 1 1)
@@ -32365,7 +37474,7 @@
 				)
 			)
 		)
-		(property "Disributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay/TNPW080516K7BEEN?qs=IW9Tsl75qsWQuKtQCpvGZQ%3D%3D"
+		(property "Disributor Link 1" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32410,6 +37519,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "16975f09-a501-4b7c-9fd8-a20c853f9679")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fe180887-586d-40e2-886f-5889a24020f5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1307e33e-86c5-4f4b-b3d2-a6e98374fbdb")
 			(effects
 				(font
 					(size 1 1)
@@ -32560,11 +37695,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b1dcff7-8cd1-4669-9a54-bb38fc886dee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f78b09c1-2933-474b-a2e2-975466af5faa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d6416e8d-c86f-4089-a3e7-9c3b1ddb2d93")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/e1352532-a16b-4a34-87fb-bbe36c7f1290/e83187f0-1fbe-4f4e-8107-eff0b0fac5d3")
 		(sheetname "/Battery Charger/")
 		(sheetfile "batt.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -32721,11 +37895,50 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6d4fc166-6158-413f-a2af-83b477473018")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e50f9f1a-63e9-49a9-b547-8fd353472722")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ea328e4b-0c17-480a-a0b8-a8a556ae9bf4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ee2150f8-5f25-45fa-a64e-caf3b7331721/030d8cfb-d7de-458e-9fdb-ebfa5226eccc")
 		(sheetname "/leds/")
 		(sheetfile "leds.kicad_sch")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_line
 			(start -0.7 -0.7)
 			(end 0.7 -0.7)
@@ -32893,7 +38106,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "Manufacturer Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32938,6 +38151,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f8dab826-0f8a-495a-b5fa-266191b64d08")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b852cb07-c128-4f3e-a45d-ad1b059b5293")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3696e4d6-2e61-4413-965b-cb53a8fe74b7")
 			(effects
 				(font
 					(size 1 1)
@@ -33138,6 +38377,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8cf08f49-9d52-4b14-8bb0-99dd09ffd6b9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "81cbba6d-7174-42e3-8de3-fe664f490004")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "60a393d6-572a-4d81-adac-2526080ab11d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/2763a8fa-be13-4401-ad2d-fe094192547d")
 		(sheetname "/USB PD/")
@@ -33324,6 +38602,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "bf7d8215-82c0-4a9a-965f-778fbd5d11af")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Disributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7f4dffa-d362-47c0-8e82-c72ed0c5b193")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39049351-e71b-49ff-be0f-2ac9617d0b53")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6f3e771-a68b-44d0-b593-d501cccff324")
 			(effects
 				(font
 					(size 1 1)
@@ -33748,6 +39065,45 @@
 				)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db141df9-2c03-49e4-89f6-20e1ed3c9a38")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7f49465-efaa-4842-94f6-609efda99aaf")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0da331cb-eb4e-4295-82b0-31a19e76719f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/b5cca531-fcff-4497-988a-ecdd56b3ddf9/e4847112-2a0d-4fbf-8f2d-6dd29aa28b74")
 		(sheetname "/USB PD/")
@@ -33892,11 +39248,53 @@
 				(justify mirror)
 			)
 		)
+		(property "Disributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "6e32fec6-74bc-487d-be79-b6b1dd12b881")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Ditributor Link 1" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "54d0fe72-681a-4074-9568-40536200af65")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer Part Number" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "04135213-d8a3-4bf1-b7d1-3aad32944599")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "PinHeader?2x05?P1.27mm*")
 		(path "/7c95be3c-f316-4432-8a32-13413da8e13e")
 		(sheetname "/")
 		(sheetfile "ledstrip.kicad_sch")
-		(attr through_hole exclude_from_bom)
+		(attr through_hole exclude_from_bom dnp)
 		(fp_line
 			(start 2.45 0.745)
 			(end 2.45 -5.825)
