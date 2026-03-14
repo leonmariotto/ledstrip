@@ -5651,7 +5651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" "Vishay"
 			(at 198.12 38.1 0)
 			(effects
 				(font
@@ -6051,7 +6051,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 151.13 191.77 0)
 			(effects
 				(font
@@ -6248,7 +6248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Vitramon"
+		(property "Manufacturer" "Vishay"
 			(at 114.3 34.29 90)
 			(effects
 				(font
@@ -6380,7 +6380,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Vitramon"
+		(property "Manufacturer" "Vishay"
 			(at 52.07 146.05 90)
 			(effects
 				(font
@@ -6777,7 +6777,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 175.26 74.93 0)
 			(effects
 				(font
@@ -7371,7 +7371,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 104.14 163.83 0)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 182.88 74.93 0)
 			(effects
 				(font
@@ -9636,7 +9636,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" "Vishay"
 			(at 97.79 24.13 0)
 			(effects
 				(font
@@ -9832,7 +9832,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Draloric"
+		(property "Manufacturer" "Vishay"
 			(at 43.18 55.88 90)
 			(effects
 				(font
@@ -10709,7 +10709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Thin Film"
+		(property "Manufacturer" "Vishay"
 			(at 67.31 146.05 0)
 			(effects
 				(font
@@ -10971,7 +10971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Vitramon"
+		(property "Manufacturer" "Vishay"
 			(at 52.07 152.4 90)
 			(effects
 				(font
@@ -13566,7 +13566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 67.31 152.4 0)
 			(effects
 				(font

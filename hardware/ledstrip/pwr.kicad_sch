@@ -4397,7 +4397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Barry Industries"
+		(property "Manufacturer" "Vishay"
 			(at 243.84 63.5 0)
 			(effects
 				(font
@@ -4811,7 +4811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay General Semiconductor"
+		(property "Manufacturer" "Vishay"
 			(at 33.02 53.34 0)
 			(effects
 				(font
@@ -7245,7 +7245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Draloric"
+		(property "Manufacturer" "Vishay"
 			(at 82.55 85.09 90)
 			(effects
 				(font
@@ -7915,7 +7915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Dale"
+		(property "Manufacturer" "Vishay"
 			(at 44.45 22.86 0)
 			(effects
 				(font
@@ -8408,7 +8408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 213.36 71.12 90)
 			(effects
 				(font
@@ -8894,7 +8894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Draloric"
+		(property "Manufacturer" "Vishay"
 			(at 224.79 88.9 90)
 			(effects
 				(font

@@ -7111,7 +7111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Vishay Beyschlag"
+		(property "Manufacturer" "Vishay"
 			(at 107.95 24.13 0)
 			(effects
 				(font
