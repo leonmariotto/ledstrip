@@ -815,24 +815,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 139.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 139.7 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "dc1138f8-1d50-459c-b4f9-0d3860c3e261")
 		)
@@ -924,24 +906,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 139.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 139.7 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "3"
 			(uuid "a9796e2e-19d0-4fca-91b9-3f485e9210f2")
 		)
@@ -1025,24 +989,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.be/en/products/detail/bourns-inc/PTV09A-6030U-B103/6153494"
-			(at 139.7 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 139.7 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 139.7 82.55 0)
 			(effects
 				(font
@@ -1200,24 +1146,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.be/en/products/detail/bourns-inc/PTV09A-6030U-B103/6153494"
-			(at 139.7 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 139.7 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 139.7 105.41 0)
 			(effects
 				(font

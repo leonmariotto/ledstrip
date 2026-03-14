@@ -1533,24 +1533,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 93.98 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 93.98 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "e23ccc53-5b89-4ba9-9dae-76ef2915897b")
 		)
@@ -1623,24 +1605,6 @@
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/TAIYO-YUDEN/MLASE32MAB5107MPNA01?qs=tlsG%2FOw5FFgTl7iQ3XZttA%3D%3D"
 			(at 198.12 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 198.12 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 198.12 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,24 +1691,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 111.76 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e0b6b143-28e1-4ccd-b3d2-dc0532afc27c")
 		)
@@ -1822,24 +1768,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 93.98 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 93.98 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6a5f4cee-1818-4fde-a6cc-019274e33635")
 		)
@@ -1900,24 +1828,6 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 125.73 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -2102,24 +2012,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 176.53 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 176.53 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6dd41319-5a1c-45e5-a94f-163559e7b127")
 		)
@@ -2263,24 +2155,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 93.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 93.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c21f5c79-d62a-40fd-ad40-18302118df51")
 		)
@@ -2358,24 +2232,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 93.98 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 93.98 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "cc68c0f5-169a-42bb-9211-084250fb9a73")
 		)
@@ -2445,24 +2301,6 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay/TNPW080517K8BETY?qs=4sdEia5Zib6eIC%2FQjElyZQ%3D%3D"
-			(at 170.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 170.18 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 170.18 137.16 0)
 			(effects
 				(font

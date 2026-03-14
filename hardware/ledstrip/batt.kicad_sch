@@ -5660,24 +5660,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 198.12 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 198.12 38.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "c3f5a78f-8fc3-4af2-9133-b974f83174b0")
 		)
@@ -5755,24 +5737,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
-			(at 182.88 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 182.88 40.64 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 182.88 40.64 90)
 			(effects
 				(font
@@ -5870,24 +5834,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 161.29 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 161.29 19.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "S"
 			(uuid "e428885d-28f9-4e57-956b-dca389794ced")
 		)
@@ -5972,24 +5918,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/MCU0805MD1002BP500/12778222"
 			(at 151.13 191.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 151.13 191.77 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 151.13 191.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6149,24 +6077,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 114.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 114.3 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "b921e8d8-8adb-475c-bfd4-e20291a164ed")
 		)
@@ -6246,24 +6156,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/vishay-vitramon/VJ0603Y182JXAAC/8305603?srsltid=AfmBOor-d38U_SH4O-fYwzkSe3i_pjtry1q7KE6Li03qwTRKLA5KK8fO"
-			(at 52.07 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 52.07 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 52.07 146.05 90)
 			(effects
 				(font
@@ -6359,24 +6251,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 245.11 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 245.11 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2f6a1e1b-5ada-49fb-b982-f14f385a2eb2")
 		)
@@ -6457,24 +6331,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARB823V/3073778"
 			(at 245.11 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 245.11 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 245.11 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6570,24 +6426,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 175.26 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "6397671d-ed2e-4632-86c3-ddcd3f506577")
 		)
@@ -6665,24 +6503,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/kyocera-avx/02016D225MAT2A/10815044?srsltid=AfmBOorDzL4OInNznJ6p1zjjRdghpz_Kqu3DtdnNprwiuvD_RNE-7stf"
-			(at 243.84 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 243.84 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 243.84 121.92 90)
 			(effects
 				(font
@@ -6770,7 +6590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 193.04 20.32 0)
 			(effects
 				(font
@@ -6789,24 +6609,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 193.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 193.04 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 193.04 20.32 0)
 			(effects
 				(font
@@ -6894,7 +6696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 223.52 20.32 0)
 			(effects
 				(font
@@ -6913,24 +6715,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 223.52 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 223.52 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 223.52 20.32 0)
 			(effects
 				(font
@@ -7092,24 +6876,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 104.14 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 104.14 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "566d19df-c7ee-456e-8aa1-74c38bc3dfd9")
 		)
@@ -7189,7 +6955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 213.36 20.32 0)
 			(effects
 				(font
@@ -7208,24 +6974,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 213.36 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 213.36 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 213.36 20.32 0)
 			(effects
 				(font
@@ -7314,24 +7062,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/taiyo-yuden/AMK063AC6105MP-F/4725985?srsltid=AfmBOord3_Rd-G7r7QOGoc55afsNd1HwrRoVjgzWyyoU7PxXKeU-_6Sq"
 			(at 60.96 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 60.96 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 60.96 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7484,24 +7214,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/en/products/detail/vishay-dale/CRCW08054R99DKEAHP/12800308?srsltid=AfmBOorcES_nOTU6antEcYGwEtItR4EWcYkayFcwRcIA95lHGM1beXu8"
-			(at 105.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 105.41 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 105.41 34.29 0)
 			(effects
 				(font
@@ -7730,24 +7442,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 135.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 135.89 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8c19bdeb-c6c7-44f4-8825-0453395e7b86")
 		)
@@ -7892,7 +7586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 233.68 20.32 0)
 			(effects
 				(font
@@ -7911,24 +7605,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 233.68 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 233.68 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 233.68 20.32 0)
 			(effects
 				(font
@@ -8081,24 +7757,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/texas-instruments/TL431AQDBZR/863696?srsltid=AfmBOopPClFxlw2ZkxLn3D7k9vlZHDWps0pq50cuaghXJMWZRHvFSTOU"
-			(at 48.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 48.26 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 48.26 69.85 0)
 			(effects
 				(font
@@ -8393,24 +8051,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 113.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 113.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "5ad71398-38af-47e5-bc69-2b650efb525f")
 		)
@@ -8483,24 +8123,6 @@
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/KYOCERA-AVX/06031C333KAT2A?qs=%252BdQmOuGyFcH%2FnlotFuFYTg%3D%3D"
 			(at 100.33 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 100.33 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 100.33 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8643,24 +8265,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 233.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 233.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8d52218f-1f24-433a-9f0a-fc0690eb9963")
 		)
@@ -8736,7 +8340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "MPN" "CL10B104KA8VPJC"
 			(at 179.07 66.04 0)
 			(effects
 				(font
@@ -8756,24 +8360,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
 			(at 179.07 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 179.07 66.04 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 179.07 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8860,7 +8446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 203.2 20.32 0)
 			(effects
 				(font
@@ -8879,24 +8465,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 203.2 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 203.2 20.32 0)
 			(effects
 				(font
@@ -8993,24 +8561,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 182.88 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "edd5e62d-4ee1-4425-b1ea-ed59acb4937b")
 		)
@@ -9089,24 +8639,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale/WSLP0805R0100DEA/9755235"
 			(at 97.79 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 97.79 24.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 97.79 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9248,24 +8780,6 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay-Draloric/RCA06031K00FKEAHP?qs=rrS6PyfT74fYDk860H4b1Q%3D%3D"
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 43.18 55.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 43.18 55.88 90)
 			(effects
 				(font
@@ -9556,24 +9070,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 252.73 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "fb5c25c4-af5f-44b5-a003-c850ae69dc81")
 		)
@@ -9653,7 +9149,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "MPN" "CL10B104KA8VPJC"
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -9672,24 +9168,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 66.04 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 66.04 63.5 0)
 			(effects
 				(font
@@ -9834,24 +9312,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 53.34 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "a83a8531-65c8-4a6e-a4e8-8a8b75a37356")
 		)
@@ -9928,7 +9388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -9947,24 +9407,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 242.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 242.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 242.57 44.45 0)
 			(effects
 				(font
@@ -10054,24 +9496,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/PHP00805E40R2BST1/4793411"
 			(at 67.31 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 67.31 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 67.31 146.05 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10296,24 +9720,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 52.07 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 52.07 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "e84caca5-146f-4258-8532-b359d751949a")
 		)
@@ -10393,24 +9799,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://octopart.com/fr/part/kyocera-avx/06031U150JAT2A"
-			(at 58.42 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 58.42 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 58.42 160.02 90)
 			(effects
 				(font
@@ -10499,24 +9887,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/texas-instruments/BQ25703ARSNT/7400157"
 			(at 208.28 170.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 143.51 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 143.51 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10770,24 +10140,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 58.42 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 58.42 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "d17ec558-9dc2-448b-a3c6-a92c3261dff1")
 		)
@@ -10850,24 +10202,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 27.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 27.94 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 27.94 128.27 0)
 			(effects
 				(font
@@ -10951,24 +10285,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/CSD17551Q3A/3674876"
-			(at 121.92 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 121.92 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 121.92 26.67 90)
 			(effects
 				(font
@@ -11069,24 +10385,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "S"
 			(uuid "08327fe2-965e-4878-8111-d8c5365aa6e5")
 		)
@@ -11169,24 +10467,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 83.82 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "2e27aa41-634a-4d20-92fa-45232b7f3b96")
 		)
@@ -11249,24 +10529,6 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 252.73 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 252.73 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 252.73 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11426,24 +10688,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 67.31 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 67.31 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b7e5ce71-8bd2-4421-9442-0a605e352266")
 		)
@@ -11525,24 +10769,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/texas-instruments/CSD17551Q3A/3674876"
 			(at 129.54 58.42 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 129.54 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 129.54 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11707,24 +10933,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 91.44 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "36e6b3cd-f065-4adc-9df3-5c0b3a1f5356")
 		)
@@ -11869,7 +11077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNN"
 			(at 182.88 20.32 0)
 			(effects
 				(font
@@ -11888,24 +11096,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/de/products/detail/samsung-electro-mechanics/CL21A106KAYNNNE/3888549?srsltid=AfmBOoq0CjJjYE8lc1qBako5Ud8SLk2ksy1xLlostTYUGm7AyyLpZFlu"
-			(at 182.88 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 182.88 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 182.88 20.32 0)
 			(effects
 				(font
@@ -12066,24 +11256,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 67.31 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 67.31 125.73 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "125b0d95-c18b-4390-b0a6-c2d14c32d7d2")
 		)
@@ -12171,24 +11343,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 67.31 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 67.31 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "88a50db4-e059-458d-9637-e34ca0363b1a")
 		)
@@ -12266,24 +11420,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.we-online.com/components/products/datasheet/74437356022.pdf?srsltid=AfmBOopGOHA4ly3dXZiI3GnCnt3rZB-bMLh-kcJ0jetHl5vcF-ptVoKZ"
-			(at 142.24 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 142.24 35.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 142.24 35.56 90)
 			(effects
 				(font
@@ -12380,24 +11516,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 109.22 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8b54bc35-4fb7-4266-a767-a00469b52224")
 		)
@@ -12486,24 +11604,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 67.31 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 67.31 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "4c68f194-15d8-4275-a1be-7e650e14c1c4")
 		)
@@ -12583,24 +11683,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.de/en/products/detail/kyocera-avx/KGM15AR51V473KT/11255400?srsltid=AfmBOoqqrgfxcR8gc1-iYsOviqvzMGLXmRnalRnGHJyxRqGHTJlKvjjJ"
-			(at 147.32 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 147.32 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 147.32 44.45 0)
 			(effects
 				(font

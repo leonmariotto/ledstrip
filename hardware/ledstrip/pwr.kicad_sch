@@ -4274,24 +4274,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 106.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 106.68 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "13d42750-99b9-4912-b13c-dee29012452d")
 		)
@@ -4372,24 +4354,6 @@
 		)
 		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/vishay-barry/RP0805CT-1000GN-96TR/26523803?srsltid=AfmBOoqhgg5nsh1qZ4Bcc6Szo6coM6dO0JZOWD2hlW0hCvFoJigQwsaj"
 			(at 243.84 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 243.84 63.5 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 243.84 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,24 +4448,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 205.74 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "52fb4aae-5a2c-4c3a-82cf-e1dfaa96f988")
 		)
@@ -4580,24 +4526,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://fr.farnell.com/wurth-elektronik/885012106022/condensateur-1-f-25v-20-x5r-0603/dp/2495150?srsltid=AfmBOorOzUjYiZbyI4fKqNeagH8bIVGJY4XPCTq-VERwuQbU8J4GqLiv"
-			(at 81.28 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 81.28 60.96 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 81.28 60.96 90)
 			(effects
 				(font
@@ -4712,24 +4640,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 33.02 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 33.02 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "35740744-074f-4de4-8202-9f46522b3b7a")
 		)
@@ -4792,24 +4702,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 189.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 189.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 189.23 151.13 0)
 			(effects
 				(font
@@ -4966,24 +4858,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 236.22 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 236.22 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "D"
 			(uuid "88822d33-24ab-4b4c-a68a-2f64be4f3c70")
 		)
@@ -5046,24 +4920,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 55.88 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -5229,24 +5085,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 142.24 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 142.24 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9938becc-7011-47a1-b108-c79e80f79f48")
 		)
@@ -5324,24 +5162,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://fr.farnell.com/wurth-elektronik/885012106022/condensateur-1-f-25v-20-x5r-0603/dp/2495150?srsltid=AfmBOorOzUjYiZbyI4fKqNeagH8bIVGJY4XPCTq-VERwuQbU8J4GqLiv"
-			(at 142.24 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 142.24 26.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 142.24 26.67 90)
 			(effects
 				(font
@@ -5429,24 +5249,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/RT0805BRB07100KL/5931185"
-			(at 222.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 222.25 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 222.25 43.18 0)
 			(effects
 				(font
@@ -5582,24 +5384,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 97.79 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 97.79 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 97.79 66.04 0)
 			(effects
 				(font
@@ -5952,24 +5736,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 142.24 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 142.24 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "ab9d7af5-dba4-493b-860e-659a2faae8e9")
 		)
@@ -6048,24 +5814,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/ESDALC5-1BT2/2346229"
-			(at 106.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 106.68 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 106.68 139.7 0)
 			(effects
 				(font
@@ -6161,24 +5909,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "f0f3f88e-8331-4fc8-813f-80cc55d27d72")
 		)
@@ -6249,24 +5979,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 173.99 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 173.99 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8e472a5e-8342-4a84-979b-84ba0d4333ea")
 		)
@@ -6326,24 +6038,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 143.51 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 143.51 151.13 0)
 			(effects
 				(font
@@ -6435,24 +6129,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 69.85 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 69.85 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "4e5b2f46-ff27-416e-8864-c25e162ac7ea")
 		)
@@ -6521,24 +6197,6 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/ROHM-Semiconductor/SFR03EZPJ471?qs=byeeYqUIh0P7C5ZeFdpenw%3D%3D"
-			(at 69.85 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 69.85 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 69.85 85.09 90)
 			(effects
 				(font
@@ -6626,7 +6284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL10B104KA8VPJC"
+		(property "MPN" "CL10B104KA8VPJC"
 			(at 252.73 55.88 0)
 			(effects
 				(font
@@ -6645,24 +6303,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL10B104KC8VPJC/16572988"
-			(at 252.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 252.73 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 252.73 55.88 0)
 			(effects
 				(font
@@ -6813,24 +6453,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 82.55 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 82.55 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "59ce29a1-f266-4134-bf51-81cfe3a3f3da")
 		)
@@ -6908,24 +6530,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/stmicroelectronics/STL6P3LLH6/5170838"
-			(at 213.36 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 213.36 25.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 213.36 25.4 90)
 			(effects
 				(font
@@ -7016,24 +6620,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/yageo/RT0805BRB07100KL/5931185"
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 106.68 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -7148,24 +6734,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 260.35 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 260.35 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "59fea02a-1c90-471d-bafb-bba1bdf10e6c")
 		)
@@ -7245,24 +6813,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/panasonic-electronic-components/ERA-6ARW472V/3073813"
-			(at 214.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 214.63 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 214.63 106.68 0)
 			(effects
 				(font
@@ -7357,24 +6907,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 44.45 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 44.45 22.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "948e3b6e-a483-4bce-8f64-1487b7d95d71")
 		)
@@ -7437,24 +6969,6 @@
 			)
 		)
 		(property "Description" "Stand-alone USB PD controller (with sink Auto-run mode), QFN-24"
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 162.56 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -7684,24 +7198,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 135.89 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 135.89 53.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "8ce5e546-e2ff-49dd-bcd3-c8649846adb6")
 		)
@@ -7779,24 +7275,6 @@
 			)
 		)
 		(property "Distributor Link 2" "https://www.digikey.com/en/products/detail/vishay/MCU08050C2202FP500/2800019"
-			(at 213.36 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 213.36 71.12 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 213.36 71.12 90)
 			(effects
 				(font
@@ -7892,24 +7370,6 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 223.52 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "8b3f4599-d8b9-402b-83b7-fdaef58bd3a0")
 		)
@@ -7972,24 +7432,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 158.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 158.75 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 158.75 151.13 0)
 			(effects
 				(font
@@ -8193,24 +7635,6 @@
 			)
 		)
 		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Vishay-Draloric/RCA06031K00FKEAHP?qs=rrS6PyfT74fYDk860H4b1Q%3D%3D"
-			(at 224.79 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Disributor Link 1" ""
-			(at 224.79 88.9 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
 			(at 224.79 88.9 90)
 			(effects
 				(font
