@@ -7627,7 +7627,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.yuden.co.jp/productdata/catalog/mlcc02_e.pdf"
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ap/detail?pn=MSASA063AC6105MFNA01&u=M"
 			(at 60.96 93.98 0)
 			(effects
 				(font
@@ -12156,7 +12156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Harwin/M20-9990246?qs=Jph8NoUxIfWjw4WmyRvzag%3D%3D"
 			(at 252.73 31.75 90)
 			(effects
 				(font
@@ -12165,7 +12165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ditributor Link 1" ""
+		(property "Manufacturer" "Harwin"
 			(at 252.73 31.75 90)
 			(effects
 				(font
@@ -12174,7 +12174,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "MPN" "M20-9990246"
 			(at 252.73 31.75 90)
 			(effects
 				(font

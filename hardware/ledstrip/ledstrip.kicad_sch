@@ -6981,7 +6981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Harwin/M50-3500542?qs=9fQaSFfsqsyXI0P9tFOVoQ%3D%3D"
 			(at 257.81 40.64 0)
 			(effects
 				(font
@@ -6990,7 +6990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ditributor Link 1" ""
+		(property "Manufacturer" "Harwin"
 			(at 257.81 40.64 0)
 			(effects
 				(font
@@ -6999,7 +6999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "MPN" "M50-3500542"
 			(at 257.81 40.64 0)
 			(effects
 				(font

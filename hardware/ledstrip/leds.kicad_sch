@@ -2009,7 +2009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
+		(property "Distributor Link 1" "https://nl.mouser.com/ProductDetail/JST-Commercial/B5B-XH-ALFSN?qs=cdbOS8ANM9ApoXpxtybURg%3D%3D"
 			(at 119.38 59.69 90)
 			(effects
 				(font
@@ -2018,7 +2018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Ditributor Link 1" ""
+		(property "Manufacturer" "JST"
 			(at 119.38 59.69 90)
 			(effects
 				(font
@@ -2027,7 +2027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "MPN" "B5B-XH-A(LF)(SN)"
 			(at 119.38 59.69 90)
 			(effects
 				(font
