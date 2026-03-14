@@ -7337,6 +7337,42 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/STUSB4500QTR?qs=wUXugUrL1qyQbYMSzG1ujg%3D%3D&srsltid=AfmBOoqdJjWWB32R9DlfzH-bq0KiDhRy28r8GjITeKYE_sP4LKbWOqok"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 2" "https://www.digikey.fr/fr/products/detail/stmicroelectronics/STUSB4500QTR/9092189?srsltid=AfmBOopQKGGuVsmmPkwv5fl12wAqcQkAnjHQZQxBTBIzbqYHhmdax9Te"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "STUSB4500QTR"
+			(at 162.56 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "15"
 			(uuid "86624fea-a472-463b-828c-1d453413455c")
 		)
