@@ -5225,7 +5225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/Harwin/M20-9990446?qs=ulE8k0yEMYaW%252BOM7jiG6%252Bw%3D%3D"
+		(property "Disributor Link 1" ""
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -5234,7 +5234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Harwin"
+		(property "Ditributor Link 1" ""
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -5243,7 +5243,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "M20-9990446"
+		(property "Manufacturer Part Number" ""
 			(at 55.88 93.98 0)
 			(effects
 				(font
@@ -8039,7 +8039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://estore.st.com/en/stusb4500qtr-cpn.html"
+		(property "Disributor Link 1" ""
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -8048,7 +8048,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "STMicroelectronics"
+		(property "Ditributor Link 1" ""
 			(at 162.56 86.36 0)
 			(effects
 				(font
@@ -8057,7 +8057,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "STUSB4500QTR"
+		(property "Manufacturer Part Number" ""
 			(at 162.56 86.36 0)
 			(effects
 				(font

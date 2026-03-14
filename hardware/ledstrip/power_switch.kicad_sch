@@ -1630,7 +1630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/ap/detail?pn=MLASE32MAB5107MPNA01&u=M"
+		(property "Datasheet" "https://ds.yuden.co.jp/TYCOMPAS/or/download?pn=MLAST063SCG681JFNA01&fileType=CA"
 			(at 198.12 128.27 0)
 			(effects
 				(font
@@ -2016,7 +2016,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Texas-Instruments/TPS25940ARVCR?qs=1MXlzafEN38UtOFn%252BxDXYg%3D%3D"
+		(property "Disributor Link 1" ""
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -2025,7 +2025,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Texas Instruments"
+		(property "Ditributor Link 1" ""
 			(at 125.73 106.68 0)
 			(effects
 				(font
@@ -2034,7 +2034,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "TPS25940ARVCR"
+		(property "Manufacturer Part Number" ""
 			(at 125.73 106.68 0)
 			(effects
 				(font
