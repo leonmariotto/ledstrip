@@ -7,6 +7,12 @@ description: Parse KiCad schematics file in order to extract data or modify it.
 
 How to extract or modify data in KiCad schematics (`.kicad_sch`) without the GUI.
 
+## Choose the interface first
+- Use `kicad-cli` export plus direct `.kicad_sch` parsing for audits, field completeness, BOM/MPN checks, and low-level bulk edits.
+- Use the KiCad schematic MCP server for semantic edits: add/remove components, inspect pins, add labels/wires/buses, connect pins, manage sheets, then save.
+- Prefer plain parsing when correctness depends on raw file contents or when the MCP wrapper looks stale or buggy.
+- Prefer MCP when the task is naturally schematic-aware, such as "connect U1 pin PB6 to R3 pin 1" or "add a resistor and label the net".
+
 ## Export structured data first
 - Prefer exporting to XML (easy to parse) with `HOME=$PWD kicad-cli sch export netlist --format kicadxml
 <schematic> -o /tmp/netlist.xml`.
@@ -39,6 +45,19 @@ es churn.
 - Ignore autosave or lock files such as `_autosave-*.kicad_sch` and `~*.lck` unless the user explicitly wa
 nts them audited.
 
+## MCP workflow
+- Load the target schematic through the MCP server before making semantic edits.
+- After loading, inspect with MCP methods such as component listing and pin lookup instead of recomputing symbol geometry yourself.
+- For wire creation, prefer MCP connection helpers over hand-editing wires and junctions.
+- Save through MCP, then validate with `kicad-cli sch export netlist` and ERC.
+- If MCP fails on the real project, fall back immediately to plain parsing and `kicad-cli`; do not block on the wrapper.
+
+## When plain parsing is better
+- Auditing custom properties like `Distributor Link 1`, `Manufacturer Part Number`, and footprint completeness.
+- Normalizing or bulk-editing per-symbol properties across many instances.
+- Investigating hierarchy, formatting, or unusual constructs exactly as stored on disk.
+- Working around MCP wrapper/API mismatches.
+
 ## Common queries
 - Symbols missing a property: filter comps where `property["TargetProp"]` is empty but another property e
 xists.
@@ -63,6 +82,14 @@ e `~` unless already used.
 s/fields.
 - When backfilling procurement data, prefer updating the existing per-symbol instance properties instead of
  changing only library symbols.
+
+## MCP patching notes
+- Treat the MCP server as a thin wrapper around `kicad_sch_api`; if a tool fails with an attribute error, inspect the wrapper before blaming the schematic.
+- Reproduce failures through the underlying Python API when possible. If `kicad_sch_api.Schematic.load(...)` works but the MCP tool fails, the bug is in the wrapper.
+- In this environment, `title_block` is a `dict`, so wrapper code must use `schematic.title_block.get("title")`, not `schematic.title_block.title`.
+- In this environment, some wrapper code assumed `schematic.lib_symbols` existed; use `schematic._data.get("lib_symbols", {})` if the public property is missing.
+- `manage_power` is currently suspect here because the wrapper calls a missing `add_power_symbol` method. Use labels or direct file edits as fallback until patched.
+- After patching the MCP server, verify by calling the exact MCP path again, not just the lower-level library.
 
 ## Checks
 - ERC: `kicad-cli sch erc <schematic>` (may need project libs).

@@ -2,7 +2,8 @@ FROM ubuntu:noble
 
 # Install common tools
 RUN apt-get update \
-	&& apt-get install -y wget software-properties-common curl poppler-utils
+	&& apt-get install -y wget software-properties-common curl \
+	poppler-utils python3.12-venv
 
 # Install KiCad
 RUN add-apt-repository --yes ppa:kicad/kicad-9.0-releases \
@@ -20,7 +21,7 @@ RUN wget https://github.com/openai/codex/releases/latest/download/codex-x86_64-u
 
 # Install codex config
 RUN mkdir /root/.codex
-# COPY codex_config.toml /root/.codex/config.toml
+COPY codex_config.toml /root/.codex/config.toml
 
 # Install auth.
 COPY auth.json /root/.codex/auth.json
@@ -29,4 +30,6 @@ RUN mkdir /workspace
 
 WORKDIR /workspace
 
-
+RUN python3 -m venv .venv && \
+	. .venv/bin/activate && \
+	pip3 install kicad-sch-api
