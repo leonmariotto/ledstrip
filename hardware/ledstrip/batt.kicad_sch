@@ -11407,7 +11407,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "cbdcf940-5a0c-4aa8-8366-602261d0438e")
 		(property "Reference" "J4"
@@ -11448,6 +11448,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 252.73 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Distributor Link 1" "https://www.amazon.fr/-/en/Replacement-Battery-Lansing-INR18650-3S-Speaker/dp/B092W4FK3K?dib=eyJ2IjoiMSJ9.4PBGI1Q5coJoF5Wz5QmfktwUjoLxbsDeJVbRkYsUVfosZjpfj8Rx4OzMnoGtUwiyFIFBs5UOxeYU4lRFbgH33roWmlGkPoeXzYvMblbZEgzJ9n-oVUj-gsPHuzrdELBOigTMx7sczVBMmwx9dP5PWb4c_t_3eSytQFVCVcDTZrvwMcUFK2y6TdJNQU6zrjeWByuhpRnuXuwWIMSWdTXQIqcjxK-vLdTeK6InaDQqMCxeQIEnfFnwOO9I2DD-PfEIaYszstYRr76Wom0X5zB9SxwDJJopwYIkp9XlafZ1Edo.iLT02tmwuz1moqDpkQanjm0GHqT79PlbLw9HF6uW4KA&dib_tag=se&keywords=batterie+3s+11.1v+bms&qid=1773512814&sr=8-30"
+			(at 252.73 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
