@@ -1368,33 +1368,9 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 161.29 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
+		
+		
 		(pin "S"
 			(uuid "d22af159-d52e-4b1f-a121-af4405f17d7d")
 		)
@@ -1570,33 +1546,9 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 146.05 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
+		
+		
 		(pin "S"
 			(uuid "96e2a44f-74c6-409d-a841-2973d073f4eb")
 		)
@@ -1706,33 +1658,9 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 114.3 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
+		
+		
 		(pin "S"
 			(uuid "f9d53fbe-6d2e-4bcc-b004-4e5168318cdb")
 		)
@@ -1846,33 +1774,9 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 130.81 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
+		
+		
 		(pin "S"
 			(uuid "6e342a16-ab81-4269-b35a-46cfb76b9f4b")
 		)
@@ -2009,33 +1913,9 @@
 				(hide yes)
 			)
 		)
-		(property "Disributor Link 1" ""
-			(at 119.38 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Ditributor Link 1" ""
-			(at 119.38 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" ""
-			(at 119.38 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
+		
+		
+		
 		(pin "3"
 			(uuid "cf5835f2-6cb3-45a8-9ed4-33f25ab4be80")
 		)
