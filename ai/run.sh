@@ -252,6 +252,7 @@ function main() {
     trap cleanup INT TERM EXIT
     project_dir="${script_dir}/.."
     agent_file="${script_dir}/agents/kicad_helper.md"
+    skills_dir="${script_dir}/skills"
 
     if [ "${EN_MCP}" -eq "1" ]; then
         screen -dmS kimcp uv --project tools/kimcp/ run tools/kimcp/run.py
@@ -263,8 +264,9 @@ function main() {
         --network host \
         -v ${project_dir}:/workspace/${project_name} \
         -v ${agent_file}:/workspace/AGENTS.md \
+        -v ${skills_dir}:/root/.agents/skills \
         codex:latest \
-        /codex
+        /codex --cd /workspace --search -a never -s danger-full-access
 
     cleanup
 }

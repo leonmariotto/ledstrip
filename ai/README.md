@@ -7,6 +7,8 @@ This setup support customizable AGENTS.md.
 ## Setup
 
 First thing to do is to build the docker image. Go to `ai/docker` and run `./build.sh`.
+Dockerfile will look for a `auth.json` file which is not committed.
+You'll have to first login to codex elsewhere, and copy `auth.json` here.
 
 ## KiCad MCP server
 
