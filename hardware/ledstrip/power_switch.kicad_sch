@@ -2158,6 +2158,33 @@
 				(hide yes)
 			)
 		)
+		(property "Distributor Link 1" "https://www.mouser.fr/ProductDetail/Texas-Instruments/TPS25940ARVCT?qs=1MXlzafEN39WRT24Wg%2FJYg%3D%3D"
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instrument"
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS25940ARVCT"
+			(at 125.73 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "31b3ebf3-7177-4382-952e-7d83d74779aa")
 		)
