@@ -7580,7 +7580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda20p50-1u1m.pdf"
+		(property "Datasheet" "https://www.st.com/resource/en/datasheet/esda25p35-1u1m.pdf"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -7616,7 +7616,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor Link 1" "https://www.mouser.com/ProductDetail/STMicroelectronics/ESDA20P50-1U1M?qs=5aG0NVq1C4xh7oI9x8u0Tw%3D%3D"
+		(property "Distributor Link 1" "https://www.mouser.com/en/ProductDetail/STMicroelectronics/ESDA25P35-1U1M?qs=aVyJF2WnouQUWqgNP85ZrA%3D%3D"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -7634,7 +7634,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "ESDA20P50-1U1M"
+		(property "MPN" "ESDA25P35-1U1M"
 			(at 260.35 53.34 0)
 			(effects
 				(font
@@ -7670,7 +7670,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" ""
+		(property "Manufacturer Part Number" "ESDA25P35-1U1M"
 			(at 260.35 53.34 90)
 			(effects
 				(font
