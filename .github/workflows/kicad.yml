@@ -75,6 +75,14 @@ jobs:
           pcb_gerbers: true # Generate Gerbers
           pcb_cpl: true # Generate Gerbers
 
+      - name: Generate Mouser-compatible BOM
+        if: ${{ !cancelled() && steps.production.conclusion == 'success' }}
+        run: |
+          python3 tools/generate_mouser_bom.py \
+            --source hardware/ledstrip/bom.csv \
+            --output hardware/ledstrip/mouser_bom.csv \
+            --exceptions hardware/ledstrip/mouser_bom_exceptions.csv
+
       # Upload production files only if generation succeeded
       - name: Upload production files
         uses: actions/upload-artifact@v4
@@ -85,4 +93,6 @@ jobs:
             ${{ github.workspace }}/hardware/ledstrip/cpl.csv
             ${{ github.workspace }}/hardware/ledstrip/sch.pdf
             ${{ github.workspace }}/hardware/ledstrip/bom.csv
+            ${{ github.workspace }}/hardware/ledstrip/mouser_bom.csv
+            ${{ github.workspace }}/hardware/ledstrip/mouser_bom_exceptions.csv
             ${{ github.workspace }}/hardware/ledstrip/gbr.zip
