@@ -44,7 +44,7 @@ def main():
     exceptions = []
     with args.source.open(newline="", encoding="utf-8-sig") as handle:
         reader = csv.DictReader(handle)
-        required_fields = {"Reference", "Value", "Exclude from BOM", "MPN"}
+        required_fields = {"Reference", "MPN"}
         missing_fields = required_fields.difference(reader.fieldnames or [])
         if missing_fields:
             missing = ", ".join(sorted(missing_fields))
@@ -54,14 +54,16 @@ def main():
             )
 
         for row in reader:
-            if row["Exclude from BOM"].strip():
+            if row.get("Exclude from BOM", "").strip():
                 continue
             refs = expand_references(row["Reference"])
             mpn = row["MPN"].strip()
             manufacturer = row.get("Manufacturer", "").strip()
             for ref in refs:
                 if not mpn:
-                    exceptions.append((ref, 1, row["Value"], "No MPN in schematic BOM data"))
+                    exceptions.append(
+                        (ref, 1, row.get("Value", ""), "No MPN in schematic BOM data")
+                    )
                     continue
                 entry = grouped[mpn]
                 entry["qty"] += 1
