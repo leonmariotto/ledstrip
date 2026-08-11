@@ -5376,7 +5376,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNNF"
 			(at 191.77 80.01 0)
 			(effects
 				(font
@@ -7457,7 +7457,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL21A106KAYNNN"
+		(property "MPN" "CL21A106KAYNNNF"
 			(at 115.57 106.68 0)
 			(effects
 				(font
