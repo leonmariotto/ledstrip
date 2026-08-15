@@ -20,3 +20,7 @@ The project layout is :
 - Must provide a way to charge battery
 - Must provide a way to program internal flash of MCU.
 - Must be enclosed by a case.
+
+## First board
+
+![Board without components](./hardware/board.jpg)
