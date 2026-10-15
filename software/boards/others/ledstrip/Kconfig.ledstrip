@@ -1,0 +1,2 @@
+config BOARD_LEDSTRIP
+	select SOC_STM32G030XX
