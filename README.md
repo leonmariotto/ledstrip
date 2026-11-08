@@ -23,4 +23,6 @@ The project layout is :
 
 ## First board
 
+![3D viewer](./hardware/3d_viewer.png)
+
 ![Board without components](./hardware/board.jpg)
